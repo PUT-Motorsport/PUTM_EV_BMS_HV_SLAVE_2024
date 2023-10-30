@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC6804HG-1#PBF
+D Battery Monitoring Automotive 48-Pin SSOP
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
+$ENDCMP
+#
+$CMP A6SN-1104
+D OMRON ELECTRONIC COMPONENTS - A6SN-1104 - DIP SWITCH, 1, SPST, RAISED SLIDE
+K
+F 
+$ENDCMP
+#End Doc Library

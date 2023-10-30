@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Samacsys")(type "Legacy")(uri "${KIPRJMOD}/footprint/Samacsys.lib")(options "")(descr ""))
+  (lib (name "ltc6804hg-1#pbf")(type "KiCad")(uri "${KIPRJMOD}/footprint/ltc6804hg-1#pbf.kicad_sym")(options "")(descr ""))
+  (lib (name "a6sn-1104")(type "KiCad")(uri "${KIPRJMOD}/footprint/a6sn-1104.kicad_sym")(options "")(descr ""))
+)
