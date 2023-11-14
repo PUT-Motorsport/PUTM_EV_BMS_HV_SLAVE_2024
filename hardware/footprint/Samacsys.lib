@@ -80,4 +80,218 @@ X N.O. 2 0 0 200 R 50 50 0 0 P
 P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
 ENDDRAW
 ENDDEF
+DEF CA064X104K4RACAUTO CN 0 30 Y Y 1 F N
+F0 "CN" 650 300 50 H V L CNN
+F1 "CA064X104K4RACAUTO" 650 200 50 H V L CNN
+F2 "Samacsys:CA064X104K4RACAUTO" 650 100 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf" 650 0 50 H I L CNN
+F4 "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80" 650 -100 50 H I L CNN "Description"
+F5 "0.9" 650 -200 50 H I L CNN "Height"
+F6 "80-CA064X104K4RCAUTO" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "KEMET" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CA064X104K4RACAUTO" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 800 -300 200 L 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+X 7 7 800 -100 200 L 50 50 0 0 P
+X 8 8 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+DEF EXB-V8V101JV RN 0 30 Y Y 1 F N
+F0 "RN" 650 300 50 H V L CNN
+F1 "EXB-V8V101JV" 650 200 50 H V L CNN
+F2 "Samacsys:EXBV8V101JV" 650 100 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 650 0 50 H I L CNN
+F4 "Resistor Networks & Arrays 100 OHM 5%" 650 -100 50 H I L CNN "Description"
+F5 "0.7" 650 -200 50 H I L CNN "Height"
+F6 "667-EXB-V8V101JV" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/EXB-V8V101JV?qs=uA7cY%2Fh6FfVdGdnsVOUX7A%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "EXB-V8V101JV" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 800 -300 200 L 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+X 7 7 800 -100 200 L 50 50 0 0 P
+X 8 8 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+DEF C2824C562JGGACAUTO C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C2824C562JGGACAUTO" 350 150 50 H V L CNN
+F2 "Samacsys:C2824" 350 50 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_SMD.pdf" 350 -50 50 H I L CNN
+F4 "SMD Auto C0G HV, Ceramic, 5600 pF, 5%, 2000 VDC, 2400 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, High Voltage, Automotive Grade, 0.1 % , 100 GOhms, 540 mg, 2824, 7.1mm, 6.1mm, 2.5mm, 1.27mm, 300, 78  Weeks, 120" 350 -150 50 H I L CNN "Description"
+F5 "" 350 -250 50 H I L CNN "Height"
+F6 "80-C2824C562JGGAUTO" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/C2824C562JGGACAUTO?qs=5aG0NVq1C4xKMWO6DzsxHA%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "KEMET" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C2824C562JGGACAUTO" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+DEF HX1188NLT T 0 30 Y Y 1 F N
+F0 "T" 1050 300 50 H V L CNN
+F1 "HX1188NLT" 1050 200 50 H V L CNN
+F2 "Samacsys:HX1188NLT" 1050 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA2/221032.pdf" 1050 0 50 H I L CNN
+F4 "Telecom Transformer 1CT:1CT/1CT:1CT 1.5Ohm Prim. DCR 1.5Ohm Sec. DCR 16Term. Gull Wing SMD" 1050 -100 50 H I L CNN "Description"
+F5 "6.07" 1050 -200 50 H I L CNN "Height"
+F6 "673-HX1188NLT" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HX1188NLT?qs=7h3O1UVlCGOyAkRk4EAe8A%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Pulse Electronics" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "HX1188NLT" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X TD+ 1 0 0 200 R 50 50 0 0 P
+X TCT 2 0 -100 200 R 50 50 0 0 P
+X TD- 3 0 -200 200 R 50 50 0 0 P
+X NC_1 4 0 -300 200 R 50 50 0 0 P
+X NC_2 5 0 -400 200 R 50 50 0 0 P
+X RD+ 6 0 -500 200 R 50 50 0 0 P
+X RCT 7 0 -600 200 R 50 50 0 0 P
+X RD- 8 0 -700 200 R 50 50 0 0 P
+X RX- 9 1200 -700 200 L 50 50 0 0 P
+X CMT_1 10 1200 -600 200 L 50 50 0 0 P
+X RX+ 11 1200 -500 200 L 50 50 0 0 P
+X NC_3 12 1200 -400 200 L 50 50 0 0 P
+X NC_4 13 1200 -300 200 L 50 50 0 0 P
+X TX- 14 1200 -200 200 L 50 50 0 0 P
+X CMT_2 15 1200 -100 200 L 50 50 0 0 P
+X TX+ 16 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+DEF DLW21SN501SK2L FL 0 30 Y Y 1 F N
+F0 "FL" 650 300 50 H V L CNN
+F1 "DLW21SN501SK2L" 650 200 50 H V L CNN
+F2 "Samacsys:DLW21SN121HQ2L" 650 100 50 H I L CNN
+F3 "https://www.murata.com/en-us/products/productdetail?partno=DLW21SN501SK2%23" 650 0 50 H I L CNN
+F4 "DLW21SN_K2L Series EMI Suppression Filter 500 at 100MHz 250mA 50V" 650 -100 50 H I L CNN "Description"
+F5 "1.4" 650 -200 50 H I L CNN "Height"
+F6 "81-DLW21SN501SK2L" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/DLW21SN501SK2L?qs=Gufeu08L%2Fl3%2FpXqHBKIINA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DLW21SN501SK2L" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+DEF PE-65812NLT T 0 30 Y Y 1 F N
+F0 "T" 1050 300 50 H V L CNN
+F1 "PE-65812NLT" 1050 200 50 H V L CNN
+F2 "Samacsys:SOP254P1524X864-8N" 1050 100 50 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/PE-65x12_Rev2006.pdf" 1050 0 50 H I L CNN
+F4 "Audio Transformers / Signal Transformers SMD Digital Audio 2500uH 1-Port" 1050 -100 50 H I L CNN "Description"
+F5 "8.64" 1050 -200 50 H I L CNN "Height"
+F6 "673-PE-65812NLT" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/PE-65812NLT?qs=18kBAoNi3c8iNBAYKOq5Qg%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Pulse Electronics" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PE-65812NLT" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X PRI_+ 1 0 0 200 R 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X NC_2 3 0 -200 200 R 50 50 0 0 P
+X PRI_- 4 0 -300 200 R 50 50 0 0 P
+X SEC_+ 8 1200 0 200 L 50 50 0 0 P
+X NC_4 7 1200 -100 200 L 50 50 0 0 P
+X NC_3 6 1200 -200 200 L 50 50 0 0 P
+X SEC_- 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+DEF HM1236NL T 0 30 Y Y 1 F N
+F0 "T" 1050 300 50 H V L CNN
+F1 "HM1236NL" 1050 200 50 H V L CNN
+F2 "Samacsys:HM1236NL" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/HM1236NL.pdf" 1050 0 50 H I L CNN
+F4 "Audio Transformers / Signal Transformers MDL SIN XFMR-CMC AEC-Q200" 1050 -100 50 H I L CNN "Description"
+F5 "4.06" 1050 -200 50 H I L CNN "Height"
+F6 "673-HM1236NL" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HM1236NL?qs=j%252B1pi9TdxUb0Ihgy%252BnY0ew%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Pulse Electronics" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "HM1236NL" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X PRI_1 1 0 0 200 R 50 50 0 0 P
+X PRI_2 2 0 -100 200 R 50 50 0 0 P
+X PRI_3 3 0 -200 200 R 50 50 0 0 P
+X SEC_1 4 1200 -200 200 L 50 50 0 0 P
+X SEC_2 5 1200 -100 200 L 50 50 0 0 P
+X SEC_3 6 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+DEF M80-5100442 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "M80-5100442" 650 200 50 H V L CNN
+F2 "Samacsys:M80-51004YY" 650 100 50 H I L CNN
+F3 "https://cdn.harwin.com/pdfs/M80-510.pdf" 650 0 50 H I L CNN
+F4 "4 Male DIL Vertical Throughboard Conn. Jackscrews, 2.00mm Pitch High-Reliability Connector - Datamate J-Tek" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "855-M80-5100442" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Harwin/M80-5100442?qs=wuXwK9wHm9vlrUDxU70C1Q%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Harwin" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "M80-5100442" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+DEF PWR163S-25-4R00JE R 0 30 Y Y 1 F N
+F0 "R" 650 300 50 H V L CNN
+F1 "PWR163S-25-4R00JE" 650 200 50 H V L CNN
+F2 "Samacsys:PWR163S254R00JE" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/PWR163S-25-4R00JE.pdf" 650 0 50 H I L CNN
+F4 "Thick Film Resistors - SMD POWER RESISTOR 5%" 650 -100 50 H I L CNN "Description"
+F5 "2.79" 650 -200 50 H I L CNN "Height"
+F6 "652-PWR163S254R00JE" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/PWR163S-25-4R00JE?qs=oyIm%2F3giSj5QuH3dfD4wgg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PWR163S-25-4R00JE" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+DEF RW5S0FA47R0JE R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RW5S0FA47R0JE" 550 150 50 H V L CNN
+F2 "Samacsys:RW5S0FA47R0JE" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/RW5S0FA47R0JE.pdf" 550 -50 50 H I L CNN
+F4 "Wirewound Resistors - SMD 5W, 47 OHM, 5%" 550 -150 50 H I L CNN "Description"
+F5 "10.31" 550 -250 50 H I L CNN "Height"
+F6 "588-RW5S0FA47R0JE" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=588-RW5S0FA47R0JE" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Arcol" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "RW5S0FA47R0JE" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
 # End Library
