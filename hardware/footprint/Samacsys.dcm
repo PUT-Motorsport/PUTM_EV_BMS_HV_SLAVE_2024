@@ -71,4 +71,16 @@ D Wirewound Resistors - SMD 5W, 47 OHM, 5%
 K
 F https://componentsearchengine.com/Datasheets/1/RW5S0FA47R0JE.pdf
 $ENDCMP
+#
+$CMP 1206L600SLWR
+D Low Rho Surface Mount Resettable PTC Fuse
+K
+F https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP CRM2512QFW-10R0ELF
+D ResPowerQ 2512 10R 1% 2W TC200
+K
+F http://www.bourns.com/data/global/pdfs/CRM0805_1206_2010.pdf
+$ENDCMP
 #End Doc Library

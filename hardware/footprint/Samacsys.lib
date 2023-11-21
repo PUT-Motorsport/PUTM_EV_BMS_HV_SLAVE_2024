@@ -294,4 +294,39 @@ X ~ 2 700 0 200 L 50 50 0 0 P
 P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
 ENDDRAW
 ENDDEF
+DEF 1206L600SLWR F 0 30 Y Y 1 F N
+F0 "F" 550 250 50 H V L CNN
+F1 "1206L600SLWR" 550 150 50 H V L CNN
+F2 "Samacsys:1206L075SLYR" 550 50 50 H I L CNN
+F3 "https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf" 550 -50 50 H I L CNN
+F4 "Low Rho Surface Mount Resettable PTC Fuse" 550 -150 50 H I L CNN "Description"
+F5 "0.7" 550 -250 50 H I L CNN "Height"
+F6 "576-1206L600SLWR" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/1206L600SLWR?qs=7MVldsJ5UaxXzL4g3iWlfA%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "1206L600SLWR" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 4 0 1 6 220 -80 280 -80 420 80 480 80 N
+ENDDRAW
+ENDDEF
+DEF CRM2512QFW-10R0ELF R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CRM2512QFW-10R0ELF" 550 150 50 H V L CNN
+F2 "Samacsys:RESC6331X80N" 550 50 50 H I L CNN
+F3 "http://www.bourns.com/data/global/pdfs/CRM0805_1206_2010.pdf" 550 -50 50 H I L CNN
+F4 "ResPowerQ 2512 10R 1% 2W TC200" 550 -150 50 H I L CNN "Description"
+F5 "0.8" 550 -250 50 H I L CNN "Height"
+F6 "652-CRM2512QFW-10R0E" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/CRM2512QFW-10R0ELF?qs=8Wlm6%252BaMh8S09moY%252BdPydQ%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CRM2512QFW-10R0ELF" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
 # End Library
