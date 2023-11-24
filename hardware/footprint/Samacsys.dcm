@@ -1,0 +1,86 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC6804HG-1#PBF
+D Battery Monitoring Automotive 48-Pin SSOP
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
+$ENDCMP
+#
+$CMP A6SN-1104
+D OMRON ELECTRONIC COMPONENTS - A6SN-1104 - DIP SWITCH, 1, SPST, RAISED SLIDE
+K
+F 
+$ENDCMP
+#
+$CMP CA064X104K4RACAUTO
+D Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80
+K
+F https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf
+$ENDCMP
+#
+$CMP EXB-V8V101JV
+D Resistor Networks & Arrays 100 OHM 5%
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf
+$ENDCMP
+#
+$CMP C2824C562JGGACAUTO
+D SMD Auto C0G HV, Ceramic, 5600 pF, 5%, 2000 VDC, 2400 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, High Voltage, Automotive Grade, 0.1 % , 100 GOhms, 540 mg, 2824, 7.1mm, 6.1mm, 2.5mm, 1.27mm, 300, 78  Weeks, 120
+K
+F https://content.kemet.com/datasheets/KEM_C1080_C0G_HV_AUTO_SMD.pdf
+$ENDCMP
+#
+$CMP HX1188NLT
+D Telecom Transformer 1CT:1CT/1CT:1CT 1.5Ohm Prim. DCR 1.5Ohm Sec. DCR 16Term. Gull Wing SMD
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA2/221032.pdf
+$ENDCMP
+#
+$CMP DLW21SN501SK2L
+D DLW21SN_K2L Series EMI Suppression Filter 500 at 100MHz 250mA 50V
+K
+F https://www.murata.com/en-us/products/productdetail?partno=DLW21SN501SK2%23
+$ENDCMP
+#
+$CMP PE-65812NLT
+D Audio Transformers / Signal Transformers SMD Digital Audio 2500uH 1-Port
+K
+F https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/PE-65x12_Rev2006.pdf
+$ENDCMP
+#
+$CMP HM1236NL
+D Audio Transformers / Signal Transformers MDL SIN XFMR-CMC AEC-Q200
+K
+F https://componentsearchengine.com/Datasheets/1/HM1236NL.pdf
+$ENDCMP
+#
+$CMP M80-5100442
+D 4 Male DIL Vertical Throughboard Conn. Jackscrews, 2.00mm Pitch High-Reliability Connector - Datamate J-Tek
+K
+F https://cdn.harwin.com/pdfs/M80-510.pdf
+$ENDCMP
+#
+$CMP PWR163S-25-4R00JE
+D Thick Film Resistors - SMD POWER RESISTOR 5%
+K
+F https://componentsearchengine.com/Datasheets/1/PWR163S-25-4R00JE.pdf
+$ENDCMP
+#
+$CMP RW5S0FA47R0JE
+D Wirewound Resistors - SMD 5W, 47 OHM, 5%
+K
+F https://componentsearchengine.com/Datasheets/1/RW5S0FA47R0JE.pdf
+$ENDCMP
+#
+$CMP 1206L600SLWR
+D Low Rho Surface Mount Resettable PTC Fuse
+K
+F https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP CRM2512QFW-10R0ELF
+D ResPowerQ 2512 10R 1% 2W TC200
+K
+F http://www.bourns.com/data/global/pdfs/CRM0805_1206_2010.pdf
+$ENDCMP
+#End Doc Library
