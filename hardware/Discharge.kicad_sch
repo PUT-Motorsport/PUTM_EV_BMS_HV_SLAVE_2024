@@ -767,17 +767,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 91.44) (xy 157.48 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "206a9414-7fea-4158-a6ce-329d85972d49")
-	)
-	(wire
-		(pts
-			(xy 147.32 91.44) (xy 149.86 91.44)
+			(xy 147.32 91.44) (xy 157.48 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1103,10 +1093,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a01d423e-15a6-4ccf-a6af-8e3ddb1d54df")
+			(uuid "51cbc751-88eb-4b3a-b569-8badda1787bf")
 		)
 		(pin "2"
-			(uuid "03b6c6e4-49cc-4071-9a76-0a2094d4c555")
+			(uuid "c9d7e147-3fe1-4da1-b70f-55e9ccba6231")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
@@ -1150,6 +1140,14 @@
 					(reference "R38")
 					(unit 1)
 				)
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
+					(reference "R6")
+					(unit 1)
+				)
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/07bd4105-b2f9-4348-922b-651bd2003743"
 					(reference "R80")
 					(unit 1)
@@ -1190,38 +1188,12 @@
 					(reference "R92")
 					(unit 1)
 				)
-			)
-			(project "PUTM_EV_BMS_HV_Slave_2021"
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf"
-					(reference "R?")
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
+					(reference "R55")
 					(unit 1)
 				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061bdd2fc"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061c325b9"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e79300"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e7c70a"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e80e37"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061f863f9"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-0000622ac489"
-					(reference "R126")
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -1254,7 +1226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Samacsys:RESC6331X80N"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 139.7 114.3 0)
 			(effects
 				(font
@@ -1318,10 +1290,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b42ae60-178d-4fb5-81c6-cce519a3bda0")
+			(uuid "b482e550-ba60-434a-b4b6-7131d496f0b8")
 		)
 		(pin "2"
-			(uuid "341eeb52-06a6-4bd4-aab8-8a830fd41e45")
+			(uuid "86d4491d-0d92-4f22-9394-f24c74755040")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
@@ -1365,6 +1337,14 @@
 					(reference "R37")
 					(unit 1)
 				)
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
+					(reference "R1")
+					(unit 1)
+				)
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/07bd4105-b2f9-4348-922b-651bd2003743"
 					(reference "R79")
 					(unit 1)
@@ -1405,38 +1385,12 @@
 					(reference "R91")
 					(unit 1)
 				)
-			)
-			(project "PUTM_EV_BMS_HV_Slave_2021"
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf"
-					(reference "R?")
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
+					(reference "R50")
 					(unit 1)
 				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061bdd2fc"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061c325b9"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e79300"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e7c70a"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e80e37"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061f863f9"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-0000622ac489"
-					(reference "R117")
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -1542,10 +1496,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e71c847-bd4b-4e0f-9fd3-810a7bb257e1")
+			(uuid "bf686596-3d07-4506-a63f-e8d415a32c6d")
 		)
 		(pin "2"
-			(uuid "05c85a44-101f-4990-b2de-7c586d03fedf")
+			(uuid "e4b78cdc-e69d-4e8d-a6ea-7d2741053fa6")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
@@ -1589,6 +1543,14 @@
 					(reference "D8")
 					(unit 1)
 				)
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
+					(reference "D21")
+					(unit 1)
+				)
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/07bd4105-b2f9-4348-922b-651bd2003743"
 					(reference "D16")
 					(unit 1)
@@ -1629,242 +1591,12 @@
 					(reference "D19")
 					(unit 1)
 				)
-			)
-			(project "PUTM_EV_BMS_HV_Slave_2021"
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf"
-					(reference "D?")
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
+					(reference "D24")
 					(unit 1)
 				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061bdd2fc"
-					(reference "D?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061c325b9"
-					(reference "D?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e79300"
-					(reference "D?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e7c70a"
-					(reference "D?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e80e37"
-					(reference "D?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061f863f9"
-					(reference "D?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-0000622ac489"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
-		(at 152.4 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6e5dff4-27dd-48f7-b275-6804b9087748")
-		(property "Reference" "R19"
-			(at 152.4 86.4616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 152.4 88.773 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RT0603FRE073K3L"
-			(at 152.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RT0603FRE073K3L"
-			(at 152.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603FRE073K3L?qs=8cPjvKtxWv4e7c7t%252BTLsig%3D%3D"
-			(at 152.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e86b30d-5335-4da1-91d9-15321a9457b8")
-		)
-		(pin "2"
-			(uuid "a273b42c-7366-4208-bb13-5b5cb4cb1e5a")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/07bd4105-b2f9-4348-922b-651bd2003743"
-					(reference "R19")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/2e4fe776-913c-461f-9c16-96763dd17ad4"
-					(reference "R27")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/3697d2ca-4cfd-4e2f-adb1-6ad8ab18e20d"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/5278c436-a4ff-4082-a8df-b186949d7b25"
-					(reference "R35")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/5945678e-a174-4994-aa30-97915d89d3d4"
-					(reference "R15")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/5ce90024-d821-4b65-ab91-1b4f87fa4778"
-					(reference "R43")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/6242def1-f3cc-4471-8483-d03a00c15111"
-					(reference "R31")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/7776e438-044e-4a2f-bd02-61ad1a3bdd92"
-					(reference "R11")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/7ea74cce-f952-42ac-b6c0-5e8a5c651f54"
-					(reference "R47")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/a87a1bd7-8cb1-4a14-818b-b9a7f089ee67"
-					(reference "R39")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/07bd4105-b2f9-4348-922b-651bd2003743"
-					(reference "R81")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/2e4fe776-913c-461f-9c16-96763dd17ad4"
-					(reference "R61")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/3697d2ca-4cfd-4e2f-adb1-6ad8ab18e20d"
-					(reference "R89")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5278c436-a4ff-4082-a8df-b186949d7b25"
-					(reference "R97")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5945678e-a174-4994-aa30-97915d89d3d4"
-					(reference "R85")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5ce90024-d821-4b65-ab91-1b4f87fa4778"
-					(reference "R65")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/6242def1-f3cc-4471-8483-d03a00c15111"
-					(reference "R77")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/7776e438-044e-4a2f-bd02-61ad1a3bdd92"
-					(reference "R73")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/7ea74cce-f952-42ac-b6c0-5e8a5c651f54"
-					(reference "R69")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/a87a1bd7-8cb1-4a14-818b-b9a7f089ee67"
-					(reference "R93")
-					(unit 1)
-				)
-			)
-			(project "PUTM_EV_BMS_HV_Slave_2021"
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061bdd2fc"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061c325b9"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e79300"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e7c70a"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e80e37"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061f863f9"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-0000622ac489"
-					(reference "R135")
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -1961,13 +1693,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "16d14371-11e2-493d-9598-acede833a878")
+			(uuid "85204fee-882d-4a02-9255-e81dfe99f748")
 		)
 		(pin "2"
-			(uuid "40e9ab23-061a-4386-b7cc-f2c577bf7069")
+			(uuid "6906be7d-fdca-494a-94dd-dbc7ff566f31")
 		)
 		(pin "3"
-			(uuid "3861001c-b503-4fcb-8f64-df11479608d6")
+			(uuid "c3719022-e6b8-43ce-82e2-17bbd32348e2")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
@@ -2011,6 +1743,14 @@
 					(reference "Q9")
 					(unit 1)
 				)
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
+					(reference "Q25")
+					(unit 1)
+				)
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
+					(reference "Q23")
+					(unit 1)
+				)
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/07bd4105-b2f9-4348-922b-651bd2003743"
 					(reference "Q18")
 					(unit 1)
@@ -2051,38 +1791,12 @@
 					(reference "Q21")
 					(unit 1)
 				)
-			)
-			(project "PUTM_EV_BMS_HV_Slave_2021"
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf"
-					(reference "Q?")
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
+					(reference "Q26")
 					(unit 1)
 				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061bdd2fc"
-					(reference "Q?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061c325b9"
-					(reference "Q?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e79300"
-					(reference "Q?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e7c70a"
-					(reference "Q?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e80e37"
-					(reference "Q?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061f863f9"
-					(reference "Q?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-0000622ac489"
-					(reference "Q27")
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
+					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -2115,7 +1829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:1206L075SLYR"
+		(property "Footprint" "Fuse:Fuse_2512_6332Metric"
 			(at 138.43 87.63 0)
 			(effects
 				(font
@@ -2196,10 +1910,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b640537-3d3e-422e-88c1-b6e6f19f22a2")
+			(uuid "9d36471d-a25d-43b4-91d3-232f6e8c76c4")
 		)
 		(pin "2"
-			(uuid "c04436a1-96da-4b4b-a29f-14911982c45f")
+			(uuid "d185f720-7b16-405a-971e-553b08de04b3")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
@@ -2243,6 +1957,14 @@
 					(reference "F8")
 					(unit 1)
 				)
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
+					(reference "F23")
+					(unit 1)
+				)
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
+					(reference "F21")
+					(unit 1)
+				)
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/07bd4105-b2f9-4348-922b-651bd2003743"
 					(reference "F16")
 					(unit 1)
@@ -2281,6 +2003,14 @@
 				)
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/a87a1bd7-8cb1-4a14-818b-b9a7f089ee67"
 					(reference "F19")
+					(unit 1)
+				)
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
+					(reference "F24")
+					(unit 1)
+				)
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
+					(reference "F22")
 					(unit 1)
 				)
 			)
