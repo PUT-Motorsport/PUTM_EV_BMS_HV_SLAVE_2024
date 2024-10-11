@@ -1,0 +1,2 @@
+1. duże rezystory, do małego balancingu ( bo zewnętrzna płytka jest całkiem git ) można też wtedy wywalić tranzystory
+2. dać ltc na środku płytki, ponieważ jest to teoretycznie najcieplejsze miejsce
