@@ -5,187 +5,6 @@
 	(uuid "89096696-ca33-4042-b99c-73380b83bd41")
 	(paper "A4")
 	(lib_symbols
-		(symbol "1206l600slwr:1206L600SLWR"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 13.97 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1206L600SLWR"
-				(at 13.97 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Samacsys:1206L075SLYR"
-				(at 13.97 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf"
-				(at 13.97 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Low Rho Surface Mount Resettable PTC Fuse"
-				(at 13.97 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.7"
-				(at 13.97 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "576-1206L600SLWR"
-				(at 13.97 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/1206L600SLWR?qs=7MVldsJ5UaxXzL4g3iWlfA%3D%3D"
-				(at 13.97 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "LITTELFUSE"
-				(at 13.97 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "1206L600SLWR"
-				(at 13.97 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "1206L600SLWR_0_1"
-				(rectangle
-					(start -1.27 -0.508)
-					(end 1.27 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.016) (xy -0.762 -1.016) (xy 0.762 1.016) (xy 1.27 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1206L600SLWR_1_0"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PUTM_EV_BMS_HV_Slave_2021-rescue:LED_Small_ALT-Device"
 			(pin_numbers hide)
 			(pin_names
@@ -348,281 +167,6 @@
 				)
 			)
 		)
-		(symbol "PUTM_EV_BMS_HV_Slave_2021-rescue:Q_PMOS_GSD-Device"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PMOS_GSD-Device"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PMOS_GSD-Device_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_PMOS_GSD-Device_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device"
 			(pin_numbers hide)
 			(pin_names
@@ -738,26 +282,26 @@
 		)
 	)
 	(junction
-		(at 139.7 121.92)
+		(at 133.35 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "45da088c-9322-4deb-94d1-822913371098")
+		(uuid "3f982588-f693-478d-9364-b00e05c75f86")
 	)
 	(junction
-		(at 139.7 83.82)
+		(at 133.35 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "501bb21e-c489-4074-857a-8cf391ed423a")
 	)
 	(junction
-		(at 139.7 106.68)
+		(at 140.97 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "59b6e15c-eb7b-4d0a-988a-29e8594be155")
+		(uuid "97c4c9f2-f9c4-4aa1-8158-6a02e7c691cf")
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 157.48 83.82)
+			(xy 133.35 83.82) (xy 151.13 83.82)
 		)
 		(stroke
 			(width 0)
@@ -767,7 +311,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 91.44) (xy 157.48 91.44)
+			(xy 133.35 104.14) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1c2702-5065-4547-9b3b-20bccb1c094f")
+	)
+	(wire
+		(pts
+			(xy 140.97 121.92) (xy 151.13 121.92)
 		)
 		(stroke
 			(width 0)
@@ -777,7 +331,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 109.22) (xy 147.32 106.68)
+			(xy 140.97 106.68) (xy 140.97 104.14)
 		)
 		(stroke
 			(width 0)
@@ -787,17 +341,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 96.52) (xy 139.7 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49418864-b992-4648-af36-378be087eb89")
-	)
-	(wire
-		(pts
-			(xy 139.7 106.68) (xy 147.32 106.68)
+			(xy 133.35 104.14) (xy 140.97 104.14)
 		)
 		(stroke
 			(width 0)
@@ -805,39 +349,19 @@
 		)
 		(uuid "4cbcfe8a-7156-4da0-842a-3eaafd137f15")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 118.11 114.3) (xy 119.38 114.3)
+			(xy 140.97 119.38) (xy 140.97 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54aebf71-1dff-4f25-9f18-a145b389d490")
-	)
-	(polyline
-		(pts
-			(xy 118.11 101.6) (xy 118.11 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60cb45b6-d622-4b35-afea-fc7165598f5f")
+		(uuid "a9d750f4-5dc4-4892-8d05-ddb15d22d7ed")
 	)
 	(wire
 		(pts
-			(xy 137.16 121.92) (xy 139.7 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63bfd6d3-66a5-4bb5-adb8-0416bf4f4757")
-	)
-	(wire
-		(pts
-			(xy 137.16 83.82) (xy 139.7 83.82)
+			(xy 130.81 83.82) (xy 133.35 83.82)
 		)
 		(stroke
 			(width 0)
@@ -847,7 +371,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 121.92) (xy 147.32 121.92)
+			(xy 133.35 121.92) (xy 140.97 121.92)
 		)
 		(stroke
 			(width 0)
@@ -857,7 +381,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 116.84) (xy 139.7 121.92)
+			(xy 133.35 115.57) (xy 133.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -867,7 +391,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 104.14) (xy 139.7 106.68)
+			(xy 133.35 83.82) (xy 133.35 104.14)
 		)
 		(stroke
 			(width 0)
@@ -877,53 +401,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 106.68) (xy 139.7 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0a4f2f7-4467-490a-900f-663e2fd611df")
-	)
-	(wire
-		(pts
-			(xy 147.32 114.3) (xy 147.32 115.57)
+			(xy 140.97 111.76) (xy 140.97 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e17fc1fa-2bf1-41fd-b6c7-2897803c55a3")
-	)
-	(wire
-		(pts
-			(xy 139.7 83.82) (xy 139.7 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9fea5b0-41da-4dbd-a4c4-1078dcbb456d")
-	)
-	(polyline
-		(pts
-			(xy 119.38 101.6) (xy 118.11 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0dd0ae8-b031-4a98-9bd6-4ebf19f79699")
-	)
-	(wire
-		(pts
-			(xy 147.32 121.92) (xy 147.32 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2f2dac3-5d12-460c-a1a2-312b90ad5d58")
 	)
 	(rectangle
 		(start 107.95 72.39)
@@ -952,20 +436,9 @@
 		)
 		(uuid "35981957-ed25-439b-a7e0-97b90bfc9afd")
 	)
-	(text "thermaly bonded"
-		(exclude_from_sim no)
-		(at 116.84 116.84 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d889d50d-e2d2-46b9-b3ce-f2a46ebda2d2")
-	)
 	(hierarchical_label "CO+"
 		(shape output)
-		(at 157.48 83.82 0)
+		(at 151.13 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -977,7 +450,7 @@
 	)
 	(hierarchical_label "S"
 		(shape input)
-		(at 157.48 91.44 0)
+		(at 151.13 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -987,21 +460,9 @@
 		)
 		(uuid "4e61af84-9477-490f-a087-ddf014bc6128")
 	)
-	(hierarchical_label "CI-"
-		(shape output)
-		(at 137.16 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b9ed019-9c05-44d1-8add-2dce0159573d")
-	)
 	(hierarchical_label "CI+"
 		(shape input)
-		(at 137.16 83.82 180)
+		(at 130.81 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1013,7 +474,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
-		(at 147.32 111.76 0)
+		(at 140.97 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1021,7 +482,7 @@
 		(dnp no)
 		(uuid "631bb75b-ef28-4813-bb89-bc049d091c5e")
 		(property "Reference" "R18"
-			(at 149.86 110.49 0)
+			(at 143.51 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +491,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 149.86 112.8014 0)
+			(at 143.51 110.2614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1039,7 +500,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 147.32 111.76 0)
+			(at 140.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 111.76 0)
+			(at 140.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 111.76 0)
+			(at 140.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +527,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0603FRE07330RL"
-			(at 147.32 111.76 0)
+			(at 140.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,7 +536,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RT0603FRE07330RL"
-			(at 147.32 111.76 0)
+			(at 140.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1084,7 +545,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/RT0603FRE07330RL?qs=%2Ff7pOCXLR5eC%252B7ufUFQIvA%3D%3D"
-			(at 147.32 111.76 0)
+			(at 140.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1148,60 +609,12 @@
 					(reference "R6")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/07bd4105-b2f9-4348-922b-651bd2003743"
-					(reference "R80")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/2e4fe776-913c-461f-9c16-96763dd17ad4"
-					(reference "R60")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/3697d2ca-4cfd-4e2f-adb1-6ad8ab18e20d"
-					(reference "R88")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5278c436-a4ff-4082-a8df-b186949d7b25"
-					(reference "R96")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5945678e-a174-4994-aa30-97915d89d3d4"
-					(reference "R84")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5ce90024-d821-4b65-ab91-1b4f87fa4778"
-					(reference "R64")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/6242def1-f3cc-4471-8483-d03a00c15111"
-					(reference "R76")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/7776e438-044e-4a2f-bd02-61ad1a3bdd92"
-					(reference "R72")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/7ea74cce-f952-42ac-b6c0-5e8a5c651f54"
-					(reference "R68")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/a87a1bd7-8cb1-4a14-818b-b9a7f089ee67"
-					(reference "R92")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
-					(reference "R55")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
-					(reference "R36")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
-		(at 139.7 114.3 0)
+		(at 133.35 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1209,7 +622,7 @@
 		(dnp no)
 		(uuid "8ea38d95-4310-43f6-aa91-253c84c6068c")
 		(property "Reference" "R17"
-			(at 135.89 113.03 0)
+			(at 129.54 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,8 +630,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15/2W"
-			(at 135.89 115.57 0)
+		(property "Value" "68/2W"
+			(at 129.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +640,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 139.7 114.3 0)
+			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,7 +649,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 114.3 0)
+			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +658,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 114.3 0)
+			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,8 +666,8 @@
 				(hide yes)
 			)
 		)
-		(property "CBOM" "HP2512-15R"
-			(at 139.7 114.3 0)
+		(property "CBOM" ""
+			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,8 +675,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRM2512QFW-10R0ELF"
-			(at 139.7 114.3 0)
+		(property "Manufacturer_Part_Number" "CR2512-JW-680ELF"
+			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,8 +684,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "652-CRM2512QFW-10R0E"
-			(at 139.7 114.3 0)
+		(property "Mouser Part Number" "652-CR2512-JW-680ELF"
+			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,8 +693,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Bourns/CRM2512QFW-10R0ELF?qs=8Wlm6%252BaMh8S09moY%252BdPydQ%3D%3D"
-			(at 139.7 114.3 0)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Bourns/CR2512-JW-680ELF?qs=sGAEpiMZZMvdGkrng054t3VembYjER8wDs7RjV0k1vk%3D"
+			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,60 +758,12 @@
 					(reference "R1")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/07bd4105-b2f9-4348-922b-651bd2003743"
-					(reference "R79")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/2e4fe776-913c-461f-9c16-96763dd17ad4"
-					(reference "R59")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/3697d2ca-4cfd-4e2f-adb1-6ad8ab18e20d"
-					(reference "R87")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5278c436-a4ff-4082-a8df-b186949d7b25"
-					(reference "R95")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5945678e-a174-4994-aa30-97915d89d3d4"
-					(reference "R83")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5ce90024-d821-4b65-ab91-1b4f87fa4778"
-					(reference "R63")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/6242def1-f3cc-4471-8483-d03a00c15111"
-					(reference "R75")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/7776e438-044e-4a2f-bd02-61ad1a3bdd92"
-					(reference "R71")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/7ea74cce-f952-42ac-b6c0-5e8a5c651f54"
-					(reference "R67")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/a87a1bd7-8cb1-4a14-818b-b9a7f089ee67"
-					(reference "R91")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
-					(reference "R50")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
-					(reference "R24")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:LED_Small_ALT-Device")
-		(at 147.32 118.11 90)
+		(at 140.97 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1406,7 +771,7 @@
 		(dnp no)
 		(uuid "9645338e-956d-4c62-b183-02675f33626e")
 		(property "Reference" "D3"
-			(at 149.86 118.11 90)
+			(at 143.51 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +780,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 143.6624 118.11 0)
+			(at 137.3124 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +789,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 147.32 118.11 90)
+			(at 140.97 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,7 +798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 118.11 90)
+			(at 140.97 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,7 +807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 118.11 0)
+			(at 140.97 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +816,7 @@
 			)
 		)
 		(property "CBOM" "LL-S190SC-2S"
-			(at 147.32 118.11 0)
+			(at 140.97 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +825,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 147.32 118.11 0)
+			(at 140.97 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +834,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150060SS75000"
-			(at 147.32 118.11 0)
+			(at 140.97 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +843,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150060SS75000"
-			(at 147.32 118.11 0)
+			(at 140.97 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +852,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Wurth-Elektronik/150060SS75000?qs=LlUlMxKIyB0oQaxwspeTEA%3D%3D"
-			(at 147.32 118.11 0)
+			(at 140.97 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,468 +914,6 @@
 				)
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
 					(reference "D21")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/07bd4105-b2f9-4348-922b-651bd2003743"
-					(reference "D16")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/2e4fe776-913c-461f-9c16-96763dd17ad4"
-					(reference "D11")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/3697d2ca-4cfd-4e2f-adb1-6ad8ab18e20d"
-					(reference "D18")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5278c436-a4ff-4082-a8df-b186949d7b25"
-					(reference "D20")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5945678e-a174-4994-aa30-97915d89d3d4"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5ce90024-d821-4b65-ab91-1b4f87fa4778"
-					(reference "D12")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/6242def1-f3cc-4471-8483-d03a00c15111"
-					(reference "D15")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/7776e438-044e-4a2f-bd02-61ad1a3bdd92"
-					(reference "D14")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/7ea74cce-f952-42ac-b6c0-5e8a5c651f54"
-					(reference "D13")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/a87a1bd7-8cb1-4a14-818b-b9a7f089ee67"
-					(reference "D19")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
-					(reference "D24")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
-					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:Q_PMOS_GSD-Device")
-		(at 142.24 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dcad6d85-0fc8-450e-b063-263970e9b230")
-		(property "Reference" "Q4"
-			(at 135.89 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CPH3351"
-			(at 135.89 90.3986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 137.16 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CBOM" "CPH3351-TL-W"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MMFTP3401"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "637-MMFTP3401"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Diotec-Semiconductor/MMFTP3401?qs=OlC7AqGiEDm4awuFJShdIQ%3D%3D"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85204fee-882d-4a02-9255-e81dfe99f748")
-		)
-		(pin "2"
-			(uuid "6906be7d-fdca-494a-94dd-dbc7ff566f31")
-		)
-		(pin "3"
-			(uuid "c3719022-e6b8-43ce-82e2-17bbd32348e2")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/07bd4105-b2f9-4348-922b-651bd2003743"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/2e4fe776-913c-461f-9c16-96763dd17ad4"
-					(reference "Q6")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/3697d2ca-4cfd-4e2f-adb1-6ad8ab18e20d"
-					(reference "Q5")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/5278c436-a4ff-4082-a8df-b186949d7b25"
-					(reference "Q8")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/5945678e-a174-4994-aa30-97915d89d3d4"
-					(reference "Q3")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/5ce90024-d821-4b65-ab91-1b4f87fa4778"
-					(reference "Q10")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/6242def1-f3cc-4471-8483-d03a00c15111"
-					(reference "Q7")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/7776e438-044e-4a2f-bd02-61ad1a3bdd92"
-					(reference "Q2")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/7ea74cce-f952-42ac-b6c0-5e8a5c651f54"
-					(reference "Q11")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/a87a1bd7-8cb1-4a14-818b-b9a7f089ee67"
-					(reference "Q9")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
-					(reference "Q25")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
-					(reference "Q23")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/07bd4105-b2f9-4348-922b-651bd2003743"
-					(reference "Q18")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/2e4fe776-913c-461f-9c16-96763dd17ad4"
-					(reference "Q13")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/3697d2ca-4cfd-4e2f-adb1-6ad8ab18e20d"
-					(reference "Q20")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5278c436-a4ff-4082-a8df-b186949d7b25"
-					(reference "Q22")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5945678e-a174-4994-aa30-97915d89d3d4"
-					(reference "Q19")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5ce90024-d821-4b65-ab91-1b4f87fa4778"
-					(reference "Q14")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/6242def1-f3cc-4471-8483-d03a00c15111"
-					(reference "Q17")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/7776e438-044e-4a2f-bd02-61ad1a3bdd92"
-					(reference "Q16")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/7ea74cce-f952-42ac-b6c0-5e8a5c651f54"
-					(reference "Q15")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/a87a1bd7-8cb1-4a14-818b-b9a7f089ee67"
-					(reference "Q21")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
-					(reference "Q26")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
-					(reference "Q24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1206l600slwr:1206L600SLWR")
-		(at 139.7 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed8cfb9d-6613-4ee0-82ba-3b9061f7134d")
-		(property "Reference" "F3"
-			(at 135.89 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1206L600SLWR"
-			(at 135.89 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric"
-			(at 138.43 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf"
-			(at 140.97 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low Rho Surface Mount Resettable PTC Fuse"
-			(at 143.51 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 146.05 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-1206L600SLWR"
-			(at 148.59 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/1206L600SLWR?qs=7MVldsJ5UaxXzL4g3iWlfA%3D%3D"
-			(at 151.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 153.67 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1206L600SLWR"
-			(at 156.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d36471d-a25d-43b4-91d3-232f6e8c76c4")
-		)
-		(pin "2"
-			(uuid "d185f720-7b16-405a-971e-553b08de04b3")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/07bd4105-b2f9-4348-922b-651bd2003743"
-					(reference "F3")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/2e4fe776-913c-461f-9c16-96763dd17ad4"
-					(reference "F5")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/3697d2ca-4cfd-4e2f-adb1-6ad8ab18e20d"
-					(reference "F4")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/5278c436-a4ff-4082-a8df-b186949d7b25"
-					(reference "F7")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/5945678e-a174-4994-aa30-97915d89d3d4"
-					(reference "F2")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/5ce90024-d821-4b65-ab91-1b4f87fa4778"
-					(reference "F9")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/6242def1-f3cc-4471-8483-d03a00c15111"
-					(reference "F6")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/7776e438-044e-4a2f-bd02-61ad1a3bdd92"
-					(reference "F1")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/7ea74cce-f952-42ac-b6c0-5e8a5c651f54"
-					(reference "F10")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/a87a1bd7-8cb1-4a14-818b-b9a7f089ee67"
-					(reference "F8")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
-					(reference "F23")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
-					(reference "F21")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/07bd4105-b2f9-4348-922b-651bd2003743"
-					(reference "F16")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/2e4fe776-913c-461f-9c16-96763dd17ad4"
-					(reference "F11")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/3697d2ca-4cfd-4e2f-adb1-6ad8ab18e20d"
-					(reference "F18")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5278c436-a4ff-4082-a8df-b186949d7b25"
-					(reference "F20")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5945678e-a174-4994-aa30-97915d89d3d4"
-					(reference "F17")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/5ce90024-d821-4b65-ab91-1b4f87fa4778"
-					(reference "F12")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/6242def1-f3cc-4471-8483-d03a00c15111"
-					(reference "F15")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/7776e438-044e-4a2f-bd02-61ad1a3bdd92"
-					(reference "F14")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/7ea74cce-f952-42ac-b6c0-5e8a5c651f54"
-					(reference "F13")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/a87a1bd7-8cb1-4a14-818b-b9a7f089ee67"
-					(reference "F19")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/e3898a12-0a74-4dbd-b8a7-59ace09ac943"
-					(reference "F24")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9/f869fbdf-fee8-4379-9464-3cd095f6fd2c"
-					(reference "F22")
 					(unit 1)
 				)
 			)

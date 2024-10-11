@@ -469,7 +469,7 @@
     ]
   },
   "meta": {
-    "filename": "PUTM_EV_BMS_HV_SLAVE_2024.kicad_pro",
+    "filename": "PUTM_EV_AMS_SLAVE_2025.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -552,7 +552,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -606,12 +606,30 @@
           "group_by": false,
           "label": "Mouser Price/Stock",
           "name": "Mouser Price/Stock",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Opis",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Url",
+          "name": "Mouser Url",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
           "show": false
         }
       ],
@@ -710,60 +728,8 @@
       "DCH10"
     ],
     [
-      "efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9",
-      "R_LTC"
-    ],
-    [
-      "2e4fe776-913c-461f-9c16-96763dd17ad4",
-      "DCH5"
-    ],
-    [
-      "5ce90024-d821-4b65-ab91-1b4f87fa4778",
-      "DCH9"
-    ],
-    [
-      "7ea74cce-f952-42ac-b6c0-5e8a5c651f54",
-      "DCH10"
-    ],
-    [
-      "7776e438-044e-4a2f-bd02-61ad1a3bdd92",
-      "DCH1"
-    ],
-    [
-      "6242def1-f3cc-4471-8483-d03a00c15111",
-      "DCH6"
-    ],
-    [
-      "07bd4105-b2f9-4348-922b-651bd2003743",
-      "DCH3"
-    ],
-    [
-      "5945678e-a174-4994-aa30-97915d89d3d4",
-      "DCH2"
-    ],
-    [
-      "3697d2ca-4cfd-4e2f-adb1-6ad8ab18e20d",
-      "DCH4"
-    ],
-    [
-      "a87a1bd7-8cb1-4a14-818b-b9a7f089ee67",
-      "DCH8"
-    ],
-    [
-      "5278c436-a4ff-4082-a8df-b186949d7b25",
-      "DCH7"
-    ],
-    [
       "f869fbdf-fee8-4379-9464-3cd095f6fd2c",
       "DCH11"
-    ],
-    [
-      "f869fbdf-fee8-4379-9464-3cd095f6fd2c",
-      "DCH11"
-    ],
-    [
-      "e3898a12-0a74-4dbd-b8a7-59ace09ac943",
-      "DCH12"
     ],
     [
       "e3898a12-0a74-4dbd-b8a7-59ace09ac943",

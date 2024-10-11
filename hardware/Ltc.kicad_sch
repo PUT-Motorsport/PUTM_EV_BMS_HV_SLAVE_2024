@@ -1372,6 +1372,197 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PUTM_EV_BMS_HV_Slave_2021-rescue:C_Small-Device"
 			(pin_numbers hide)
 			(pin_names
@@ -2476,6 +2667,231 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_DIP_x02"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DIP_x02"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DIP_x02_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.667) (xy 2.3622 3.7084)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x02_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x02_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4337,7 +4753,7 @@
 		)
 	)
 	(junction
-		(at 255.27 74.93)
+		(at 254 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08104f9f-cf02-48ba-ba40-d2fb77f48a08")
@@ -4373,7 +4789,7 @@
 		(uuid "305ed636-7895-472a-85b0-a095e41d451f")
 	)
 	(junction
-		(at 252.73 90.17)
+		(at 251.46 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31309238-c697-480a-a870-68a1198a5ece")
@@ -4409,13 +4825,7 @@
 		(uuid "3a6de456-f0c6-4d95-b2b3-852a43ea264d")
 	)
 	(junction
-		(at 36.83 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d46abb5-4c53-4302-a959-22827b8f3139")
-	)
-	(junction
-		(at 257.81 74.93)
+		(at 256.54 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44380b9f-52c5-4f18-a868-fe9d27b25b10")
@@ -4427,7 +4837,13 @@
 		(uuid "4b39d549-7802-4492-9a19-41bd194cbb6f")
 	)
 	(junction
-		(at 255.27 92.71)
+		(at 264.16 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fb44cd0-f1b1-42de-8dd8-de7885d55169")
+	)
+	(junction
+		(at 254 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51b6b13e-10ff-488c-868e-e57eb2157ca5")
@@ -4445,25 +4861,19 @@
 		(uuid "5f2a0406-d765-45d5-9b2b-b940b08687b6")
 	)
 	(junction
-		(at 36.83 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "623ce47c-81e5-4838-90cd-39833e9c82d6")
-	)
-	(junction
 		(at 36.83 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "696ffb90-dae6-4619-9ad5-f4180fdf65c9")
 	)
 	(junction
-		(at 260.35 113.03)
+		(at 259.08 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dc6d3b0-ad52-438a-973a-79472d3b377f")
 	)
 	(junction
-		(at 260.35 97.79)
+		(at 259.08 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6eaf59b8-1b0c-474c-8804-3bbb1586b4d9")
@@ -4481,22 +4891,10 @@
 		(uuid "7ee554e2-d2c3-4cd0-b291-ef0a6fef2c34")
 	)
 	(junction
-		(at 36.83 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83a52533-ff54-4117-9f67-15cbf3be950c")
-	)
-	(junction
 		(at 194.31 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85072b0d-c7df-4851-9176-829d4f4b42ad")
-	)
-	(junction
-		(at 36.83 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b136bf7-bd3d-47e0-9d1b-061b5fb9b51b")
 	)
 	(junction
 		(at 184.15 49.53)
@@ -4511,43 +4909,19 @@
 		(uuid "9779a73b-b45b-436e-8b67-306c406083d3")
 	)
 	(junction
-		(at 36.83 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9908fd35-555a-40bf-beb1-3e03fb0007e2")
-	)
-	(junction
-		(at 252.73 74.93)
+		(at 251.46 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1a08893-6d00-43f8-9a2b-0c570ab866d1")
 	)
 	(junction
-		(at 36.83 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a336e398-f678-4439-8583-17f01f3dc0b2")
-	)
-	(junction
-		(at 36.83 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a70d115f-4eed-4e15-b5fa-0fddf03e8708")
-	)
-	(junction
-		(at 255.27 113.03)
+		(at 254 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac9cafe9-2070-4c11-9b32-22b0ac6a39b8")
 	)
 	(junction
-		(at 36.83 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1768924-6af4-427e-a42d-3da2a5ecfbbb")
-	)
-	(junction
-		(at 260.35 74.93)
+		(at 259.08 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5482761-d715-47d5-aee9-35a27cb5bd78")
@@ -4559,31 +4933,19 @@
 		(uuid "bdaad527-a73e-4890-8ed5-0bdf1070df78")
 	)
 	(junction
-		(at 36.83 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0632071-1186-43b5-b25e-37afe26f016b")
-	)
-	(junction
-		(at 36.83 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c74a1e7c-e5cf-4e9b-bc81-cbe8e6d9306f")
-	)
-	(junction
-		(at 36.83 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9132b81-4ba6-4f35-9133-1e2da2a5f24f")
-	)
-	(junction
 		(at 194.31 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc7e2d71-8c3f-42b7-aa07-4f388a878eb2")
 	)
 	(junction
-		(at 248.92 90.17)
+		(at 264.16 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0c77b58-2996-4d6b-b04f-b301c05644c3")
+	)
+	(junction
+		(at 247.65 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5dbe873-adb0-4f1a-82b0-444b28140503")
@@ -4595,7 +4957,7 @@
 		(uuid "dcc44247-c13f-4c7a-9b0f-563a33804645")
 	)
 	(junction
-		(at 257.81 113.03)
+		(at 256.54 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e18a052e-ce41-4a35-b5af-170d80b50cd4")
@@ -4619,22 +4981,28 @@
 		(uuid "f2960b73-5b0d-4e89-b3a6-2bf30bfae361")
 	)
 	(junction
-		(at 257.81 95.25)
+		(at 256.54 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4c5a361-de74-40fa-a193-77cb68148088")
 	)
 	(junction
-		(at 36.83 147.32)
+		(at 243.84 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f58e3ee5-b096-4ae6-825c-ff2190d42ef3")
+		(uuid "f93c2908-4e48-45ee-b58b-5bace914e232")
 	)
 	(junction
-		(at 252.73 113.03)
+		(at 251.46 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9f19a0b-8654-4ef0-8308-934a447c55ab")
+	)
+	(junction
+		(at 243.84 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fefca0cd-ade6-443c-a1da-bcce0dc35695")
 	)
 	(no_connect
 		(at 181.61 54.61)
@@ -4700,7 +5068,17 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 113.03) (xy 257.81 113.03)
+			(xy 243.84 134.62) (xy 250.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f76cb3-55a8-4c6b-859c-df8663ef395d")
+	)
+	(wire
+		(pts
+			(xy 259.08 67.31) (xy 256.54 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4710,7 +5088,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 110.49) (xy 252.73 113.03)
+			(xy 251.46 64.77) (xy 251.46 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4720,7 +5098,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 87.63) (xy 255.27 92.71)
+			(xy 254 41.91) (xy 254 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4760,7 +5138,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 90.17) (xy 262.89 90.17)
+			(xy 251.46 44.45) (xy 261.62 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4770,7 +5148,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 71.12) (xy 36.83 71.12)
+			(xy 34.29 71.12) (xy 39.37 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4790,6 +5168,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 123.19) (xy 264.16 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1161e561-6071-47b5-ad46-095409ca5901")
+	)
+	(wire
+		(pts
 			(xy 77.47 96.52) (xy 100.33 96.52)
 		)
 		(stroke
@@ -4800,17 +5188,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 137.16) (xy 36.83 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "122e9c38-cb3b-4e07-931d-4cac795a7185")
-	)
-	(wire
-		(pts
-			(xy 248.92 113.03) (xy 252.73 113.03)
+			(xy 247.65 67.31) (xy 251.46 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4830,17 +5208,17 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 71.12) (xy 39.37 71.12)
+			(xy 264.16 123.19) (xy 266.7 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17a39e20-a67a-4f59-aed0-7c243eb7e299")
+		(uuid "18638fc4-818f-4342-931d-51e969f285e5")
 	)
 	(wire
 		(pts
-			(xy 34.29 172.72) (xy 36.83 172.72)
+			(xy 34.29 172.72) (xy 39.37 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4850,7 +5228,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 97.79) (xy 181.61 97.79)
+			(xy 179.07 97.79) (xy 180.34 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4867,6 +5245,16 @@
 			(type default)
 		)
 		(uuid "197a8ffc-b827-443b-b807-dd2369edf868")
+	)
+	(wire
+		(pts
+			(xy 264.16 123.19) (xy 264.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b80a37a-da33-41ba-bebc-ba19baa44e21")
 	)
 	(wire
 		(pts
@@ -4897,16 +5285,6 @@
 			(type default)
 		)
 		(uuid "1f89c6de-c979-48d7-9a91-2689808e0672")
-	)
-	(wire
-		(pts
-			(xy 36.83 60.96) (xy 36.83 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22464323-faf6-4f8f-80bb-f53754436077")
 	)
 	(wire
 		(pts
@@ -4990,23 +5368,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 99.06) (xy 36.83 109.22)
+			(xy 241.3 124.46) (xy 242.57 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2af7ffe6-c5c6-4cc6-a649-649cae3564c1")
+		(uuid "2ae3ae68-c410-4953-9560-52f823d80c3e")
 	)
 	(wire
 		(pts
-			(xy 100.33 60.96) (xy 97.79 60.96)
+			(xy 242.57 123.19) (xy 243.84 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2db952b6-38c9-401f-93be-5a2b22a3be31")
+		(uuid "2d26465d-080a-42d4-b20d-703248b4944f")
 	)
 	(wire
 		(pts
@@ -5020,33 +5398,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 162.56) (xy 36.83 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "316e79bc-9ff7-4a5c-80b6-79b7acc2e5ce")
-	)
-	(wire
-		(pts
-			(xy 248.92 85.09) (xy 248.92 90.17)
+			(xy 247.65 39.37) (xy 247.65 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "344a4fc4-3b79-4908-8725-1c3f971a1662")
-	)
-	(wire
-		(pts
-			(xy 39.37 124.46) (xy 36.83 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "359eef18-f674-4212-8788-dcff4f2cfc97")
 	)
 	(wire
 		(pts
@@ -5120,7 +5478,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 74.93) (xy 255.27 77.47)
+			(xy 254 29.21) (xy 254 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5130,7 +5488,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 110.49) (xy 260.35 113.03)
+			(xy 259.08 64.77) (xy 259.08 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5200,16 +5558,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 86.36) (xy 36.83 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42125658-8a50-40ee-9c98-d9e227bf73e7")
-	)
-	(wire
-		(pts
 			(xy 77.47 71.12) (xy 100.33 71.12)
 		)
 		(stroke
@@ -5220,17 +5568,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 35.56) (xy 36.83 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d74678-7c6c-4562-a444-5506e65416a3")
-	)
-	(wire
-		(pts
-			(xy 260.35 113.03) (xy 260.35 115.57)
+			(xy 259.08 67.31) (xy 259.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5250,7 +5588,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 134.62) (xy 36.83 134.62)
+			(xy 34.29 134.62) (xy 39.37 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5260,7 +5598,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 74.93) (xy 252.73 74.93)
+			(xy 254 29.21) (xy 251.46 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5280,7 +5618,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 80.01) (xy 248.92 74.93)
+			(xy 247.65 34.29) (xy 247.65 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5300,7 +5638,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 92.71 60.96)
+			(xy 62.23 60.96) (xy 100.33 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5310,7 +5648,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 74.93) (xy 257.81 77.47)
+			(xy 256.54 29.21) (xy 256.54 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5337,16 +5675,6 @@
 			(type default)
 		)
 		(uuid "4b4b1245-5cce-4a8d-9a57-998048780f9c")
-	)
-	(wire
-		(pts
-			(xy 36.83 73.66) (xy 36.83 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d216150-92f1-4f60-8eb6-184ba814c8b1")
 	)
 	(wire
 		(pts
@@ -5380,17 +5708,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 73.66) (xy 36.83 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ffcd652-6ac7-4843-ad5b-7b8e1714f5b7")
-	)
-	(wire
-		(pts
-			(xy 36.83 147.32) (xy 39.37 147.32)
+			(xy 34.29 147.32) (xy 39.37 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5420,7 +5738,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 87.63) (xy 257.81 95.25)
+			(xy 256.54 41.91) (xy 256.54 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5430,17 +5748,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 86.36) (xy 97.79 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52549d15-8fdf-4d7a-addb-50a8d4c7d161")
-	)
-	(wire
-		(pts
-			(xy 36.83 160.02) (xy 39.37 160.02)
+			(xy 34.29 160.02) (xy 39.37 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5450,33 +5758,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 83.82) (xy 36.83 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "564ef1b1-3fa6-4019-a126-058a2270a659")
-	)
-	(wire
-		(pts
-			(xy 260.35 97.79) (xy 262.89 97.79)
+			(xy 259.08 52.07) (xy 261.62 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "57187cd3-e22f-4a88-bd91-c8b137939393")
-	)
-	(wire
-		(pts
-			(xy 34.29 58.42) (xy 36.83 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "599a58d4-2eed-4831-9aa4-c0d6f64a5dc8")
 	)
 	(wire
 		(pts
@@ -5500,6 +5788,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 109.22) (xy 243.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1277cd-793d-46cc-9b33-b4ff9c07750c")
+	)
+	(wire
+		(pts
 			(xy 184.15 54.61) (xy 184.15 59.69)
 		)
 		(stroke
@@ -5507,6 +5805,16 @@
 			(type default)
 		)
 		(uuid "5c09e4b0-5796-4e8e-abc0-74e86f0a9b3d")
+	)
+	(wire
+		(pts
+			(xy 264.16 120.65) (xy 266.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c62df61-af74-48a2-8d3e-bfcee2be46dd")
 	)
 	(wire
 		(pts
@@ -5530,7 +5838,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 35.56) (xy 92.71 35.56)
+			(xy 62.23 35.56) (xy 100.33 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5540,7 +5848,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 45.72) (xy 39.37 45.72)
+			(xy 34.29 45.72) (xy 39.37 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5630,16 +5938,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 162.56) (xy 97.79 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "670dba50-ba7a-494d-b68c-99f01fba0a3b")
-	)
-	(wire
-		(pts
 			(xy 143.51 64.77) (xy 146.05 64.77)
 		)
 		(stroke
@@ -5660,7 +5958,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 99.06) (xy 92.71 99.06)
+			(xy 62.23 99.06) (xy 100.33 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5670,7 +5968,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 124.46) (xy 92.71 124.46)
+			(xy 62.23 124.46) (xy 100.33 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5690,7 +5988,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 90.17) (xy 248.92 102.87)
+			(xy 247.65 44.45) (xy 247.65 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5720,6 +6018,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 120.65) (xy 264.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e23aea2-cda7-403c-89e3-8119d697d5cc")
+	)
+	(wire
+		(pts
 			(xy 191.77 54.61) (xy 194.31 54.61)
 		)
 		(stroke
@@ -5730,7 +6038,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 74.93) (xy 255.27 74.93)
+			(xy 256.54 29.21) (xy 254 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5750,13 +6058,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 137.16) (xy 97.79 137.16)
+			(xy 243.84 123.19) (xy 243.84 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70dca4b3-0ccb-4b81-bc8c-a1d09980596e")
+		(uuid "706faff6-e8d4-4cba-8e1f-082d8775820b")
 	)
 	(wire
 		(pts
@@ -5800,37 +6108,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 35.56) (xy 36.83 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77fabb8c-775f-4475-bd29-339986b64f06")
-	)
-	(wire
-		(pts
-			(xy 36.83 172.72) (xy 39.37 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d79826-4870-474d-a8b4-f6aa468a02b4")
-	)
-	(wire
-		(pts
-			(xy 36.83 60.96) (xy 39.37 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7908ed35-538c-4a27-b747-e0f2c6f48d0c")
-	)
-	(wire
-		(pts
-			(xy 36.83 121.92) (xy 39.37 121.92)
+			(xy 34.29 121.92) (xy 39.37 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5840,7 +6118,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 87.63) (xy 260.35 97.79)
+			(xy 259.08 41.91) (xy 259.08 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5860,7 +6138,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 110.49) (xy 257.81 113.03)
+			(xy 256.54 64.77) (xy 256.54 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5870,23 +6148,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 74.93) (xy 252.73 74.93)
+			(xy 247.65 29.21) (xy 251.46 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c0f1b9c-972b-48b1-bfab-6596b8f634b1")
-	)
-	(wire
-		(pts
-			(xy 34.29 121.92) (xy 36.83 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7caf6b6b-4956-4f55-95de-1e752e12d956")
 	)
 	(wire
 		(pts
@@ -5930,7 +6198,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 109.22) (xy 36.83 109.22)
+			(xy 34.29 109.22) (xy 39.37 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6000,16 +6268,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 149.86) (xy 39.37 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86e81e44-3b05-4c8f-9fd1-4f61a4b077c7")
-	)
-	(wire
-		(pts
 			(xy 143.51 110.49) (xy 146.05 110.49)
 		)
 		(stroke
@@ -6060,16 +6318,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 48.26) (xy 36.83 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee6a79c-400e-4b91-af86-2f452a81dd13")
-	)
-	(wire
-		(pts
 			(xy 181.61 80.01) (xy 179.07 80.01)
 		)
 		(stroke
@@ -6090,7 +6338,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 162.56) (xy 92.71 162.56)
+			(xy 62.23 162.56) (xy 100.33 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6107,16 +6355,6 @@
 			(type default)
 		)
 		(uuid "909c1bb4-0efd-43a8-8ff9-1c3e17ed07f9")
-	)
-	(wire
-		(pts
-			(xy 100.33 124.46) (xy 97.79 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "923cac1e-d83b-4f92-830b-6d81548c375b")
 	)
 	(wire
 		(pts
@@ -6140,26 +6378,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 86.36) (xy 36.83 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94733b9f-c297-42bd-9d88-09daaf5e93a0")
-	)
-	(wire
-		(pts
-			(xy 36.83 48.26) (xy 36.83 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94faf369-6eaf-454d-9ecc-9f078a258ed7")
-	)
-	(wire
-		(pts
 			(xy 62.23 172.72) (xy 67.31 172.72)
 		)
 		(stroke
@@ -6180,7 +6398,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 175.26) (xy 92.71 175.26)
+			(xy 62.23 175.26) (xy 100.33 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6230,6 +6448,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 123.19) (xy 246.38 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdb3c2f-61c2-4b16-8038-089c7141e489")
+	)
+	(wire
+		(pts
 			(xy 143.51 87.63) (xy 146.05 87.63)
 		)
 		(stroke
@@ -6250,33 +6478,13 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 95.25) (xy 262.89 95.25)
+			(xy 256.54 49.53) (xy 261.62 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a0108687-16f6-46ad-96e6-43fe06af91d5")
-	)
-	(wire
-		(pts
-			(xy 36.83 175.26) (xy 39.37 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a182c0c2-0583-4e1e-8747-0064c18af0aa")
-	)
-	(wire
-		(pts
-			(xy 34.29 45.72) (xy 36.83 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1de8b6a-08ab-4c77-b202-0a9f44f2d871")
 	)
 	(wire
 		(pts
@@ -6310,23 +6518,33 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 162.56) (xy 36.83 172.72)
+			(xy 264.16 109.22) (xy 257.81 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a66acd1e-32fc-4891-b3e6-a050b9db4f09")
+		(uuid "a5482cfa-bd04-484b-8e29-e67349f97618")
 	)
 	(wire
 		(pts
-			(xy 36.83 185.42) (xy 67.31 185.42)
+			(xy 34.29 185.42) (xy 67.31 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a6ac1f4f-d4e9-4b76-9d9a-482be051f3c1")
+	)
+	(wire
+		(pts
+			(xy 241.3 120.65) (xy 243.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f5483f-174d-430c-8ac4-98f0b1ce7c6f")
 	)
 	(wire
 		(pts
@@ -6340,16 +6558,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 160.02) (xy 36.83 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a925795e-ad77-4dc7-bd4b-4a6d37e24b47")
-	)
-	(wire
-		(pts
 			(xy 143.51 113.03) (xy 146.05 113.03)
 		)
 		(stroke
@@ -6360,7 +6568,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 149.86) (xy 92.71 149.86)
+			(xy 62.23 149.86) (xy 100.33 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6370,7 +6578,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 48.26) (xy 92.71 48.26)
+			(xy 62.23 48.26) (xy 100.33 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6390,26 +6598,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 134.62) (xy 39.37 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af1ef956-42ed-4911-a070-a3fa6f976de8")
-	)
-	(wire
-		(pts
-			(xy 39.37 111.76) (xy 36.83 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b00e711e-1164-448d-98cd-a097442c59c9")
-	)
-	(wire
-		(pts
 			(xy 184.15 59.69) (xy 198.12 59.69)
 		)
 		(stroke
@@ -6417,16 +6605,6 @@
 			(type default)
 		)
 		(uuid "b09a4f34-b587-4beb-b3e9-2190f2274855")
-	)
-	(wire
-		(pts
-			(xy 100.33 48.26) (xy 97.79 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b09fb271-6f26-463b-afa0-f3cefadb257a")
 	)
 	(wire
 		(pts
@@ -6450,17 +6628,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 149.86) (xy 36.83 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b64a30af-b298-4a9b-bec8-576a9550a19a")
-	)
-	(wire
-		(pts
-			(xy 62.23 86.36) (xy 92.71 86.36)
+			(xy 62.23 86.36) (xy 100.33 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6470,7 +6638,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 92.71) (xy 262.89 92.71)
+			(xy 254 46.99) (xy 261.62 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6490,7 +6658,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 95.25) (xy 257.81 100.33)
+			(xy 256.54 49.53) (xy 256.54 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6500,23 +6668,23 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 87.63) (xy 252.73 90.17)
+			(xy 264.16 134.62) (xy 257.81 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f8368e-342d-4f98-b5d9-c79f9397649a")
+	)
+	(wire
+		(pts
+			(xy 251.46 41.91) (xy 251.46 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bd1c3859-c1d0-4391-8626-d9172eec504e")
-	)
-	(wire
-		(pts
-			(xy 39.37 137.16) (xy 36.83 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd22516a-5b9f-4ca6-b2c9-8f7e491120ab")
 	)
 	(wire
 		(pts
@@ -6530,7 +6698,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 74.93) (xy 257.81 74.93)
+			(xy 259.08 29.21) (xy 256.54 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6560,17 +6728,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 73.66) (xy 97.79 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c41d2bc3-f1c4-4486-b165-08336d869bc8")
-	)
-	(wire
-		(pts
-			(xy 36.83 83.82) (xy 39.37 83.82)
+			(xy 34.29 83.82) (xy 39.37 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6580,7 +6738,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 111.76) (xy 92.71 111.76)
+			(xy 62.23 111.76) (xy 100.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6590,7 +6748,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 58.42) (xy 39.37 58.42)
+			(xy 34.29 58.42) (xy 39.37 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6670,17 +6828,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 175.26) (xy 36.83 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca4e3b8b-fdb2-40e5-b154-65938099e08c")
-	)
-	(wire
-		(pts
-			(xy 252.73 74.93) (xy 252.73 77.47)
+			(xy 251.46 29.21) (xy 251.46 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6690,7 +6838,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 92.71) (xy 255.27 100.33)
+			(xy 254 46.99) (xy 254 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6710,16 +6858,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 111.76) (xy 36.83 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd3f7802-2759-4fa2-91e3-08406a83a3e5")
-	)
-	(wire
-		(pts
 			(xy 77.47 58.42) (xy 77.47 63.5)
 		)
 		(stroke
@@ -6730,23 +6868,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 111.76) (xy 97.79 111.76)
+			(xy 243.84 120.65) (xy 246.38 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce4aac1f-f6e8-4529-bd8a-f5639d364c63")
-	)
-	(wire
-		(pts
-			(xy 36.83 96.52) (xy 39.37 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2476531-86ce-46c3-8bed-7f7023092aff")
+		(uuid "d442eb2e-7789-4b70-9211-cb52e1ff75d5")
 	)
 	(wire
 		(pts
@@ -6760,26 +6888,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 149.86) (xy 97.79 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d66f702c-560c-4576-9785-8f2f710ed6f0")
-	)
-	(wire
-		(pts
-			(xy 36.83 99.06) (xy 39.37 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8051bff-a0c4-44e8-8ecf-cbfbfa2ca566")
-	)
-	(wire
-		(pts
 			(xy 36.83 33.02) (xy 39.37 33.02)
 		)
 		(stroke
@@ -6790,23 +6898,23 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 185.42) (xy 36.83 185.42)
+			(xy 180.34 97.79) (xy 181.61 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9c38ad6-a67c-42b7-b234-8d94830e57a1")
+		(uuid "d8a420bc-7967-467b-8b01-63aca868fe20")
 	)
 	(wire
 		(pts
-			(xy 100.33 35.56) (xy 97.79 35.56)
+			(xy 243.84 109.22) (xy 250.19 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9e4bfa6-cb5d-45d2-839a-7e632c9594f6")
+		(uuid "d91f977b-7f9f-43e6-8f4b-f9378ac0a80b")
 	)
 	(wire
 		(pts
@@ -6840,7 +6948,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 74.93) (xy 260.35 77.47)
+			(xy 259.08 29.21) (xy 259.08 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6850,7 +6958,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 137.16) (xy 92.71 137.16)
+			(xy 62.23 137.16) (xy 100.33 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6900,7 +7008,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 74.93) (xy 260.35 74.93)
+			(xy 261.62 29.21) (xy 259.08 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6917,16 +7025,6 @@
 			(type default)
 		)
 		(uuid "e897c3e0-c586-484f-9203-07dd7bff1c73")
-	)
-	(wire
-		(pts
-			(xy 100.33 175.26) (xy 97.79 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e89b4ddf-6838-42b1-95ef-b3c608da3021")
 	)
 	(wire
 		(pts
@@ -6950,17 +7048,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 109.22) (xy 39.37 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb7df58c-dd77-4dac-899d-c90ef7a10ae2")
-	)
-	(wire
-		(pts
-			(xy 246.38 90.17) (xy 248.92 90.17)
+			(xy 245.11 44.45) (xy 247.65 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6990,23 +7078,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 96.52) (xy 36.83 96.52)
+			(xy 34.29 96.52) (xy 39.37 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ece89398-b050-451c-a7ac-b201f2c434f5")
-	)
-	(wire
-		(pts
-			(xy 36.83 124.46) (xy 36.83 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed4d99d6-b195-45ae-9052-46b51c4746e1")
 	)
 	(wire
 		(pts
@@ -7030,13 +7108,23 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 107.95) (xy 248.92 113.03)
+			(xy 247.65 62.23) (xy 247.65 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ee96974b-74c9-49d4-8bea-34da9dd433bf")
+	)
+	(wire
+		(pts
+			(xy 264.16 109.22) (xy 264.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb27ac1-2f73-4427-b71b-7564762bb595")
 	)
 	(wire
 		(pts
@@ -7050,7 +7138,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 97.79) (xy 260.35 100.33)
+			(xy 259.08 52.07) (xy 259.08 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7060,7 +7148,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 90.17) (xy 252.73 100.33)
+			(xy 251.46 44.45) (xy 251.46 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7080,7 +7168,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 113.03) (xy 255.27 113.03)
+			(xy 256.54 67.31) (xy 254 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7110,7 +7198,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 73.66) (xy 92.71 73.66)
+			(xy 62.23 73.66) (xy 100.33 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7130,7 +7218,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 113.03) (xy 255.27 113.03)
+			(xy 251.46 67.31) (xy 254 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7140,7 +7228,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 110.49) (xy 255.27 113.03)
+			(xy 254 64.77) (xy 254 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7167,16 +7255,6 @@
 			(type default)
 		)
 		(uuid "fc9f7c19-850f-4dd0-b298-61e431cda9fd")
-	)
-	(wire
-		(pts
-			(xy 100.33 99.06) (xy 97.79 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd2ec210-62dc-4638-9827-65a521aac64b")
 	)
 	(wire
 		(pts
@@ -7230,16 +7308,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 147.32) (xy 36.83 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff90bfa5-73b1-4795-b065-acea7a1f360f")
-	)
-	(wire
-		(pts
 			(xy 77.47 144.78) (xy 77.47 147.32)
 		)
 		(stroke
@@ -7263,7 +7331,7 @@
 	)
 	(rectangle
 		(start 229.87 15.24)
-		(end 281.94 162.56)
+		(end 279.4 81.28)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7287,9 +7355,46 @@
 		)
 		(uuid 92abc719-e851-48cb-bbef-4df4efefcc0d)
 	)
+	(rectangle
+		(start 229.87 83.82)
+		(end 279.4 162.56)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f545ac53-0dc9-49f8-8c7e-e3d3c4ffe99c)
+	)
+	(text "CELL/TEMP DISCONN"
+		(exclude_from_sim no)
+		(at 278.13 161.29 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 1)
+				(bold yes)
+				(color 132 132 132 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "0150cba3-2fa7-47ec-bb9f-899f8ee5034f")
+	)
+	(text "sprawdzic jeszcze tego sipa"
+		(exclude_from_sim no)
+		(at 254 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31102b5b-da36-436b-86e7-1d3b8da0beb0")
+	)
 	(text "TEMP"
 		(exclude_from_sim no)
-		(at 280.67 161.29 0)
+		(at 278.13 80.01 0)
 		(effects
 			(font
 				(size 2 2)
@@ -7374,7 +7479,7 @@
 		(uuid "103b5539-05a5-4f42-854a-6b15bcdaa1d4")
 	)
 	(label "VREF2"
-		(at 262.89 74.93 0)
+		(at 261.62 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7450,6 +7555,17 @@
 		)
 		(uuid "290a89e4-8e0f-4e63-ac6a-e850a22ec8dd")
 	)
+	(label "SW_C1"
+		(at 266.7 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a8a1df0-642e-4927-93ba-a5cf8abd9cde")
+	)
 	(label "C12"
 		(at 100.33 33.02 0)
 		(fields_autoplaced yes)
@@ -7471,17 +7587,6 @@
 			(justify left bottom)
 		)
 		(uuid "3911f697-38af-4471-b890-5c1d5276bb81")
-	)
-	(label "C12"
-		(at 143.51 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3cc5a840-519c-46ed-91e0-2c0e2573d25c")
 	)
 	(label "S1"
 		(at 100.33 175.26 0)
@@ -7736,6 +7841,17 @@
 		)
 		(uuid "9af06a0e-ebe4-4354-bc94-8094e78ffcc0")
 	)
+	(label "SW_TH1+"
+		(at 181.61 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e5e6c73-3ce1-4862-abaa-9d2cab60454f")
+	)
 	(label "S6"
 		(at 143.51 97.79 180)
 		(fields_autoplaced yes)
@@ -7757,6 +7873,17 @@
 			(justify left bottom)
 		)
 		(uuid "a7e76102-5b84-429c-abfe-bb54b9334b62")
+	)
+	(label "C1"
+		(at 241.3 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aad60508-e43f-4ad7-a3e6-a2e5d66e41d0")
 	)
 	(label "C8"
 		(at 143.51 80.01 180)
@@ -7856,6 +7983,17 @@
 			(justify right bottom)
 		)
 		(uuid "d6d8b01a-ddcc-489a-8cdc-be54d73341ba")
+	)
+	(label "SW_TH1+"
+		(at 266.7 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8000c27-ba03-4e8f-b670-5a01ab2343e4")
 	)
 	(label "C6"
 		(at 100.33 109.22 0)
@@ -7983,7 +8121,7 @@
 	)
 	(hierarchical_label "TH3+"
 		(shape input)
-		(at 262.89 92.71 0)
+		(at 261.62 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8091,7 +8229,7 @@
 	)
 	(hierarchical_label "TH2+"
 		(shape input)
-		(at 262.89 90.17 0)
+		(at 261.62 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8163,7 +8301,7 @@
 	)
 	(hierarchical_label "TH5+"
 		(shape input)
-		(at 262.89 97.79 0)
+		(at 261.62 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8185,9 +8323,21 @@
 		)
 		(uuid "6fadf983-68ea-4c60-ba18-214f26b298c0")
 	)
+	(hierarchical_label "TH1+"
+		(shape input)
+		(at 241.3 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7addc58f-c0c0-449c-a600-2d3a2f81013e")
+	)
 	(hierarchical_label "V-"
 		(shape output)
-		(at 260.35 115.57 270)
+		(at 259.08 69.85 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8211,7 +8361,7 @@
 	)
 	(hierarchical_label "TH1+"
 		(shape input)
-		(at 246.38 90.17 180)
+		(at 245.11 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8220,18 +8370,6 @@
 			(justify right)
 		)
 		(uuid "8e21936d-aea3-4f90-98a7-8b137e894fcb")
-	)
-	(hierarchical_label "TH5+"
-		(shape input)
-		(at 181.61 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8f7fffbd-7587-4e9b-97ce-3f2c8be3c871")
 	)
 	(hierarchical_label "C8+"
 		(shape input)
@@ -8257,9 +8395,9 @@
 		)
 		(uuid "9c66af72-cd55-48d3-a108-6c98f0921b1a")
 	)
-	(hierarchical_label "TH1+"
+	(hierarchical_label "TH5+"
 		(shape input)
-		(at 181.61 97.79 0)
+		(at 181.61 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8271,7 +8409,7 @@
 	)
 	(hierarchical_label "TH4+"
 		(shape input)
-		(at 262.89 95.25 0)
+		(at 261.62 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8373,7 +8511,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00165365-03c4-4ff4-a17e-7570f8b02c5b")
 		(property "Reference" "CN5"
 			(at 80.01 52.07 0)
@@ -8393,7 +8531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 93.98 50.8 0)
 			(effects
 				(font
@@ -8503,10 +8641,6 @@
 					(reference "CN5")
 					(unit 3)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN6")
-					(unit 3)
-				)
 			)
 		)
 	)
@@ -8594,10 +8728,6 @@
 					(reference "RN1")
 					(unit 4)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN2")
-					(unit 4)
-				)
 			)
 		)
 	)
@@ -8672,10 +8802,6 @@
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "R5")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -8971,10 +9097,6 @@
 					(reference "IC1")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "IC2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -8986,7 +9108,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0ad14c54-023d-43c5-83c0-5957e8567afd")
 		(property "Reference" "CN1"
 			(at 80.01 179.07 0)
@@ -9006,7 +9128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 93.98 177.8 0)
 			(effects
 				(font
@@ -9116,10 +9238,6 @@
 					(reference "CN1")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -9207,10 +9325,6 @@
 					(reference "RN5")
 					(unit 3)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN6")
-					(unit 3)
-				)
 			)
 		)
 	)
@@ -9269,19 +9383,19 @@
 			)
 		)
 		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc056")
+			(uuid "ad4979bf-e731-4572-a126-cde0e78bc057")
 		)
 		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de3")
+			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de4")
 		)
 		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c5e")
+			(uuid "d050c35a-f402-439f-b394-48da6f7c9c5f")
 		)
 		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e950")
+			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e951")
 		)
 		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae8")
+			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae9")
 		)
 		(pin "4"
 			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520c")
@@ -9290,16 +9404,12 @@
 			(uuid "a0270409-3d71-487d-a750-1db84c51f5ae")
 		)
 		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada6")
+			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada7")
 		)
 		(instances
 			(project ""
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "RN3")
-					(unit 4)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN4")
 					(unit 4)
 				)
 			)
@@ -9360,19 +9470,19 @@
 			)
 		)
 		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc056")
+			(uuid "ad4979bf-e731-4572-a126-cde0e78bc059")
 		)
 		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de3")
+			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de5")
 		)
 		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c5e")
+			(uuid "d050c35a-f402-439f-b394-48da6f7c9c61")
 		)
 		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e950")
+			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e953")
 		)
 		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae8")
+			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aeb")
 		)
 		(pin "4"
 			(uuid "2e05694d-574b-48be-8995-c636d8a1a54e")
@@ -9381,16 +9491,12 @@
 			(uuid "b4196be4-2584-43a5-af26-a9f1fe62488a")
 		)
 		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada6")
+			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada8")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "RN5")
-					(unit 4)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN6")
 					(unit 4)
 				)
 			)
@@ -9404,7 +9510,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1f22a7a0-95be-471c-8f36-93b698effb11")
 		(property "Reference" "CN3"
 			(at 80.01 102.87 0)
@@ -9424,7 +9530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 93.98 101.6 0)
 			(effects
 				(font
@@ -9505,25 +9611,25 @@
 			)
 		)
 		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26822")
+			(uuid "495f2c88-ef22-4813-b7dc-d12075d26823")
 		)
 		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c4")
+			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c5")
 		)
 		(pin "6"
 			(uuid "401635c6-b3bb-4a20-961d-defcc47e1594")
 		)
 		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6b")
+			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6c")
 		)
 		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304243")
+			(uuid "8d0ce101-965f-49af-aa95-d222e7304244")
 		)
 		(pin "4"
-			(uuid "fda1aa26-519f-4190-879e-c390f06a979f")
+			(uuid "fda1aa26-519f-4190-879e-c390f06a97a0")
 		)
 		(pin "5"
-			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa8858")
+			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa8859")
 		)
 		(pin "3"
 			(uuid "565ab306-ebe4-4cc5-9fe0-f3760faca1a7")
@@ -9534,16 +9640,12 @@
 					(reference "CN3")
 					(unit 3)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN4")
-					(unit 3)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
-		(at 248.92 82.55 180)
+		(at 247.65 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9551,7 +9653,7 @@
 		(dnp no)
 		(uuid "27b56068-d88a-4945-b6ee-d6fb3e5ba81c")
 		(property "Reference" "R2"
-			(at 246.38 81.5086 0)
+			(at 245.11 35.7886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9560,7 +9662,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 246.38 83.82 0)
+			(at 245.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,7 +9671,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 248.92 82.55 0)
+			(at 247.65 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9578,7 +9680,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 82.55 0)
+			(at 247.65 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9587,7 +9689,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 82.55 0)
+			(at 247.65 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9596,7 +9698,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "--"
-			(at 248.92 82.55 0)
+			(at 247.65 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9614,10 +9716,6 @@
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "R2")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9712,37 +9810,33 @@
 			)
 		)
 		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc056")
+			(uuid "ad4979bf-e731-4572-a126-cde0e78bc05a")
 		)
 		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de3")
+			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de6")
 		)
 		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c5e")
+			(uuid "d050c35a-f402-439f-b394-48da6f7c9c62")
 		)
 		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e950")
+			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e954")
 		)
 		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae8")
+			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aec")
 		)
 		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520c")
+			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520d")
 		)
 		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5ae")
+			(uuid "a0270409-3d71-487d-a750-1db84c51f5af")
 		)
 		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada6")
+			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada9")
 		)
 		(instances
 			(project ""
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "RN3")
-					(unit 3)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN4")
 					(unit 3)
 				)
 			)
@@ -9756,7 +9850,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2e3f4634-52fb-4cd7-ac8e-0f6a9b620ffb")
 		(property "Reference" "CN1"
 			(at 80.01 153.67 0)
@@ -9776,7 +9870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 93.98 152.4 0)
 			(effects
 				(font
@@ -9860,22 +9954,22 @@
 			(uuid "495f2c88-ef22-4813-b7dc-d12075d26821")
 		)
 		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c2")
+			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c3")
 		)
 		(pin "6"
-			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e4")
+			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e5")
 		)
 		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a69")
+			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6a")
 		)
 		(pin "8"
 			(uuid "8d0ce101-965f-49af-aa95-d222e7304242")
 		)
 		(pin "4"
-			(uuid "fda1aa26-519f-4190-879e-c390f06a979f")
+			(uuid "fda1aa26-519f-4190-879e-c390f06a97a1")
 		)
 		(pin "5"
-			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa8858")
+			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa885a")
 		)
 		(pin "3"
 			(uuid "d3e11bd8-0ef7-45aa-bf6e-7b8db042cc21")
@@ -9886,9 +9980,82 @@
 					(reference "CN1")
 					(unit 3)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN2")
-					(unit 3)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 254 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f891411-e991-466a-be28-c6c16b449db6")
+		(property "Reference" "JP1"
+			(at 254 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MES"
+			(at 254 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "--"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32dede15-cc55-4656-8524-cae1b135c6b9")
+		)
+		(pin "2"
+			(uuid "657d5d99-8d91-4ecf-883e-c34b6355ebfb")
+		)
+		(instances
+			(project "PUTM_EV_AMS_SLAVE_2025"
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
+					(reference "JP1")
+					(unit 1)
 				)
 			)
 		)
@@ -9947,10 +10114,10 @@
 			)
 		)
 		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc057")
+			(uuid "ad4979bf-e731-4572-a126-cde0e78bc05b")
 		)
 		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de4")
+			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de7")
 		)
 		(pin "8"
 			(uuid "3fa64492-d369-46e0-b873-89502e815496")
@@ -9959,25 +10126,21 @@
 			(uuid "f31b0a12-3719-4ff7-8195-639c24d87df7")
 		)
 		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae9")
+			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aed")
 		)
 		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520d")
+			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520f")
 		)
 		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5af")
+			(uuid "a0270409-3d71-487d-a750-1db84c51f5b1")
 		)
 		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada7")
+			(uuid "0b574bbc-357c-4260-be7b-529f07b8adaa")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "RN1")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -9991,7 +10154,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "381e6183-b4ba-4b09-809c-1be5085e64da")
 		(property "Reference" "CN1"
 			(at 80.01 140.97 0)
@@ -10011,7 +10174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 93.98 139.7 0)
 			(effects
 				(font
@@ -10092,19 +10255,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26821")
+			(uuid "495f2c88-ef22-4813-b7dc-d12075d26824")
 		)
 		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c2")
+			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c6")
 		)
 		(pin "6"
 			(uuid "8527fe8d-eb27-4c94-bc74-d6016be76fe6")
 		)
 		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a69")
+			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6d")
 		)
 		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304242")
+			(uuid "8d0ce101-965f-49af-aa95-d222e7304245")
 		)
 		(pin "4"
 			(uuid "9dfa5692-8187-46fe-aeee-7585bdc35b52")
@@ -10119,10 +10282,6 @@
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "CN1")
-					(unit 4)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN2")
 					(unit 4)
 				)
 			)
@@ -10182,37 +10341,33 @@
 			)
 		)
 		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc056")
+			(uuid "ad4979bf-e731-4572-a126-cde0e78bc05c")
 		)
 		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de3")
+			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de8")
 		)
 		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c5e")
+			(uuid "d050c35a-f402-439f-b394-48da6f7c9c63")
 		)
 		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e950")
+			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e955")
 		)
 		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae8")
+			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aee")
 		)
 		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520c")
+			(uuid "5e88f390-6daf-482a-a7c4-74fd22905210")
 		)
 		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5ae")
+			(uuid "a0270409-3d71-487d-a750-1db84c51f5b2")
 		)
 		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada6")
+			(uuid "0b574bbc-357c-4260-be7b-529f07b8adab")
 		)
 		(instances
 			(project ""
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "RN3")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN4")
 					(unit 1)
 				)
 			)
@@ -10226,7 +10381,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3fa13780-36d9-41e4-b46c-043d3aa696aa")
 		(property "Reference" "CN3"
 			(at 80.01 115.57 0)
@@ -10246,7 +10401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 93.98 114.3 0)
 			(effects
 				(font
@@ -10327,7 +10482,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26823")
+			(uuid "495f2c88-ef22-4813-b7dc-d12075d26825")
 		)
 		(pin "2"
 			(uuid "a64583fc-8dd6-404e-ab94-81d82ceae29f")
@@ -10339,13 +10494,13 @@
 			(uuid "c607729e-6001-4871-9fe8-e70177360452")
 		)
 		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304244")
+			(uuid "8d0ce101-965f-49af-aa95-d222e7304246")
 		)
 		(pin "6"
 			(uuid "9dfa5692-8187-46fe-aeee-7585bdc35b53")
 		)
 		(pin "5"
-			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa8859")
+			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa885b")
 		)
 		(pin "3"
 			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded70")
@@ -10356,130 +10511,37 @@
 					(reference "CN3")
 					(unit 2)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN4")
-					(unit 2)
-				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "R_Pack04_Split_3")
-		(lib_id "Device:R_Pack04_Split")
-		(at 95.25 149.86 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ef89429-1fde-4eb1-9e77-88c587b38ec0")
-		(property "Reference" "RN9"
-			(at 95.25 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x3.3k"
-			(at 95.25 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 151.892 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 95.25 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc058")
-		)
-		(pin "3"
-			(uuid "db2ad008-0da2-4163-9dfa-6a6a048f686c")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c60")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e952")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aea")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520e")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b0")
-		)
-		(pin "6"
-			(uuid "c236e325-18a4-4e4b-adbe-347f9e70ef96")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN9")
-					(unit 3)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN10")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 95.25 124.46 90)
+		(lib_id "Switch:SW_DIP_x02")
+		(at 254 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4f293233-1792-4820-a1b8-c5fbb7eb2f79")
-		(property "Reference" "RN11"
-			(at 95.25 127 90)
+		(fields_autoplaced yes)
+		(uuid "3fa201aa-e6e2-48a7-b4c0-a2bd75eb03e8")
+		(property "Reference" "SW1"
+			(at 254 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4x3.3k"
-			(at 95.25 129.54 90)
+		(property "Value" "SW_DIP_x02"
+			(at 254 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 126.492 90)
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W6.73mm_P2.54mm_LowProfile_JPin"
+			(at 254 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10488,7 +10550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 124.46 0)
+			(at 254 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10496,8 +10558,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 95.25 124.46 0)
+		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 254 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10505,38 +10567,31 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc057")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de4")
-		)
-		(pin "8"
-			(uuid "88e295f5-2ca2-4179-9469-b2a0f5e8055f")
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/CTS-Electronic-Components/218-2LPSTJR?qs=6E8igxPflKeY%2FDGfx3gyFQ%3D%3D"
+			(at 254 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "4d73b5a4-35c4-4342-889d-89a954fcbd21")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae9")
+			(uuid "da531fed-c614-42eb-a9b2-67acd94f9b17")
 		)
 		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520d")
+			(uuid "6d66f7d5-e757-4de6-85b8-7539e7b496a9")
 		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5af")
+		(pin "2"
+			(uuid "f535533c-6033-45e5-b6ea-0588a99ed8a7")
 		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada7")
+		(pin "3"
+			(uuid "75910055-bde9-4d18-a36b-e75b63d688db")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project ""
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN11")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN12")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -10596,25 +10651,25 @@
 			)
 		)
 		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc058")
+			(uuid "ad4979bf-e731-4572-a126-cde0e78bc05f")
 		)
 		(pin "3"
 			(uuid "ec1d98b2-2f46-45fe-842d-503b0d534f0c")
 		)
 		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c60")
+			(uuid "d050c35a-f402-439f-b394-48da6f7c9c65")
 		)
 		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e952")
+			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e957")
 		)
 		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aea")
+			(uuid "a9954425-7c63-4fec-b27f-1c28b4527af1")
 		)
 		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520e")
+			(uuid "5e88f390-6daf-482a-a7c4-74fd22905213")
 		)
 		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b0")
+			(uuid "a0270409-3d71-487d-a750-1db84c51f5b5")
 		)
 		(pin "6"
 			(uuid "b9af6b31-21ee-42e5-aa55-f088efa7e209")
@@ -10623,10 +10678,6 @@
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "RN1")
-					(unit 3)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN2")
 					(unit 3)
 				)
 			)
@@ -10690,25 +10741,25 @@
 			(uuid "067630f5-acd5-4a4e-862f-d3a6ed0287c1")
 		)
 		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de6")
+			(uuid "b33593a2-1e68-4e3f-8175-4b9638881dea")
 		)
 		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c61")
+			(uuid "d050c35a-f402-439f-b394-48da6f7c9c66")
 		)
 		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e953")
+			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e958")
 		)
 		(pin "2"
 			(uuid "4618f114-8b9a-4284-9648-14ac800384d9")
 		)
 		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520f")
+			(uuid "5e88f390-6daf-482a-a7c4-74fd22905214")
 		)
 		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b1")
+			(uuid "a0270409-3d71-487d-a750-1db84c51f5b6")
 		)
 		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada9")
+			(uuid "0b574bbc-357c-4260-be7b-529f07b8adad")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
@@ -10716,195 +10767,12 @@
 					(reference "RN1")
 					(unit 2)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 95.25 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6333d91c-620a-4265-8298-efeb8ccd469c")
-		(property "Reference" "RN9"
-			(at 95.25 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x3.3k"
-			(at 95.25 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 177.292 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 95.25 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc057")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de4")
-		)
-		(pin "8"
-			(uuid "c4976cd1-0558-4acb-a637-88241b965480")
-		)
-		(pin "1"
-			(uuid "cd5d728f-97f7-4be5-830e-ac82c97d61ec")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae9")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520d")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5af")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada7")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN9")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_3")
-		(lib_id "Device:R_Pack04_Split")
-		(at 95.25 99.06 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66371c93-ad61-46d7-9277-a4512b41b788")
-		(property "Reference" "RN11"
-			(at 95.25 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x3.3k"
-			(at 95.25 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 101.092 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 95.25 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc058")
-		)
-		(pin "3"
-			(uuid "1ccbcd97-be19-4dad-bae6-ff4db0fd0420")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c60")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e952")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aea")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520e")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b0")
-		)
-		(pin "6"
-			(uuid "da6dfbaa-7437-4053-8824-f1869f56a7f9")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN11")
-					(unit 3)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN12")
-					(unit 3)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "exb-v8v101jv:EXB-V8V101JV")
-		(at 256.54 82.55 90)
+		(at 255.27 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10912,7 +10780,7 @@
 		(dnp no)
 		(uuid "6a41ba91-2351-41d4-bc89-2b9ebc0f4b0a")
 		(property "Reference" "RN7"
-			(at 262.89 81.28 90)
+			(at 261.62 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10921,7 +10789,7 @@
 			)
 		)
 		(property "Value" "4x10k"
-			(at 262.89 83.82 90)
+			(at 261.62 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10929,8 +10797,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Samacsys:EXBV8V101JV"
-			(at 254 66.04 0)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 252.73 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10940,7 +10808,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 256.54 66.04 0)
+			(at 255.27 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10950,7 +10818,7 @@
 			)
 		)
 		(property "Description" "Resistor Networks & Arrays 100 OHM 5%"
-			(at 259.08 66.04 0)
+			(at 257.81 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10960,7 +10828,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 261.62 66.04 0)
+			(at 260.35 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10970,7 +10838,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-EXB-V8V103GV"
-			(at 264.16 66.04 0)
+			(at 262.89 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,7 +10848,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Panasonic/EXB-V8V103GV?qs=cttFivMKqWyh0yM1oyToYw%3D%3D"
-			(at 266.7 66.04 0)
+			(at 265.43 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,7 +10858,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 269.24 66.04 0)
+			(at 267.97 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11000,7 +10868,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "EXB-V8V103GV"
-			(at 271.78 66.04 0)
+			(at 270.51 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,24 +10907,20 @@
 					(reference "RN7")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN8")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:C_Small-Device")
-		(at 248.92 105.41 0)
+		(at 247.65 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7118c59f-a50e-4237-b98d-5f0410565f46")
 		(property "Reference" "C?"
-			(at 246.38 104.14 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11065,7 +10929,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 246.38 106.68 0)
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11074,7 +10938,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 248.92 105.41 0)
+			(at 247.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11083,7 +10947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 105.41 0)
+			(at 247.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11092,7 +10956,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 105.41 0)
+			(at 247.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11101,7 +10965,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 248.92 105.41 0)
+			(at 247.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11110,7 +10974,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K4RAC7867"
-			(at 248.92 105.41 0)
+			(at 247.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11119,7 +10983,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0603C104K4R7867"
-			(at 248.92 105.41 0)
+			(at 247.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11128,7 +10992,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KEMET/C0603C104K4RAC7867?qs=l5k%252BbMnNDkktGT%252BFnawJwA%3D%3D"
-			(at 248.92 105.41 0)
+			(at 247.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11184,10 +11048,6 @@
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "C4")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11247,10 +11107,10 @@
 			)
 		)
 		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc057")
+			(uuid "ad4979bf-e731-4572-a126-cde0e78bc062")
 		)
 		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de4")
+			(uuid "b33593a2-1e68-4e3f-8175-4b9638881dec")
 		)
 		(pin "8"
 			(uuid "0a60c91b-3d36-4d36-8384-732b7ed4042c")
@@ -11259,25 +11119,21 @@
 			(uuid "45c623b4-9a7b-45e8-891f-3805852ab9aa")
 		)
 		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae9")
+			(uuid "a9954425-7c63-4fec-b27f-1c28b4527af4")
 		)
 		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520d")
+			(uuid "5e88f390-6daf-482a-a7c4-74fd22905217")
 		)
 		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5af")
+			(uuid "a0270409-3d71-487d-a750-1db84c51f5b9")
 		)
 		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada7")
+			(uuid "0b574bbc-357c-4260-be7b-529f07b8adaf")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "RN5")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN6")
 					(unit 1)
 				)
 			)
@@ -11356,10 +11212,6 @@
 					(reference "R57")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "R58")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -11434,10 +11286,6 @@
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "R4")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -11550,10 +11398,6 @@
 					(reference "R12")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "R28")
-					(unit 1)
-				)
 			)
 			(project "PUTM_EV_BMS_HV_Slave_2021"
 				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf"
@@ -11599,7 +11443,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8aa8fabf-8995-41b3-bbc2-b0405c8abbff")
 		(property "Reference" "CN3"
 			(at 80.01 90.17 0)
@@ -11619,7 +11463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 93.98 88.9 0)
 			(effects
 				(font
@@ -11700,19 +11544,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26821")
+			(uuid "495f2c88-ef22-4813-b7dc-d12075d26826")
 		)
 		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c3")
+			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c7")
 		)
 		(pin "6"
-			(uuid "8527fe8d-eb27-4c94-bc74-d6016be76fe6")
+			(uuid "8527fe8d-eb27-4c94-bc74-d6016be76fe7")
 		)
 		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6a")
+			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6e")
 		)
 		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304242")
+			(uuid "8d0ce101-965f-49af-aa95-d222e7304247")
 		)
 		(pin "4"
 			(uuid "93a28456-3795-4233-accf-92cd7a86c88e")
@@ -11721,16 +11565,12 @@
 			(uuid "937259e5-68db-448c-9416-1702ef30a0a5")
 		)
 		(pin "3"
-			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded6f")
+			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded71")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "CN3")
-					(unit 4)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN4")
 					(unit 4)
 				)
 			)
@@ -11744,7 +11584,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "971156fa-9bdf-4da2-a8aa-f6e19d5de1da")
 		(property "Reference" "CN5"
 			(at 80.01 77.47 0)
@@ -11764,7 +11604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 93.98 76.2 0)
 			(effects
 				(font
@@ -11848,34 +11688,30 @@
 			(uuid "fc0548aa-8c53-4a90-9fd5-b17a37855a2f")
 		)
 		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c2")
+			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c8")
 		)
 		(pin "3"
-			(uuid "6ed4a312-4a26-48c4-a011-e0dd1206124f")
+			(uuid "6ed4a312-4a26-48c4-a011-e0dd12061250")
 		)
 		(pin "4"
-			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e4")
+			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e7")
 		)
 		(pin "5"
-			(uuid "52806b20-e660-484c-9e93-f73e3c6613f4")
+			(uuid "52806b20-e660-484c-9e93-f73e3c6613f5")
 		)
 		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a69")
+			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6f")
 		)
 		(pin "8"
 			(uuid "4b437d6e-cf9d-4ec4-b150-57859b1e3d87")
 		)
 		(pin "6"
-			(uuid "8bd4b72f-3f74-4ac6-b313-37933816667b")
+			(uuid "8bd4b72f-3f74-4ac6-b313-37933816667c")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "CN5")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN6")
 					(unit 1)
 				)
 			)
@@ -12021,10 +11857,6 @@
 					(reference "C2")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "C22")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -12167,190 +11999,6 @@
 					(reference "Q1")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_2")
-		(lib_id "Device:R_Pack04_Split")
-		(at 95.25 86.36 90)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1dfa9c5-4d50-4f71-8871-b31e41c3913e")
-		(property "Reference" "RN11"
-			(at 95.25 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x3.3k"
-			(at 95.25 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 88.392 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc056")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de3")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c5e")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e950")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae8")
-		)
-		(pin "4"
-			(uuid "09ae5ae5-db0e-45d4-aaed-fc937d3aaa37")
-		)
-		(pin "5"
-			(uuid "c86618a8-f541-4d6a-8da9-f64dbc9c6598")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada6")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN11")
-					(unit 4)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN12")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_1")
-		(lib_id "Device:R_Pack04_Split")
-		(at 95.25 60.96 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a88e5c46-fddd-419b-b57f-36c09311869f")
-		(property "Reference" "RN13"
-			(at 95.25 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x3.3k"
-			(at 95.25 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 62.992 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 95.25 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "19d2863b-bb51-4059-873a-39b260199a08")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de6")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c61")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e953")
-		)
-		(pin "2"
-			(uuid "d1c9f05b-8c83-4145-bfbc-0de0fb654a5a")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520f")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b1")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada9")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN13")
-					(unit 2)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN14")
-					(unit 2)
-				)
 			)
 		)
 	)
@@ -12362,7 +12010,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b36a3efe-2259-41d8-a6cc-2dfef8aff9d4")
 		(property "Reference" "CN1"
 			(at 80.01 166.37 0)
@@ -12382,7 +12030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 93.98 165.1 0)
 			(effects
 				(font
@@ -12463,37 +12111,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26821")
+			(uuid "495f2c88-ef22-4813-b7dc-d12075d26827")
 		)
 		(pin "2"
 			(uuid "91c7a201-03d6-4cd5-8535-8589914c3be4")
 		)
 		(pin "4"
-			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e4")
+			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e8")
 		)
 		(pin "7"
 			(uuid "59cb5a1c-a1dc-4bc8-acdd-2a8e2cf0e97d")
 		)
 		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304242")
+			(uuid "8d0ce101-965f-49af-aa95-d222e7304248")
 		)
 		(pin "6"
-			(uuid "9dfa5692-8187-46fe-aeee-7585bdc35b52")
+			(uuid "9dfa5692-8187-46fe-aeee-7585bdc35b54")
 		)
 		(pin "5"
-			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa8858")
+			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa885c")
 		)
 		(pin "3"
-			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded6f")
+			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded72")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "CN1")
-					(unit 2)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN2")
 					(unit 2)
 				)
 			)
@@ -12572,10 +12216,6 @@
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "R8")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -12670,127 +12310,34 @@
 			)
 		)
 		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc056")
+			(uuid "ad4979bf-e731-4572-a126-cde0e78bc064")
 		)
 		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de3")
+			(uuid "b33593a2-1e68-4e3f-8175-4b9638881def")
 		)
 		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c5e")
+			(uuid "d050c35a-f402-439f-b394-48da6f7c9c6a")
 		)
 		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e950")
+			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e95c")
 		)
 		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae8")
+			(uuid "a9954425-7c63-4fec-b27f-1c28b4527af6")
 		)
 		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520c")
+			(uuid "5e88f390-6daf-482a-a7c4-74fd22905219")
 		)
 		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5ae")
+			(uuid "a0270409-3d71-487d-a750-1db84c51f5bb")
 		)
 		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada6")
+			(uuid "0b574bbc-357c-4260-be7b-529f07b8adb2")
 		)
 		(instances
 			(project ""
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "RN3")
 					(unit 2)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 95.25 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc07cc54-0f54-4aee-9ad3-197da239aa8b")
-		(property "Reference" "RN13"
-			(at 95.25 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x3.3k"
-			(at 95.25 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 75.692 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 95.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc057")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de4")
-		)
-		(pin "8"
-			(uuid "49fe000d-4628-4e81-bed5-fe21157e1c8c")
-		)
-		(pin "1"
-			(uuid "56052aaf-9d4c-4ed3-a191-80849734f676")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae9")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520d")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5af")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada7")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN13")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN14")
-					(unit 1)
 				)
 			)
 		)
@@ -12933,10 +12480,6 @@
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "C3")
-					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -13082,8 +12625,81 @@
 					(reference "C1")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "C21")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 254 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7736cf3-0758-418f-9559-0811ee348d4c")
+		(property "Reference" "JP2"
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MES"
+			(at 254 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 254 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "--"
+			(at 254 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0ca0d3f-e38f-4c67-bbe2-0badac605d0e")
+		)
+		(pin "2"
+			(uuid "dc8dbd0a-518e-4463-92db-70fc9ebc5a36")
+		)
+		(instances
+			(project "PUTM_EV_AMS_SLAVE_2025"
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -13097,7 +12713,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c9d93d20-7a30-4bbf-8604-d03722821cbe")
 		(property "Reference" "CN5"
 			(at 80.01 39.37 0)
@@ -13117,7 +12733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 93.98 38.1 0)
 			(effects
 				(font
@@ -13198,19 +12814,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26821")
+			(uuid "495f2c88-ef22-4813-b7dc-d12075d26828")
 		)
 		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c3")
+			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c9")
 		)
 		(pin "6"
-			(uuid "8527fe8d-eb27-4c94-bc74-d6016be76fe6")
+			(uuid "8527fe8d-eb27-4c94-bc74-d6016be76fe8")
 		)
 		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6a")
+			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a70")
 		)
 		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304242")
+			(uuid "8d0ce101-965f-49af-aa95-d222e7304249")
 		)
 		(pin "4"
 			(uuid "dedcd901-2d9c-4718-a7d1-f94d8c1a1b60")
@@ -13219,16 +12835,12 @@
 			(uuid "799d931d-8274-4b37-a9f2-68d9ebab823e")
 		)
 		(pin "3"
-			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded6f")
+			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded73")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "CN5")
-					(unit 4)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN6")
 					(unit 4)
 				)
 			)
@@ -13291,34 +12903,30 @@
 			(uuid "108df9d6-27b0-4b53-a966-304238024156")
 		)
 		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de6")
+			(uuid "b33593a2-1e68-4e3f-8175-4b9638881df1")
 		)
 		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c61")
+			(uuid "d050c35a-f402-439f-b394-48da6f7c9c6b")
 		)
 		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e953")
+			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e95d")
 		)
 		(pin "2"
 			(uuid "f8818a50-e803-4533-982b-4acd9a241175")
 		)
 		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520f")
+			(uuid "5e88f390-6daf-482a-a7c4-74fd2290521b")
 		)
 		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b1")
+			(uuid "a0270409-3d71-487d-a750-1db84c51f5bd")
 		)
 		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada9")
+			(uuid "0b574bbc-357c-4260-be7b-529f07b8adb4")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "RN5")
-					(unit 2)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN6")
 					(unit 2)
 				)
 			)
@@ -13332,7 +12940,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d28cf120-e7b6-424a-b0c3-37e70de67737")
 		(property "Reference" "CN3"
 			(at 80.01 128.27 0)
@@ -13352,7 +12960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 93.98 127 0)
 			(effects
 				(font
@@ -13436,125 +13044,31 @@
 			(uuid "035ffaa2-e601-4dae-be28-59df180d937f")
 		)
 		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c2")
+			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52ca")
 		)
 		(pin "3"
-			(uuid "6ed4a312-4a26-48c4-a011-e0dd1206124f")
+			(uuid "6ed4a312-4a26-48c4-a011-e0dd12061251")
 		)
 		(pin "4"
-			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e4")
+			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e9")
 		)
 		(pin "5"
-			(uuid "52806b20-e660-484c-9e93-f73e3c6613f4")
+			(uuid "52806b20-e660-484c-9e93-f73e3c6613f6")
 		)
 		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a69")
+			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a71")
 		)
 		(pin "8"
 			(uuid "aee0613a-63ac-4053-a649-c4f6bd48d9ce")
 		)
 		(pin "6"
-			(uuid "8bd4b72f-3f74-4ac6-b313-37933816667b")
+			(uuid "8bd4b72f-3f74-4ac6-b313-37933816667d")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "CN3")
 					(unit 1)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_1")
-		(lib_id "Device:R_Pack04_Split")
-		(at 95.25 111.76 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d81e62c4-dcf1-4946-a8dd-1046d2cf67bf")
-		(property "Reference" "RN11"
-			(at 95.25 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x3.3k"
-			(at 95.25 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 113.792 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 95.25 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "30bd70c6-584e-4ce4-bfcb-f38dbe8b73a9")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de6")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c61")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e953")
-		)
-		(pin "2"
-			(uuid "5226a045-8bef-4555-8b4e-63656f3b62c3")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520f")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b1")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada9")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN11")
-					(unit 2)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN12")
-					(unit 2)
 				)
 			)
 		)
@@ -13661,10 +13175,6 @@
 					(reference "C19")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "C20")
-					(unit 1)
-				)
 			)
 			(project "PUTM_EV_BMS_HV_Slave_2021"
 				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf"
@@ -13698,96 +13208,6 @@
 				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-0000622ab4f3"
 					(reference "C27")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_3")
-		(lib_id "Device:R_Pack04_Split")
-		(at 95.25 48.26 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de9ddc0f-9a6d-4067-9c32-8225f99cf7d2")
-		(property "Reference" "RN13"
-			(at 95.25 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x3.3k"
-			(at 95.25 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 50.292 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 95.25 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc058")
-		)
-		(pin "3"
-			(uuid "a7f42732-4dab-46a5-ad60-2f5377315d37")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c60")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e952")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aea")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520e")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b0")
-		)
-		(pin "6"
-			(uuid "3675f764-44f6-4fbd-8d04-1035bd2ea067")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN13")
-					(unit 3)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN14")
-					(unit 3)
 				)
 			)
 		)
@@ -13894,10 +13314,6 @@
 					(reference "C18")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "C24")
-					(unit 1)
-				)
 			)
 			(project "PUTM_EV_BMS_HV_Slave_2021"
 				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf"
@@ -13931,96 +13347,6 @@
 				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-0000622ab4f3"
 					(reference "C27")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_2")
-		(lib_id "Device:R_Pack04_Split")
-		(at 95.25 35.56 90)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e12bb373-5b4e-43c0-9e7f-300235abcf39")
-		(property "Reference" "RN13"
-			(at 95.25 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x3.3k"
-			(at 95.25 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 37.592 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 95.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc056")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de3")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c5e")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e950")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae8")
-		)
-		(pin "4"
-			(uuid "8c66e5b8-c47c-4e82-80af-a2055a13b4ee")
-		)
-		(pin "5"
-			(uuid "5121fc1e-77b9-4045-ab53-dd819f0dceb1")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada6")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN13")
-					(unit 4)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN14")
-					(unit 4)
 				)
 			)
 		)
@@ -14098,10 +13424,6 @@
 					(reference "R20")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "R32")
-					(unit 1)
-				)
 			)
 			(project "PUTM_EV_BMS_HV_Slave_2021"
 				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf"
@@ -14140,96 +13462,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Pack04_Split_2")
-		(lib_id "Device:R_Pack04_Split")
-		(at 95.25 137.16 90)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee9b72f4-c0d7-47f7-b118-5f0978510b75")
-		(property "Reference" "RN9"
-			(at 95.25 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x3.3k"
-			(at 95.25 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 139.192 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 95.25 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc056")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de3")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c5e")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e950")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae8")
-		)
-		(pin "4"
-			(uuid "ddcae9f2-5e2b-4ff0-a197-ac5eda02bbbd")
-		)
-		(pin "5"
-			(uuid "fe1ae2ac-b39b-461e-854e-af75066f9d28")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada6")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN9")
-					(unit 4)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN10")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "CA064X104K4RACAUTO_2")
 		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
 		(at 77.47 66.04 0)
@@ -14237,7 +13469,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f3c6c2ad-8c2e-4b2a-aa11-ef7fd9db3831")
 		(property "Reference" "CN5"
 			(at 80.01 64.77 0)
@@ -14257,7 +13489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 93.98 63.5 0)
 			(effects
 				(font
@@ -14338,37 +13570,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26823")
+			(uuid "495f2c88-ef22-4813-b7dc-d12075d26829")
 		)
 		(pin "2"
 			(uuid "f668152a-76d5-4d68-82d8-73a4ffead1e8")
 		)
 		(pin "4"
-			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e6")
+			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008ea")
 		)
 		(pin "7"
 			(uuid "94eefa87-f4f2-41f1-b5d1-8c0f13bd3a9b")
 		)
 		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304244")
+			(uuid "8d0ce101-965f-49af-aa95-d222e730424a")
 		)
 		(pin "6"
-			(uuid "9dfa5692-8187-46fe-aeee-7585bdc35b53")
+			(uuid "9dfa5692-8187-46fe-aeee-7585bdc35b55")
 		)
 		(pin "5"
-			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa8859")
+			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa885d")
 		)
 		(pin "3"
-			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded70")
+			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded74")
 		)
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "CN5")
-					(unit 2)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN6")
 					(unit 2)
 				)
 			)
@@ -14447,10 +13675,6 @@
 					(reference "R7")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "R52")
-					(unit 1)
-				)
 			)
 			(project "PUTM_EV_BMS_HV_Slave_2021"
 				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf"
@@ -14489,106 +13713,16 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Pack04_Split_1")
-		(lib_id "Device:R_Pack04_Split")
-		(at 95.25 162.56 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcb5f2a5-9745-4abf-bbbe-c58fdc54887c")
-		(property "Reference" "RN9"
-			(at 95.25 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x3.3k"
-			(at 95.25 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 164.592 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 95.25 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ab65f189-f2e5-4a20-80da-a734a46efdd8")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de6")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c61")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e953")
-		)
-		(pin "2"
-			(uuid "5fd5b1cb-d379-41a3-b186-3905e859bcc8")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520f")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b1")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada9")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN9")
-					(unit 2)
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "RN10")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 256.54 105.41 90)
+		(at 255.27 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fed1acc1-ac1e-492f-b277-e1cf4037591a")
 		(property "Reference" "CN7"
-			(at 262.89 104.14 90)
+			(at 261.62 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14597,7 +13731,7 @@
 			)
 		)
 		(property "Value" "4x100nF"
-			(at 262.89 106.68 90)
+			(at 261.62 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,8 +13739,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
-			(at 254 88.9 0)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 252.73 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14616,7 +13750,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 256.54 88.9 0)
+			(at 255.27 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14626,7 +13760,7 @@
 			)
 		)
 		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 259.08 88.9 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14636,7 +13770,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 261.62 88.9 0)
+			(at 260.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14646,7 +13780,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 264.16 88.9 0)
+			(at 262.89 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14656,7 +13790,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 266.7 88.9 0)
+			(at 265.43 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14666,7 +13800,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 269.24 88.9 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14676,7 +13810,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 271.78 88.9 0)
+			(at 270.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14715,10 +13849,6 @@
 					(reference "CN7")
 					(unit 1)
 				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(reference "CN8")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -14751,16 +13881,6 @@
 				(hide yes)
 			)
 		)
-		(pin "CI-" output
-			(at 39.37 149.86 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "26f22752-6959-4ab7-ab0b-65f7a6e4fb66")
-		)
 		(pin "S" input
 			(at 62.23 149.86 0)
 			(effects
@@ -14792,12 +13912,9 @@
 			(uuid "0ca0e6c3-bb83-444d-969b-db02a59f27b4")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "5")
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(page "19")
 				)
 			)
 		)
@@ -14831,16 +13948,6 @@
 				(hide yes)
 			)
 		)
-		(pin "CI-" output
-			(at 39.37 124.46 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "237a5da1-b7d2-4c8b-935f-fb4b54afca69")
-		)
 		(pin "S" input
 			(at 62.23 124.46 0)
 			(effects
@@ -14872,12 +13979,9 @@
 			(uuid "64ac89ed-a768-40db-84e5-e7364ab8e8fc")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "7")
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(page "14")
 				)
 			)
 		)
@@ -14911,16 +14015,6 @@
 				(hide yes)
 			)
 		)
-		(pin "CI-" output
-			(at 39.37 137.16 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "8cf1a38b-acaa-4cdd-9dbc-8b9fbea3737a")
-		)
 		(pin "S" input
 			(at 62.23 137.16 0)
 			(effects
@@ -14952,12 +14046,9 @@
 			(uuid "11534bd2-d291-47e2-a5b1-8f390597ddf4")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "6")
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(page "21")
 				)
 			)
 		)
@@ -14991,16 +14082,6 @@
 				(hide yes)
 			)
 		)
-		(pin "CI-" output
-			(at 39.37 99.06 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "ebf404f0-2599-4f3d-9e5c-417c74dc8f59")
-		)
 		(pin "S" input
 			(at 62.23 99.06 0)
 			(effects
@@ -15032,12 +14113,9 @@
 			(uuid "fc4b22db-5147-43d0-8f0c-972d723f5788")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "9")
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(page "23")
 				)
 			)
 		)
@@ -15071,16 +14149,6 @@
 				(hide yes)
 			)
 		)
-		(pin "CI-" output
-			(at 39.37 162.56 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "84ac8120-0aad-4407-a5ae-965b442decc6")
-		)
 		(pin "S" input
 			(at 62.23 162.56 0)
 			(effects
@@ -15112,12 +14180,9 @@
 			(uuid "9fa95498-295c-47c3-96ab-d50dca0de16e")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "4")
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(page "20")
 				)
 			)
 		)
@@ -15151,16 +14216,6 @@
 				(hide yes)
 			)
 		)
-		(pin "CI-" output
-			(at 39.37 73.66 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "36c3c6f3-fc8e-4347-8b17-69f264bb2b59")
-		)
 		(pin "S" input
 			(at 62.23 73.66 0)
 			(effects
@@ -15192,12 +14247,9 @@
 			(uuid "6a23bca7-762c-4ea2-b1e7-e9cf29a62f85")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "11")
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(page "15")
 				)
 			)
 		)
@@ -15231,16 +14283,6 @@
 				(hide yes)
 			)
 		)
-		(pin "CI-" output
-			(at 39.37 111.76 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "8d49bfe7-0e6c-419c-ba8e-7729dc9ae103")
-		)
 		(pin "S" input
 			(at 62.23 111.76 0)
 			(effects
@@ -15272,12 +14314,9 @@
 			(uuid "f653d49e-8eaf-43ec-b1f6-2aaa27b1f37b")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "8")
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(page "18")
 				)
 			)
 		)
@@ -15311,16 +14350,6 @@
 				(hide yes)
 			)
 		)
-		(pin "CI-" output
-			(at 39.37 175.26 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "7662715e-25fa-49e5-afbd-2b622e384f9a")
-		)
 		(pin "S" input
 			(at 62.23 175.26 0)
 			(effects
@@ -15352,12 +14381,9 @@
 			(uuid "1f0c508b-0bb0-4128-af41-15ae3133497b")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "3")
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(page "17")
 				)
 			)
 		)
@@ -15391,16 +14417,6 @@
 				(hide yes)
 			)
 		)
-		(pin "CI-" output
-			(at 39.37 60.96 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "cf79feea-9dcb-4c07-be13-31dfd00bde61")
-		)
 		(pin "S" input
 			(at 62.23 60.96 0)
 			(effects
@@ -15432,12 +14448,9 @@
 			(uuid "27e98fb2-5eb2-441b-9ea8-fabc933def84")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "12")
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(page "16")
 				)
 			)
 		)
@@ -15471,16 +14484,6 @@
 				(hide yes)
 			)
 		)
-		(pin "CI-" output
-			(at 39.37 86.36 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "716d47a9-fc39-432b-8ae9-7c6da12dcc3a")
-		)
 		(pin "S" input
 			(at 62.23 86.36 0)
 			(effects
@@ -15512,12 +14515,9 @@
 			(uuid "0ccbb925-05a9-4ab2-b4cc-7968c18954d0")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "10")
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(page "22")
 				)
 			)
 		)
@@ -15551,16 +14551,6 @@
 				(hide yes)
 			)
 		)
-		(pin "CI-" output
-			(at 39.37 35.56 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "58a58a3d-f665-4973-99bc-b6d9115d4c4d")
-		)
 		(pin "S" input
 			(at 62.23 35.56 0)
 			(effects
@@ -15592,12 +14582,9 @@
 			(uuid "5620f0da-bb95-4d68-a79a-cbc788100b9b")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "26")
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(page "27")
 				)
 			)
 		)
@@ -15631,16 +14618,6 @@
 				(hide yes)
 			)
 		)
-		(pin "CI-" output
-			(at 39.37 48.26 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "060ab664-338d-43e6-a2ed-5eb4cbfbd229")
-		)
 		(pin "S" input
 			(at 62.23 48.26 0)
 			(effects
@@ -15672,12 +14649,9 @@
 			(uuid "8570367c-b706-4c01-af7d-f0c22009c8dc")
 		)
 		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "24")
-				)
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/efc6ae8d-b30f-4d3d-8d10-794aa7c44ac9"
-					(page "25")
 				)
 			)
 		)
