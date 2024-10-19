@@ -83,4 +83,10 @@ D ResPowerQ 2512 10R 1% 2W TC200
 K
 F http://www.bourns.com/data/global/pdfs/CRM0805_1206_2010.pdf
 $ENDCMP
+#
+$CMP B02B-PASK-1__LF__SN_
+D Conn Shrouded Header (4 Sides) HDR 2 POS 2mm Solder ST Top Entry Thru-Hole Box
+K
+F https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf
+$ENDCMP
 #End Doc Library

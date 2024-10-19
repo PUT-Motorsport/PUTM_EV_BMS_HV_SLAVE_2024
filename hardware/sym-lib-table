@@ -17,4 +17,5 @@
   (lib (name "rw5s0fa47r0je")(type "KiCad")(uri "${KIPRJMOD}/footprint/rw5s0fa47r0je.kicad_sym")(options "")(descr ""))
   (lib (name "1206l600slwr")(type "KiCad")(uri "${KIPRJMOD}/footprint/1206l600slwr.kicad_sym")(options "")(descr ""))
   (lib (name "D369-G33-NP4")(type "KiCad")(uri "${KIPRJMOD}/footprint/D369-G33-NP4.kicad_sym")(options "")(descr ""))
+  (lib (name "Samacsys_kicad_sym")(type "KiCad")(uri "${KIPRJMOD}/footprint/Samacsys_kicad_sym.kicad_sym")(options "")(descr ""))
 )
