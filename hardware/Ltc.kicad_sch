@@ -5,1564 +5,6 @@
 	(uuid "ac80fa9a-d998-4dc6-af4a-0f716eedf056")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CA064X104K4RACAUTO_1"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN1"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "4x100nF"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
-				(at 16.51 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-				(at 16.51 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-				(at 16.51 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.9"
-				(at 16.51 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-				(at 16.51 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-				(at 16.51 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "KEMET"
-				(at 16.51 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-				(at 16.51 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_1_0_1"
-				(polyline
-					(pts
-						(xy 1.524 -0.508) (xy -1.524 -0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy -1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_1_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_1_2_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_1_3_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_1_4_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "CA064X104K4RACAUTO_2"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN1"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "4x100nF"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
-				(at 16.51 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-				(at 16.51 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-				(at 16.51 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.9"
-				(at 16.51 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-				(at 16.51 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-				(at 16.51 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "KEMET"
-				(at 16.51 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-				(at 16.51 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_2_0_1"
-				(polyline
-					(pts
-						(xy 1.524 -0.508) (xy -1.524 -0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy -1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_2_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_2_2_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_2_3_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_2_4_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "CA064X104K4RACAUTO_3"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN1"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "4x100nF"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
-				(at 16.51 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-				(at 16.51 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-				(at 16.51 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.9"
-				(at 16.51 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-				(at 16.51 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-				(at 16.51 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "KEMET"
-				(at 16.51 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-				(at 16.51 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_3_0_1"
-				(polyline
-					(pts
-						(xy 1.524 -0.508) (xy -1.524 -0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy -1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_3_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_3_2_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_3_3_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_3_4_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "CA064X104K4RACAUTO_4"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN1"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "4x100nF"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Samacsys:CA064X104K4RACAUTO"
-				(at 16.51 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-				(at 16.51 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-				(at 16.51 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.9"
-				(at 16.51 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-				(at 16.51 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-				(at 16.51 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "KEMET"
-				(at 16.51 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-				(at 16.51 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_4_0_1"
-				(polyline
-					(pts
-						(xy 1.524 -0.508) (xy -1.524 -0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy -1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_4_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_4_2_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_4_3_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CA064X104K4RACAUTO_4_4_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R_Pack04_Split"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN3"
-				(at 3.81 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Pack04_Split"
-				(at 3.81 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4 resistor network, parallel topology, split"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R network parallel topology isolated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Pack04_Split_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_1_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_2_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_3_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R3.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_4_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PUTM_EV_BMS_HV_Slave_2021-rescue:C_Small-Device"
 			(pin_numbers hide)
 			(pin_names
@@ -1962,936 +404,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "R_Pack04_Split_1"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN3"
-				(at 3.81 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Pack04_Split"
-				(at 3.81 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4 resistor network, parallel topology, split"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R network parallel topology isolated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Pack04_Split_1_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_1_1_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_1_2_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_1_3_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R3.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_1_4_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "R_Pack04_Split_2"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN3"
-				(at 3.81 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Pack04_Split"
-				(at 3.81 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4 resistor network, parallel topology, split"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R network parallel topology isolated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Pack04_Split_2_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_2_1_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_2_2_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_2_3_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R3.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_2_4_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "R_Pack04_Split_3"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN3"
-				(at 3.81 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Pack04_Split"
-				(at 3.81 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4 resistor network, parallel topology, split"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R network parallel topology isolated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Pack04_Split_3_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_3_1_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_3_2_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_3_3_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R3.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_3_4_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Switch:SW_DIP_x02"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DIP_x02"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dip switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW?DIP?x2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DIP_x02_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.667) (xy 2.3622 3.7084)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DIP_x02_0_1"
-				(rectangle
-					(start -3.81 5.08)
-					(end 3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SW_DIP_x02_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4759,22 +2271,16 @@
 		(uuid "08104f9f-cf02-48ba-ba40-d2fb77f48a08")
 	)
 	(junction
-		(at 77.47 58.42)
+		(at 64.77 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0951d7f3-9978-4b4d-b074-1d9e49ac01cd")
+		(uuid "234ca9be-c3ef-45e8-881c-3c4684d8498d")
 	)
 	(junction
-		(at 77.47 185.42)
+		(at 64.77 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "117d835b-d747-4a78-af87-772cc4008c9b")
-	)
-	(junction
-		(at 77.47 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d4850f8-c106-4650-a8aa-a89955b3c080")
+		(uuid "26e32ed0-14db-4886-b4a3-bc3620773b4c")
 	)
 	(junction
 		(at 184.15 59.69)
@@ -4783,22 +2289,10 @@
 		(uuid "2eeceb03-9913-421b-969f-e5d56e7ba3df")
 	)
 	(junction
-		(at 77.47 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "305ed636-7895-472a-85b0-a095e41d451f")
-	)
-	(junction
 		(at 251.46 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31309238-c697-480a-a870-68a1198a5ece")
-	)
-	(junction
-		(at 77.47 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3358f4ec-e785-4add-bcad-9bda7206889a")
 	)
 	(junction
 		(at 190.5 123.19)
@@ -4813,16 +2307,16 @@
 		(uuid "395b51ec-a05f-486f-8018-c13811952ae4")
 	)
 	(junction
-		(at 77.47 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39ba81e8-38aa-4ebd-837d-0a8ed4b9cfa8")
-	)
-	(junction
 		(at 208.28 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a6de456-f0c6-4d95-b2b3-852a43ea264d")
+	)
+	(junction
+		(at 64.77 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3db3580c-8eaa-4f78-a1c5-aa06ac9ea934")
 	)
 	(junction
 		(at 256.54 29.21)
@@ -4831,16 +2325,16 @@
 		(uuid "44380b9f-52c5-4f18-a868-fe9d27b25b10")
 	)
 	(junction
+		(at 64.77 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49f1d2a3-5111-41cb-b828-aa0150b81579")
+	)
+	(junction
 		(at 143.51 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b39d549-7802-4492-9a19-41bd194cbb6f")
-	)
-	(junction
-		(at 264.16 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fb44cd0-f1b1-42de-8dd8-de7885d55169")
 	)
 	(junction
 		(at 254 46.99)
@@ -4849,22 +2343,16 @@
 		(uuid "51b6b13e-10ff-488c-868e-e57eb2157ca5")
 	)
 	(junction
-		(at 77.47 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ae2aff6-4fa5-489b-97f9-24f2fc4f3a9a")
-	)
-	(junction
 		(at 190.5 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f2a0406-d765-45d5-9b2b-b940b08687b6")
 	)
 	(junction
-		(at 36.83 33.02)
+		(at 64.77 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "696ffb90-dae6-4619-9ad5-f4180fdf65c9")
+		(uuid "6db92c3e-3965-4913-bc3f-1b05f3d2a857")
 	)
 	(junction
 		(at 259.08 67.31)
@@ -4877,12 +2365,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6eaf59b8-1b0c-474c-8804-3bbb1586b4d9")
-	)
-	(junction
-		(at 77.47 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ac026a6-ca8f-4d3c-af14-c6aa9be77f42")
 	)
 	(junction
 		(at 195.58 77.47)
@@ -4903,16 +2385,34 @@
 		(uuid "8ca87f72-1811-4abb-97ef-ada9d90f3a5e")
 	)
 	(junction
-		(at 77.47 109.22)
+		(at 64.77 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9779a73b-b45b-436e-8b67-306c406083d3")
+		(uuid "93576f3b-8e0f-4563-9854-80faa33f797f")
+	)
+	(junction
+		(at 64.77 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cad3413-c88f-40d4-9b41-f10f2db99145")
+	)
+	(junction
+		(at 64.77 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ff1a8fe-fbbd-4978-aa3a-597b1f4075d7")
 	)
 	(junction
 		(at 251.46 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1a08893-6d00-43f8-9a2b-0c570ab866d1")
+	)
+	(junction
+		(at 64.77 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a92cf523-f12c-4e07-92fa-550602ae5036")
 	)
 	(junction
 		(at 254 67.31)
@@ -4927,10 +2427,10 @@
 		(uuid "b5482761-d715-47d5-aee9-35a27cb5bd78")
 	)
 	(junction
-		(at 77.47 96.52)
+		(at 64.77 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bdaad527-a73e-4890-8ed5-0bdf1070df78")
+		(uuid "b90e39ea-13cd-485b-9cb4-074110f153f9")
 	)
 	(junction
 		(at 194.31 46.99)
@@ -4939,22 +2439,16 @@
 		(uuid "cc7e2d71-8c3f-42b7-aa07-4f388a878eb2")
 	)
 	(junction
-		(at 264.16 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0c77b58-2996-4d6b-b04f-b301c05644c3")
-	)
-	(junction
 		(at 247.65 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5dbe873-adb0-4f1a-82b0-444b28140503")
 	)
 	(junction
-		(at 77.47 45.72)
+		(at 64.77 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dcc44247-c13f-4c7a-9b0f-563a33804645")
+		(uuid "d7ad791b-4744-46ef-b635-4c603cf917b7")
 	)
 	(junction
 		(at 256.54 67.31)
@@ -4963,22 +2457,10 @@
 		(uuid "e18a052e-ce41-4a35-b5af-170d80b50cd4")
 	)
 	(junction
-		(at 77.47 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8ec9007-98fc-4a27-b063-226a34285d50")
-	)
-	(junction
 		(at 210.82 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1398403-4145-40d9-b7c1-2d0aff0a5021")
-	)
-	(junction
-		(at 77.47 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2960b73-5b0d-4e89-b3a6-2bf30bfae361")
 	)
 	(junction
 		(at 256.54 49.53)
@@ -4987,22 +2469,16 @@
 		(uuid "f4c5a361-de74-40fa-a193-77cb68148088")
 	)
 	(junction
-		(at 243.84 123.19)
+		(at 64.77 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f93c2908-4e48-45ee-b58b-5bace914e232")
+		(uuid "f76d2332-950c-4762-9371-aa213494b6b8")
 	)
 	(junction
 		(at 251.46 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9f19a0b-8654-4ef0-8308-934a447c55ab")
-	)
-	(junction
-		(at 243.84 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fefca0cd-ade6-443c-a1da-bcce0dc35695")
 	)
 	(no_connect
 		(at 181.61 54.61)
@@ -5058,26 +2534,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 81.28) (xy 77.47 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0516db3d-e98a-41b8-b951-81ee1569c530")
-	)
-	(wire
-		(pts
-			(xy 243.84 134.62) (xy 250.19 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f76cb3-55a8-4c6b-859c-df8663ef395d")
-	)
-	(wire
-		(pts
 			(xy 259.08 67.31) (xy 256.54 67.31)
 		)
 		(stroke
@@ -5108,6 +2564,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 147.32) (xy 64.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08144f8d-782d-41d2-9292-9431d2549acb")
+	)
+	(wire
+		(pts
 			(xy 143.51 36.83) (xy 146.05 36.83)
 		)
 		(stroke
@@ -5128,16 +2594,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 170.18) (xy 77.47 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dfef858-3fcf-41b4-9ae7-cc9aaac43132")
-	)
-	(wire
-		(pts
 			(xy 251.46 44.45) (xy 261.62 44.45)
 		)
 		(stroke
@@ -5148,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 71.12) (xy 39.37 71.12)
+			(xy 34.29 66.04) (xy 64.77 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5168,26 +2624,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 123.19) (xy 264.16 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1161e561-6071-47b5-ad46-095409ca5901")
-	)
-	(wire
-		(pts
-			(xy 77.47 96.52) (xy 100.33 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11b878df-2134-4d82-9376-b0579f5db91d")
-	)
-	(wire
-		(pts
 			(xy 247.65 67.31) (xy 251.46 67.31)
 		)
 		(stroke
@@ -5198,27 +2634,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 172.72) (xy 72.39 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1729fd15-8287-4ea0-b97f-8514819e51e1")
-	)
-	(wire
-		(pts
-			(xy 264.16 123.19) (xy 266.7 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18638fc4-818f-4342-931d-51e969f285e5")
-	)
-	(wire
-		(pts
-			(xy 34.29 172.72) (xy 39.37 172.72)
+			(xy 34.29 167.64) (xy 64.77 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5228,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 97.79) (xy 180.34 97.79)
+			(xy 179.07 97.79) (xy 181.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5238,27 +2654,27 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 55.88) (xy 77.47 58.42)
+			(xy 64.77 109.22) (xy 100.33 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "197a8ffc-b827-443b-b807-dd2369edf868")
+		(uuid "1b397e51-f423-4f6e-8163-b00bced5bef0")
 	)
 	(wire
 		(pts
-			(xy 264.16 123.19) (xy 264.16 134.62)
+			(xy 64.77 53.34) (xy 64.77 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b80a37a-da33-41ba-bebc-ba19baa44e21")
+		(uuid "1d0bbd66-2fd0-4d0a-9c05-9c8cbca51038")
 	)
 	(wire
 		(pts
-			(xy 62.23 83.82) (xy 67.31 83.82)
+			(xy 62.23 83.82) (xy 64.77 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5288,16 +2704,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 27.94) (xy 36.83 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22cc2bd3-54f5-45af-b457-c1fdf7daa2d0")
-	)
-	(wire
-		(pts
 			(xy 143.51 74.93) (xy 146.05 74.93)
 		)
 		(stroke
@@ -5308,16 +2714,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 160.02) (xy 77.47 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26d20e3a-d17b-448b-981b-5bd0c34c8378")
-	)
-	(wire
-		(pts
 			(xy 190.5 115.57) (xy 190.5 110.49)
 		)
 		(stroke
@@ -5325,16 +2721,6 @@
 			(type default)
 		)
 		(uuid "27d028ed-777a-40ce-b503-915f6b20a816")
-	)
-	(wire
-		(pts
-			(xy 77.47 119.38) (xy 77.47 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "284d782e-e64a-48ac-a9fe-82a0247a81b3")
 	)
 	(wire
 		(pts
@@ -5368,26 +2754,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 124.46) (xy 242.57 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ae3ae68-c410-4953-9560-52f823d80c3e")
-	)
-	(wire
-		(pts
-			(xy 242.57 123.19) (xy 243.84 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d26465d-080a-42d4-b20d-703248b4944f")
-	)
-	(wire
-		(pts
 			(xy 190.5 110.49) (xy 193.04 110.49)
 		)
 		(stroke
@@ -5408,13 +2774,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 68.58) (xy 77.47 71.12)
+			(xy 64.77 40.64) (xy 64.77 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35c32d68-58a7-4329-a13e-15dc2f935781")
+		(uuid "353d64a3-5546-4513-9945-dbbca374e879")
 	)
 	(wire
 		(pts
@@ -5428,23 +2794,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 33.02) (xy 72.39 33.02)
+			(xy 64.77 160.02) (xy 64.77 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "375bb1dc-6a71-4d88-9fa5-f56cf7ce6001")
-	)
-	(wire
-		(pts
-			(xy 77.47 71.12) (xy 77.47 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38503b5a-a16e-4d6f-a74f-c46244c86ffa")
+		(uuid "37107685-c0c8-4969-9cec-b5c1b1f0a7ee")
 	)
 	(wire
 		(pts
@@ -5455,26 +2811,6 @@
 			(type default)
 		)
 		(uuid "39652296-201e-409f-84c6-8f12095208ba")
-	)
-	(wire
-		(pts
-			(xy 77.47 83.82) (xy 72.39 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39ca7a6f-45c8-4bd6-82c0-2cd8b9989429")
-	)
-	(wire
-		(pts
-			(xy 77.47 172.72) (xy 77.47 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39d4c471-35ba-427e-9a26-ca80fac1c127")
 	)
 	(wire
 		(pts
@@ -5528,16 +2864,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 58.42) (xy 72.39 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fd24114-345c-4fcd-8ce2-baf6d96a39fd")
-	)
-	(wire
-		(pts
 			(xy 194.31 54.61) (xy 194.31 57.15)
 		)
 		(stroke
@@ -5548,23 +2874,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 160.02) (xy 67.31 160.02)
+			(xy 62.23 160.02) (xy 64.77 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "41b7785c-2e3e-41e5-b43a-32074c0c2c74")
-	)
-	(wire
-		(pts
-			(xy 77.47 71.12) (xy 100.33 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "433b8c9f-95fe-4f14-8131-dcd88244b3ac")
 	)
 	(wire
 		(pts
@@ -5578,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 134.62) (xy 67.31 134.62)
+			(xy 62.23 134.62) (xy 64.77 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5588,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 134.62) (xy 39.37 134.62)
+			(xy 34.29 129.54) (xy 64.77 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5658,13 +2974,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 45.72) (xy 72.39 45.72)
+			(xy 64.77 83.82) (xy 100.33 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a4b5ed4-c377-49b3-a575-497b70df19b4")
+		(uuid "4b080e52-0a6b-49ca-90f4-6e19518d99e3")
 	)
 	(wire
 		(pts
@@ -5688,17 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 83.82) (xy 100.33 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f8cb0e5-47fa-46bf-993b-9bbdd7856e8c")
-	)
-	(wire
-		(pts
-			(xy 62.23 147.32) (xy 67.31 147.32)
+			(xy 62.23 147.32) (xy 64.77 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5708,7 +3014,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 147.32) (xy 39.37 147.32)
+			(xy 34.29 142.24) (xy 64.77 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5748,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 160.02) (xy 39.37 160.02)
+			(xy 34.29 154.94) (xy 64.77 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5768,6 +3074,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 58.42) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5998fe95-7b15-4fb9-8877-82117b6b6756")
+	)
+	(wire
+		(pts
 			(xy 143.51 133.35) (xy 146.05 133.35)
 		)
 		(stroke
@@ -5778,23 +3094,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 33.02) (xy 36.83 33.02)
+			(xy 34.29 27.94) (xy 64.77 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5b078343-d4e5-44f3-8b93-93ec5600b559")
-	)
-	(wire
-		(pts
-			(xy 243.84 109.22) (xy 243.84 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b1277cd-793d-46cc-9b33-b4ff9c07750c")
 	)
 	(wire
 		(pts
@@ -5805,16 +3111,6 @@
 			(type default)
 		)
 		(uuid "5c09e4b0-5796-4e8e-abc0-74e86f0a9b3d")
-	)
-	(wire
-		(pts
-			(xy 264.16 120.65) (xy 266.7 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c62df61-af74-48a2-8d3e-bfcee2be46dd")
 	)
 	(wire
 		(pts
@@ -5848,33 +3144,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 45.72) (xy 39.37 45.72)
+			(xy 34.29 40.64) (xy 64.77 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5d8e0b71-9d29-4787-af21-93c84bd49a51")
-	)
-	(wire
-		(pts
-			(xy 77.47 106.68) (xy 77.47 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e4993a5-39d3-4c89-a9f2-9fe530e37b9d")
-	)
-	(wire
-		(pts
-			(xy 77.47 93.98) (xy 77.47 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f736a61-6b12-48d0-93a4-b28a2af9821f")
 	)
 	(wire
 		(pts
@@ -5898,16 +3174,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 33.02) (xy 77.47 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "622ba5d1-e07a-498a-a65b-82a9f7b19e25")
-	)
-	(wire
-		(pts
 			(xy 208.28 62.23) (xy 210.82 62.23)
 		)
 		(stroke
@@ -5915,6 +3181,26 @@
 			(type default)
 		)
 		(uuid "629bfa56-0d9f-49bd-894e-d3ef752bcb6f")
+	)
+	(wire
+		(pts
+			(xy 64.77 116.84) (xy 64.77 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f7de54-28dd-46b6-b1d1-8b9a70986313")
+	)
+	(wire
+		(pts
+			(xy 64.77 104.14) (xy 64.77 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c17a77-d572-48fa-bb31-f9e052d1da11")
 	)
 	(wire
 		(pts
@@ -5945,16 +3231,6 @@
 			(type default)
 		)
 		(uuid "679b2a7e-ddf5-405d-8ee6-510fd46621f3")
-	)
-	(wire
-		(pts
-			(xy 77.47 185.42) (xy 72.39 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68464b53-f244-4bc3-88ed-6343413d9b0c")
 	)
 	(wire
 		(pts
@@ -5998,33 +3274,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 45.72) (xy 100.33 45.72)
+			(xy 64.77 172.72) (xy 100.33 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c3f74be-7cdc-4117-939a-855e661c65c0")
-	)
-	(wire
-		(pts
-			(xy 77.47 147.32) (xy 72.39 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c45b049-9f62-479e-b26c-4df7355b5042")
-	)
-	(wire
-		(pts
-			(xy 261.62 120.65) (xy 264.16 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e23aea2-cda7-403c-89e3-8119d697d5cc")
+		(uuid "6ce69387-c6ed-48d8-b83a-0ed609bddfb5")
 	)
 	(wire
 		(pts
@@ -6048,26 +3304,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 185.42) (xy 100.33 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70383da6-6a56-4224-9662-97c8ae567477")
-	)
-	(wire
-		(pts
-			(xy 243.84 123.19) (xy 243.84 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "706faff6-e8d4-4cba-8e1f-082d8775820b")
-	)
-	(wire
-		(pts
 			(xy 143.51 52.07) (xy 146.05 52.07)
 		)
 		(stroke
@@ -6078,7 +3314,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 33.02) (xy 67.31 33.02)
+			(xy 64.77 134.62) (xy 100.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72397fe3-349e-44ab-837b-51fd76e7000b")
+	)
+	(wire
+		(pts
+			(xy 62.23 33.02) (xy 64.77 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6108,7 +3354,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 121.92) (xy 39.37 121.92)
+			(xy 34.29 116.84) (xy 64.77 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6128,7 +3374,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 58.42) (xy 67.31 58.42)
+			(xy 62.23 58.42) (xy 64.77 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6158,13 +3404,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 96.52) (xy 77.47 101.6)
+			(xy 64.77 96.52) (xy 100.33 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fe656b3-de61-4a44-b1d9-ee1fda05225e")
+		(uuid "7d6e5d51-d3b8-420c-9b21-5f56f3ee6bb8")
 	)
 	(wire
 		(pts
@@ -6198,7 +3444,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 109.22) (xy 39.37 109.22)
+			(xy 34.29 104.14) (xy 64.77 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6215,16 +3461,6 @@
 			(type default)
 		)
 		(uuid "8094bc2f-0fb1-4c9e-87a1-e2601f09d758")
-	)
-	(wire
-		(pts
-			(xy 77.47 134.62) (xy 100.33 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80f29fae-6b1c-4935-b414-3820b6022bc0")
 	)
 	(wire
 		(pts
@@ -6248,17 +3484,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 109.22) (xy 77.47 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84aaac2e-ab78-4b82-91f8-e08859616308")
-	)
-	(wire
-		(pts
-			(xy 62.23 96.52) (xy 67.31 96.52)
+			(xy 62.23 96.52) (xy 64.77 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6285,36 +3511,6 @@
 			(type default)
 		)
 		(uuid "89d604a1-0b68-4646-b49f-e7cba7456161")
-	)
-	(wire
-		(pts
-			(xy 77.47 33.02) (xy 100.33 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bb19358-216b-424a-8d6a-811d26a6f4f4")
-	)
-	(wire
-		(pts
-			(xy 77.47 43.18) (xy 77.47 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ca5a493-586c-4c76-afbe-5c426cdacdfc")
-	)
-	(wire
-		(pts
-			(xy 77.47 121.92) (xy 77.47 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cbb2221-1aac-4d1a-90f6-c18d42b70226")
 	)
 	(wire
 		(pts
@@ -6378,7 +3574,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 172.72) (xy 67.31 172.72)
+			(xy 62.23 172.72) (xy 64.77 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6418,43 +3614,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 121.92) (xy 67.31 121.92)
+			(xy 62.23 121.92) (xy 64.77 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9937f265-6c8e-40d1-ac57-8d5df1db4723")
-	)
-	(wire
-		(pts
-			(xy 77.47 147.32) (xy 100.33 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac92776-6482-49e9-afbe-b7027dd77daa")
-	)
-	(wire
-		(pts
-			(xy 77.47 134.62) (xy 77.47 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b538366-cffc-45a9-95bb-f8bf6fd1cd63")
-	)
-	(wire
-		(pts
-			(xy 243.84 123.19) (xy 246.38 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cdb3c2f-61c2-4b16-8038-089c7141e489")
 	)
 	(wire
 		(pts
@@ -6488,6 +3654,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 33.02) (xy 100.33 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a046a46b-bba1-4d99-b64d-2acaa5954159")
+	)
+	(wire
+		(pts
 			(xy 195.58 74.93) (xy 195.58 77.47)
 		)
 		(stroke
@@ -6518,43 +3694,13 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 109.22) (xy 257.81 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5482cfa-bd04-484b-8e29-e67349f97618")
-	)
-	(wire
-		(pts
-			(xy 34.29 185.42) (xy 67.31 185.42)
+			(xy 34.29 180.34) (xy 100.33 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a6ac1f4f-d4e9-4b76-9d9a-482be051f3c1")
-	)
-	(wire
-		(pts
-			(xy 241.3 120.65) (xy 243.84 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6f5483f-174d-430c-8ac4-98f0b1ce7c6f")
-	)
-	(wire
-		(pts
-			(xy 77.47 83.82) (xy 77.47 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a73c577c-31c7-4477-a20c-dcf4dca521f3")
 	)
 	(wire
 		(pts
@@ -6588,6 +3734,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 91.44) (xy 64.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad346ae7-b15b-4261-834d-fe03936f9304")
+	)
+	(wire
+		(pts
 			(xy 179.07 102.87) (xy 210.82 102.87)
 		)
 		(stroke
@@ -6605,26 +3761,6 @@
 			(type default)
 		)
 		(uuid "b09a4f34-b587-4beb-b3e9-2190f2274855")
-	)
-	(wire
-		(pts
-			(xy 77.47 147.32) (xy 77.47 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0f750e9-ac09-4971-93ba-db051eda81f5")
-	)
-	(wire
-		(pts
-			(xy 77.47 121.92) (xy 100.33 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b632eec6-9d5b-46fd-ab3a-2ffba7810c05")
 	)
 	(wire
 		(pts
@@ -6648,16 +3784,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 45.72) (xy 77.47 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b848f07f-460e-4556-a878-770b62ed18f8")
-	)
-	(wire
-		(pts
 			(xy 256.54 49.53) (xy 256.54 54.61)
 		)
 		(stroke
@@ -6668,16 +3794,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 134.62) (xy 257.81 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9f8368e-342d-4f98-b5d9-c79f9397649a")
-	)
-	(wire
-		(pts
 			(xy 251.46 41.91) (xy 251.46 44.45)
 		)
 		(stroke
@@ -6685,6 +3801,16 @@
 			(type default)
 		)
 		(uuid "bd1c3859-c1d0-4391-8626-d9172eec504e")
+	)
+	(wire
+		(pts
+			(xy 64.77 27.94) (xy 64.77 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda93ea8-8601-4713-aec0-eff8242e1a4e")
 	)
 	(wire
 		(pts
@@ -6718,6 +3844,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 134.62) (xy 64.77 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19fb090-248f-4fd0-81b7-8062a761ddf2")
+	)
+	(wire
+		(pts
 			(xy 179.07 59.69) (xy 184.15 59.69)
 		)
 		(stroke
@@ -6728,7 +3864,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 83.82) (xy 39.37 83.82)
+			(xy 64.77 66.04) (xy 64.77 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3fc2fa2-bf14-4a0b-ba0c-1db72bd04588")
+	)
+	(wire
+		(pts
+			(xy 34.29 78.74) (xy 64.77 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6748,13 +3894,23 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 58.42) (xy 39.37 58.42)
+			(xy 34.29 53.34) (xy 64.77 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c4a5624f-4074-49d8-a611-de0135ea4b0f")
+	)
+	(wire
+		(pts
+			(xy 64.77 160.02) (xy 100.33 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64ab0f4-29f0-4bf3-9530-e2a81060f357")
 	)
 	(wire
 		(pts
@@ -6765,26 +3921,6 @@
 			(type default)
 		)
 		(uuid "c661d11e-9821-4de0-8c3f-d0ac4865b0bf")
-	)
-	(wire
-		(pts
-			(xy 77.47 157.48) (xy 77.47 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6feb16b-5b8d-4605-8449-bbefe7c2bf1f")
-	)
-	(wire
-		(pts
-			(xy 77.47 109.22) (xy 72.39 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7540653-37e2-4e5d-8c90-6876a3d30cd4")
 	)
 	(wire
 		(pts
@@ -6805,16 +3941,6 @@
 			(type default)
 		)
 		(uuid "c900b8a9-5938-4088-bf82-c49680a929d4")
-	)
-	(wire
-		(pts
-			(xy 77.47 58.42) (xy 100.33 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9480130-a838-453c-8ae9-72f75cdbbebe")
 	)
 	(wire
 		(pts
@@ -6848,7 +3974,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 45.72) (xy 67.31 45.72)
+			(xy 62.23 45.72) (xy 64.77 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6858,23 +3984,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 58.42) (xy 77.47 63.5)
+			(xy 64.77 45.72) (xy 100.33 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd5a2183-f223-488b-8daa-502bef2840a1")
-	)
-	(wire
-		(pts
-			(xy 243.84 120.65) (xy 246.38 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d442eb2e-7789-4b70-9211-cb52e1ff75d5")
+		(uuid "d22c38bd-de71-48a0-9b46-cf3a5c1d8f65")
 	)
 	(wire
 		(pts
@@ -6888,33 +4004,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 33.02) (xy 39.37 33.02)
+			(xy 64.77 147.32) (xy 100.33 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8483e94-2493-4cd6-9890-610b0abfe79a")
+		(uuid "d9fc281b-8674-48a2-a123-c132a52dfbd9")
 	)
 	(wire
 		(pts
-			(xy 180.34 97.79) (xy 181.61 99.06)
+			(xy 64.77 78.74) (xy 64.77 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8a420bc-7967-467b-8b01-63aca868fe20")
-	)
-	(wire
-		(pts
-			(xy 243.84 109.22) (xy 250.19 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d91f977b-7f9f-43e6-8f4b-f9378ac0a80b")
+		(uuid "da41ee1d-58c1-4431-805f-f165b4fbba39")
 	)
 	(wire
 		(pts
@@ -6925,16 +4031,6 @@
 			(type default)
 		)
 		(uuid "daa814af-2baf-4115-b554-76c26af4d031")
-	)
-	(wire
-		(pts
-			(xy 77.47 71.12) (xy 72.39 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db6ae192-e994-4287-b284-fb7bbf67039c")
 	)
 	(wire
 		(pts
@@ -6968,7 +4064,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 71.12) (xy 67.31 71.12)
+			(xy 62.23 71.12) (xy 64.77 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6998,16 +4094,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 109.22) (xy 100.33 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e26d316d-ef8b-4b90-9bdf-e82bf4452a42")
-	)
-	(wire
-		(pts
 			(xy 261.62 29.21) (xy 259.08 29.21)
 		)
 		(stroke
@@ -7018,7 +4104,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 109.22) (xy 67.31 109.22)
+			(xy 62.23 109.22) (xy 64.77 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7058,16 +4144,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 172.72) (xy 100.33 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec60455f-2267-412f-a703-7784baf4b7ec")
-	)
-	(wire
-		(pts
 			(xy 179.07 90.17) (xy 181.61 90.17)
 		)
 		(stroke
@@ -7078,33 +4154,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 96.52) (xy 39.37 96.52)
+			(xy 34.29 91.44) (xy 64.77 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ece89398-b050-451c-a7ac-b201f2c434f5")
-	)
-	(wire
-		(pts
-			(xy 77.47 160.02) (xy 72.39 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed5e3ec5-7545-4969-a100-fd07610324b4")
-	)
-	(wire
-		(pts
-			(xy 77.47 132.08) (xy 77.47 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed8fc04c-e1e2-4729-8c10-c6f8414424e6")
 	)
 	(wire
 		(pts
@@ -7118,23 +4174,13 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 109.22) (xy 264.16 120.65)
+			(xy 64.77 71.12) (xy 100.33 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eeb27ac1-2f73-4427-b71b-7564762bb595")
-	)
-	(wire
-		(pts
-			(xy 77.47 185.42) (xy 77.47 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f051d5ad-c42a-4a97-af4d-badc00c2e416")
+		(uuid "f034050d-b165-45d4-ac94-ad960972fd35")
 	)
 	(wire
 		(pts
@@ -7158,16 +4204,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 134.62) (xy 72.39 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4a5d012-784d-479e-bf90-73eeb3c2649c")
-	)
-	(wire
-		(pts
 			(xy 256.54 67.31) (xy 254 67.31)
 		)
 		(stroke
@@ -7188,13 +4224,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 121.92) (xy 72.39 121.92)
+			(xy 64.77 121.92) (xy 100.33 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f68346df-25cc-4ba1-a9fd-c7d01e8864b8")
+		(uuid "f5f16a7c-9e4d-41f5-b66e-d4710964ce91")
 	)
 	(wire
 		(pts
@@ -7238,16 +4274,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 160.02) (xy 100.33 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe2875b-e987-4c5c-bcb4-d615ecb132b3")
-	)
-	(wire
-		(pts
 			(xy 208.28 72.39) (xy 208.28 74.93)
 		)
 		(stroke
@@ -7268,13 +4294,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 96.52) (xy 72.39 96.52)
+			(xy 64.77 172.72) (xy 64.77 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe1f4251-7ada-4774-bc4b-ea8e4c03db0b")
+		(uuid "fe5389a3-a73a-4e40-a04b-de8b288bdb5a")
 	)
 	(wire
 		(pts
@@ -7305,16 +4331,6 @@
 			(type default)
 		)
 		(uuid "fedf1e65-6687-4495-97d7-7e1fe1e55983")
-	)
-	(wire
-		(pts
-			(xy 77.47 144.78) (xy 77.47 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb12b64-5743-4d63-a040-ca21a7364228")
 	)
 	(rectangle
 		(start 15.24 15.24)
@@ -7456,8 +4472,19 @@
 		)
 		(uuid "07c0fdbf-2fe7-4300-b7ac-02179cbd0da6")
 	)
+	(label "C12"
+		(at 143.51 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e2d9db9-3ce1-4940-99a0-36c1c8ed596e")
+	)
 	(label "V+"
-		(at 36.83 27.94 90)
+		(at 36.83 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7554,17 +4581,6 @@
 			(justify right bottom)
 		)
 		(uuid "290a89e4-8e0f-4e63-ac6a-e850a22ec8dd")
-	)
-	(label "SW_C1"
-		(at 266.7 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a8a1df0-642e-4927-93ba-a5cf8abd9cde")
 	)
 	(label "C12"
 		(at 100.33 33.02 0)
@@ -7765,7 +4781,7 @@
 		(uuid "86e3162a-523a-4fed-9d80-1c956e862b4a")
 	)
 	(label "C0"
-		(at 100.33 185.42 0)
+		(at 100.33 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7841,17 +4857,6 @@
 		)
 		(uuid "9af06a0e-ebe4-4354-bc94-8094e78ffcc0")
 	)
-	(label "SW_TH1+"
-		(at 181.61 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e5e6c73-3ce1-4862-abaa-9d2cab60454f")
-	)
 	(label "S6"
 		(at 143.51 97.79 180)
 		(fields_autoplaced yes)
@@ -7873,17 +4878,6 @@
 			(justify left bottom)
 		)
 		(uuid "a7e76102-5b84-429c-abfe-bb54b9334b62")
-	)
-	(label "C1"
-		(at 241.3 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aad60508-e43f-4ad7-a3e6-a2e5d66e41d0")
 	)
 	(label "C8"
 		(at 143.51 80.01 180)
@@ -7983,17 +4977,6 @@
 			(justify right bottom)
 		)
 		(uuid "d6d8b01a-ddcc-489a-8cdc-be54d73341ba")
-	)
-	(label "SW_TH1+"
-		(at 266.7 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8000c27-ba03-4e8f-b670-5a01ab2343e4")
 	)
 	(label "C6"
 		(at 100.33 109.22 0)
@@ -8097,7 +5080,7 @@
 	)
 	(hierarchical_label "C12+"
 		(shape input)
-		(at 34.29 33.02 180)
+		(at 34.29 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8109,7 +5092,7 @@
 	)
 	(hierarchical_label "C9+"
 		(shape input)
-		(at 34.29 71.12 180)
+		(at 34.29 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8241,7 +5224,7 @@
 	)
 	(hierarchical_label "C1+"
 		(shape input)
-		(at 34.29 172.72 180)
+		(at 34.29 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8265,7 +5248,7 @@
 	)
 	(hierarchical_label "C4+"
 		(shape input)
-		(at 34.29 134.62 180)
+		(at 34.29 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8277,7 +5260,7 @@
 	)
 	(hierarchical_label "C2+"
 		(shape input)
-		(at 34.29 160.02 180)
+		(at 34.29 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8313,7 +5296,7 @@
 	)
 	(hierarchical_label "C6+"
 		(shape input)
-		(at 34.29 109.22 180)
+		(at 34.29 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8322,18 +5305,6 @@
 			(justify right)
 		)
 		(uuid "6fadf983-68ea-4c60-ba18-214f26b298c0")
-	)
-	(hierarchical_label "TH1+"
-		(shape input)
-		(at 241.3 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7addc58f-c0c0-449c-a600-2d3a2f81013e")
 	)
 	(hierarchical_label "V-"
 		(shape output)
@@ -8373,7 +5344,7 @@
 	)
 	(hierarchical_label "C8+"
 		(shape input)
-		(at 34.29 83.82 180)
+		(at 34.29 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8385,7 +5356,7 @@
 	)
 	(hierarchical_label "C3+"
 		(shape input)
-		(at 34.29 147.32 180)
+		(at 34.29 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8433,7 +5404,7 @@
 	)
 	(hierarchical_label "C11+"
 		(shape input)
-		(at 34.29 45.72 180)
+		(at 34.29 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8443,9 +5414,21 @@
 		)
 		(uuid "b6e848fb-cd54-41a1-98b8-c843387731e6")
 	)
+	(hierarchical_label "TH1+"
+		(shape input)
+		(at 181.61 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf71b8e4-87a5-4a8d-8418-5a204c6e22d3")
+	)
 	(hierarchical_label "C10+"
 		(shape input)
-		(at 34.29 58.42 180)
+		(at 34.29 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8457,7 +5440,7 @@
 	)
 	(hierarchical_label "V-"
 		(shape output)
-		(at 34.29 185.42 180)
+		(at 34.29 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8469,7 +5452,7 @@
 	)
 	(hierarchical_label "C7+"
 		(shape input)
-		(at 34.29 96.52 180)
+		(at 34.29 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8481,7 +5464,7 @@
 	)
 	(hierarchical_label "C5+"
 		(shape input)
-		(at 34.29 121.92 180)
+		(at 34.29 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8502,234 +5485,6 @@
 			(justify left)
 		)
 		(uuid "f8576e5d-5fcc-4e0f-8a91-3ea9da506d02")
-	)
-	(symbol
-		(lib_name "CA064X104K4RACAUTO_4")
-		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 77.47 53.34 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "00165365-03c4-4ff4-a17e-7570f8b02c5b")
-		(property "Reference" "CN5"
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4x100nF"
-			(at 80.01 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.98 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 93.98 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 93.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 93.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 93.98 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 93.98 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 93.98 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26822")
-		)
-		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c4")
-		)
-		(pin "6"
-			(uuid "d8ea217d-9d71-4e75-8ed2-814a0cf38ac1")
-		)
-		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6b")
-		)
-		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304243")
-		)
-		(pin "4"
-			(uuid "fda1aa26-519f-4190-879e-c390f06a979f")
-		)
-		(pin "5"
-			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa8858")
-		)
-		(pin "3"
-			(uuid "020887e7-f5de-4971-833d-b2586a429257")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "CN5")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_2")
-		(lib_id "Device:R_Pack04_Split")
-		(at 69.85 83.82 90)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "039d0817-fb1c-4c4f-bf23-3d5aa2df0132")
-		(property "Reference" "RN1"
-			(at 69.85 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x100"
-			(at 69.85 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 69.85 85.852 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 69.85 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc056")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de3")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c5e")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e950")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae8")
-		)
-		(pin "4"
-			(uuid "f128406a-4e8a-4337-aaed-6679192445af")
-		)
-		(pin "5"
-			(uuid "a3791c92-27b3-4ec8-b9bf-036afd6b45c2")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada6")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN1")
-					(unit 4)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
@@ -9101,549 +5856,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CA064X104K4RACAUTO_1")
-		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 77.47 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "0ad14c54-023d-43c5-83c0-5957e8567afd")
-		(property "Reference" "CN1"
-			(at 80.01 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4x100nF"
-			(at 80.01 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.98 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 93.98 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 93.98 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 93.98 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 93.98 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 93.98 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 93.98 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 93.98 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04cf0a4f-a699-422e-9a56-f9dfd38ad3a5")
-		)
-		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c2")
-		)
-		(pin "3"
-			(uuid "6ed4a312-4a26-48c4-a011-e0dd1206124f")
-		)
-		(pin "4"
-			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e4")
-		)
-		(pin "5"
-			(uuid "52806b20-e660-484c-9e93-f73e3c6613f4")
-		)
-		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a69")
-		)
-		(pin "8"
-			(uuid "562ca1ba-16a4-4a97-9e21-21337bcd2092")
-		)
-		(pin "6"
-			(uuid "8bd4b72f-3f74-4ac6-b313-37933816667b")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "CN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_3")
-		(lib_id "Device:R_Pack04_Split")
-		(at 69.85 45.72 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b203e5d-ddbd-434f-a676-fa0610d474bf")
-		(property "Reference" "RN5"
-			(at 69.85 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x100"
-			(at 69.85 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 69.85 47.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 69.85 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc058")
-		)
-		(pin "3"
-			(uuid "f4405fe7-7022-46c5-b71c-423d9b4d4ad6")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c60")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e952")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aea")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520e")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b0")
-		)
-		(pin "6"
-			(uuid "de9116db-846d-494e-876c-d9555533ab89")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN5")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_2")
-		(lib_id "Device:R_Pack04_Split")
-		(at 69.85 134.62 90)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "154f6f69-f289-4be0-bb97-e1eeaa29e97b")
-		(property "Reference" "RN3"
-			(at 69.85 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x100"
-			(at 69.85 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 69.85 136.652 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 69.85 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc057")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de4")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c5f")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e951")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527ae9")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520c")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5ae")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada7")
-		)
-		(instances
-			(project ""
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN3")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_2")
-		(lib_id "Device:R_Pack04_Split")
-		(at 69.85 33.02 90)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c1d6972-2c17-4014-ad91-aacd81ea986c")
-		(property "Reference" "RN5"
-			(at 69.85 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x100"
-			(at 69.85 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 69.85 35.052 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 69.85 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc059")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de5")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c61")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e953")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aeb")
-		)
-		(pin "4"
-			(uuid "2e05694d-574b-48be-8995-c636d8a1a54e")
-		)
-		(pin "5"
-			(uuid "b4196be4-2584-43a5-af26-a9f1fe62488a")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada8")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN5")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CA064X104K4RACAUTO_4")
-		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 77.47 104.14 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "1f22a7a0-95be-471c-8f36-93b698effb11")
-		(property "Reference" "CN3"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4x100nF"
-			(at 80.01 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.98 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 93.98 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 93.98 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 93.98 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 93.98 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 93.98 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 93.98 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26823")
-		)
-		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c5")
-		)
-		(pin "6"
-			(uuid "401635c6-b3bb-4a20-961d-defcc47e1594")
-		)
-		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6c")
-		)
-		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304244")
-		)
-		(pin "4"
-			(uuid "fda1aa26-519f-4190-879e-c390f06a97a0")
-		)
-		(pin "5"
-			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa8859")
-		)
-		(pin "3"
-			(uuid "565ab306-ebe4-4cc5-9fe0-f3760faca1a7")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "CN3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
 		(at 247.65 36.83 180)
 		(unit 1)
@@ -9751,1021 +5963,6 @@
 				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-0000622ac489"
 					(reference "R150")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_3")
-		(lib_id "Device:R_Pack04_Split")
-		(at 69.85 147.32 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d62ccac-b1b5-4bad-a3af-5e3e3c8611f8")
-		(property "Reference" "RN3"
-			(at 69.85 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x100"
-			(at 69.85 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 69.85 149.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 69.85 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc05a")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de6")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c62")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e954")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aec")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520d")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5af")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8ada9")
-		)
-		(instances
-			(project ""
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CA064X104K4RACAUTO_4")
-		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 77.47 154.94 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "2e3f4634-52fb-4cd7-ac8e-0f6a9b620ffb")
-		(property "Reference" "CN1"
-			(at 80.01 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4x100nF"
-			(at 80.01 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 93.98 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 93.98 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 93.98 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 93.98 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 93.98 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 93.98 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 93.98 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26821")
-		)
-		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c3")
-		)
-		(pin "6"
-			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e5")
-		)
-		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6a")
-		)
-		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304242")
-		)
-		(pin "4"
-			(uuid "fda1aa26-519f-4190-879e-c390f06a97a1")
-		)
-		(pin "5"
-			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa885a")
-		)
-		(pin "3"
-			(uuid "d3e11bd8-0ef7-45aa-bf6e-7b8db042cc21")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "CN1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 254 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f891411-e991-466a-be28-c6c16b449db6")
-		(property "Reference" "JP1"
-			(at 254 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MES"
-			(at 254 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
-			(at 254 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "--"
-			(at 254 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32dede15-cc55-4656-8524-cae1b135c6b9")
-		)
-		(pin "2"
-			(uuid "657d5d99-8d91-4ecf-883e-c34b6355ebfb")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 69.85 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34085a4e-776a-4f19-9027-3d3a2efbff8e")
-		(property "Reference" "RN1"
-			(at 69.85 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x100"
-			(at 69.85 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 69.85 123.952 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 69.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc05b")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de7")
-		)
-		(pin "8"
-			(uuid "3fa64492-d369-46e0-b873-89502e815496")
-		)
-		(pin "1"
-			(uuid "f31b0a12-3719-4ff7-8195-639c24d87df7")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aed")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290520f")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b1")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8adaa")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CA064X104K4RACAUTO_3")
-		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 77.47 142.24 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "381e6183-b4ba-4b09-809c-1be5085e64da")
-		(property "Reference" "CN1"
-			(at 80.01 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4x100nF"
-			(at 80.01 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 93.98 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 93.98 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 93.98 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 93.98 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 93.98 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26824")
-		)
-		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c6")
-		)
-		(pin "6"
-			(uuid "8527fe8d-eb27-4c94-bc74-d6016be76fe6")
-		)
-		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6d")
-		)
-		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304245")
-		)
-		(pin "4"
-			(uuid "9dfa5692-8187-46fe-aeee-7585bdc35b52")
-		)
-		(pin "5"
-			(uuid "99ff6eb3-30fb-45e9-8ab4-05fcbcb70991")
-		)
-		(pin "3"
-			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded6f")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "CN1")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 69.85 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f127f39-e835-4979-9205-a42b19332513")
-		(property "Reference" "RN3"
-			(at 69.85 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x100"
-			(at 69.85 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 69.85 174.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 69.85 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc05c")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881de8")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c63")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e955")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527aee")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd22905210")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b2")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8adab")
-		)
-		(instances
-			(project ""
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CA064X104K4RACAUTO_2")
-		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 77.47 116.84 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "3fa13780-36d9-41e4-b46c-043d3aa696aa")
-		(property "Reference" "CN3"
-			(at 80.01 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4x100nF"
-			(at 80.01 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.98 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 93.98 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 93.98 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 93.98 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 93.98 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 93.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 93.98 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 93.98 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26825")
-		)
-		(pin "2"
-			(uuid "a64583fc-8dd6-404e-ab94-81d82ceae29f")
-		)
-		(pin "4"
-			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e6")
-		)
-		(pin "7"
-			(uuid "c607729e-6001-4871-9fe8-e70177360452")
-		)
-		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304246")
-		)
-		(pin "6"
-			(uuid "9dfa5692-8187-46fe-aeee-7585bdc35b53")
-		)
-		(pin "5"
-			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa885b")
-		)
-		(pin "3"
-			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded70")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "CN3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x02")
-		(at 254 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fa201aa-e6e2-48a7-b4c0-a2bd75eb03e8")
-		(property "Reference" "SW1"
-			(at 254 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x02"
-			(at 254 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W6.73mm_P2.54mm_LowProfile_JPin"
-			(at 254 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 254 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/CTS-Electronic-Components/218-2LPSTJR?qs=6E8igxPflKeY%2FDGfx3gyFQ%3D%3D"
-			(at 254 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da531fed-c614-42eb-a9b2-67acd94f9b17")
-		)
-		(pin "4"
-			(uuid "6d66f7d5-e757-4de6-85b8-7539e7b496a9")
-		)
-		(pin "2"
-			(uuid "f535533c-6033-45e5-b6ea-0588a99ed8a7")
-		)
-		(pin "3"
-			(uuid "75910055-bde9-4d18-a36b-e75b63d688db")
-		)
-		(instances
-			(project ""
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_3")
-		(lib_id "Device:R_Pack04_Split")
-		(at 69.85 96.52 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55e41922-75d4-49c8-984a-e9d84648c952")
-		(property "Reference" "RN1"
-			(at 69.85 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x100"
-			(at 69.85 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 69.85 98.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc05f")
-		)
-		(pin "3"
-			(uuid "ec1d98b2-2f46-45fe-842d-503b0d534f0c")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c65")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e957")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527af1")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd22905213")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b5")
-		)
-		(pin "6"
-			(uuid "b9af6b31-21ee-42e5-aa55-f088efa7e209")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_1")
-		(lib_id "Device:R_Pack04_Split")
-		(at 69.85 109.22 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6280ef06-0cd0-4cf7-86a4-f3767bee91b2")
-		(property "Reference" "RN1"
-			(at 69.85 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x100"
-			(at 69.85 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 69.85 111.252 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 69.85 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "067630f5-acd5-4a4e-862f-d3a6ed0287c1")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881dea")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c66")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e958")
-		)
-		(pin "2"
-			(uuid "4618f114-8b9a-4284-9648-14ac800384d9")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd22905214")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b6")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8adad")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN1")
-					(unit 2)
 				)
 			)
 		)
@@ -11054,168 +6251,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 69.85 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73206787-52a8-4a98-b995-1148b4b9cb09")
-		(property "Reference" "RN5"
-			(at 69.85 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x100"
-			(at 69.85 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 69.85 73.152 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 69.85 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc062")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881dec")
-		)
-		(pin "8"
-			(uuid "0a60c91b-3d36-4d36-8384-732b7ed4042c")
-		)
-		(pin "1"
-			(uuid "45c623b4-9a7b-45e8-891f-3805852ab9aa")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527af4")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd22905217")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5b9")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8adaf")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
-		(at 69.85 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "735b9586-5c6d-4b5e-a220-ab4594c8dc9d")
-		(property "Reference" "R57"
-			(at 69.85 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 69.85 182.6514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "--"
-			(at 69.85 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d654f06a-06c8-43f1-bb36-2278eb50d257")
-		)
-		(pin "2"
-			(uuid "cc4268e5-a15e-4221-b5f8-bf35919ca4f7")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
 		(at 143.51 41.91 180)
 		(unit 1)
@@ -11430,288 +6465,6 @@
 				)
 				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-0000622ac489"
 					(reference "R148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CA064X104K4RACAUTO_3")
-		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 77.47 91.44 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "8aa8fabf-8995-41b3-bbc2-b0405c8abbff")
-		(property "Reference" "CN3"
-			(at 80.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4x100nF"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.98 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 93.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 93.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 93.98 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 93.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 93.98 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 93.98 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26826")
-		)
-		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c7")
-		)
-		(pin "6"
-			(uuid "8527fe8d-eb27-4c94-bc74-d6016be76fe7")
-		)
-		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6e")
-		)
-		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304247")
-		)
-		(pin "4"
-			(uuid "93a28456-3795-4233-accf-92cd7a86c88e")
-		)
-		(pin "5"
-			(uuid "937259e5-68db-448c-9416-1702ef30a0a5")
-		)
-		(pin "3"
-			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded71")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "CN3")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CA064X104K4RACAUTO_1")
-		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 77.47 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "971156fa-9bdf-4da2-a8aa-f6e19d5de1da")
-		(property "Reference" "CN5"
-			(at 80.01 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4x100nF"
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.98 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 93.98 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 93.98 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 93.98 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 93.98 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 93.98 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 93.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 93.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc0548aa-8c53-4a90-9fd5-b17a37855a2f")
-		)
-		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c8")
-		)
-		(pin "3"
-			(uuid "6ed4a312-4a26-48c4-a011-e0dd12061250")
-		)
-		(pin "4"
-			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e7")
-		)
-		(pin "5"
-			(uuid "52806b20-e660-484c-9e93-f73e3c6613f5")
-		)
-		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a6f")
-		)
-		(pin "8"
-			(uuid "4b437d6e-cf9d-4ec4-b150-57859b1e3d87")
-		)
-		(pin "6"
-			(uuid "8bd4b72f-3f74-4ac6-b313-37933816667c")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "CN5")
 					(unit 1)
 				)
 			)
@@ -12003,147 +6756,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CA064X104K4RACAUTO_2")
-		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 77.47 167.64 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "b36a3efe-2259-41d8-a6cc-2dfef8aff9d4")
-		(property "Reference" "CN1"
-			(at 80.01 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4x100nF"
-			(at 80.01 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.98 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 93.98 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 93.98 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 93.98 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 93.98 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 93.98 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 93.98 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 93.98 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26827")
-		)
-		(pin "2"
-			(uuid "91c7a201-03d6-4cd5-8535-8589914c3be4")
-		)
-		(pin "4"
-			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e8")
-		)
-		(pin "7"
-			(uuid "59cb5a1c-a1dc-4bc8-acdd-2a8e2cf0e97d")
-		)
-		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304248")
-		)
-		(pin "6"
-			(uuid "9dfa5692-8187-46fe-aeee-7585bdc35b54")
-		)
-		(pin "5"
-			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa885c")
-		)
-		(pin "3"
-			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded72")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "CN1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
 		(at 210.82 110.49 0)
 		(unit 1)
@@ -12251,93 +6863,6 @@
 				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-0000622ac489"
 					(reference "R151")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_1")
-		(lib_id "Device:R_Pack04_Split")
-		(at 69.85 160.02 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "baa97c97-6a1f-4455-a778-ddf96be7fc9f")
-		(property "Reference" "RN3"
-			(at 69.85 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x100"
-			(at 69.85 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 69.85 162.052 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 69.85 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ad4979bf-e731-4572-a126-cde0e78bc064")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881def")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c6a")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e95c")
-		)
-		(pin "2"
-			(uuid "a9954425-7c63-4fec-b27f-1c28b4527af6")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd22905219")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5bb")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8adb2")
-		)
-		(instances
-			(project ""
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN3")
-					(unit 2)
 				)
 			)
 		)
@@ -12623,451 +7148,6 @@
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 254 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7736cf3-0758-418f-9559-0811ee348d4c")
-		(property "Reference" "JP2"
-			(at 254 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MES"
-			(at 254 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
-			(at 254 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "--"
-			(at 254 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0ca0d3f-e38f-4c67-bbe2-0badac605d0e")
-		)
-		(pin "2"
-			(uuid "dc8dbd0a-518e-4463-92db-70fc9ebc5a36")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CA064X104K4RACAUTO_3")
-		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 77.47 40.64 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "c9d93d20-7a30-4bbf-8604-d03722821cbe")
-		(property "Reference" "CN5"
-			(at 80.01 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4x100nF"
-			(at 80.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.98 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 93.98 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 93.98 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 93.98 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 93.98 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 93.98 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 93.98 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 93.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26828")
-		)
-		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52c9")
-		)
-		(pin "6"
-			(uuid "8527fe8d-eb27-4c94-bc74-d6016be76fe8")
-		)
-		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a70")
-		)
-		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e7304249")
-		)
-		(pin "4"
-			(uuid "dedcd901-2d9c-4718-a7d1-f94d8c1a1b60")
-		)
-		(pin "5"
-			(uuid "799d931d-8274-4b37-a9f2-68d9ebab823e")
-		)
-		(pin "3"
-			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded73")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "CN5")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Pack04_Split_1")
-		(lib_id "Device:R_Pack04_Split")
-		(at 69.85 58.42 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d01b7334-6047-40fc-a5f2-dfc9ddbfb873")
-		(property "Reference" "RN5"
-			(at 69.85 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4x100"
-			(at 69.85 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 69.85 60.452 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 69.85 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "108df9d6-27b0-4b53-a966-304238024156")
-		)
-		(pin "3"
-			(uuid "b33593a2-1e68-4e3f-8175-4b9638881df1")
-		)
-		(pin "8"
-			(uuid "d050c35a-f402-439f-b394-48da6f7c9c6b")
-		)
-		(pin "1"
-			(uuid "e235ef89-f90d-40f5-853c-60d9ddf1e95d")
-		)
-		(pin "2"
-			(uuid "f8818a50-e803-4533-982b-4acd9a241175")
-		)
-		(pin "4"
-			(uuid "5e88f390-6daf-482a-a7c4-74fd2290521b")
-		)
-		(pin "5"
-			(uuid "a0270409-3d71-487d-a750-1db84c51f5bd")
-		)
-		(pin "6"
-			(uuid "0b574bbc-357c-4260-be7b-529f07b8adb4")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "RN5")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CA064X104K4RACAUTO_1")
-		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 77.47 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "d28cf120-e7b6-424a-b0c3-37e70de67737")
-		(property "Reference" "CN3"
-			(at 80.01 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4x100nF"
-			(at 80.01 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 93.98 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 93.98 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 93.98 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 93.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 93.98 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "035ffaa2-e601-4dae-be28-59df180d937f")
-		)
-		(pin "2"
-			(uuid "e3beb2ae-2ffb-4cb1-bff4-f6d12c8f52ca")
-		)
-		(pin "3"
-			(uuid "6ed4a312-4a26-48c4-a011-e0dd12061251")
-		)
-		(pin "4"
-			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008e9")
-		)
-		(pin "5"
-			(uuid "52806b20-e660-484c-9e93-f73e3c6613f6")
-		)
-		(pin "7"
-			(uuid "ad6d8994-0079-438a-b309-0eb1bbeb0a71")
-		)
-		(pin "8"
-			(uuid "aee0613a-63ac-4053-a649-c4f6bd48d9ce")
-		)
-		(pin "6"
-			(uuid "8bd4b72f-3f74-4ac6-b313-37933816667d")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "CN3")
 					(unit 1)
 				)
 			)
@@ -13462,147 +7542,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CA064X104K4RACAUTO_2")
-		(lib_id "ca064x104k4racauto:CA064X104K4RACAUTO")
-		(at 77.47 66.04 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "f3c6c2ad-8c2e-4b2a-aa11-ef7fd9db3831")
-		(property "Reference" "CN5"
-			(at 80.01 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4x100nF"
-			(at 80.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 93.98 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1017_X7R_ARRAY_SMD.pdf"
-			(at 93.98 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Array Auto X7R Flex, Ceramic, 0.1 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Array, Flex Termination, Automotive Grade, 3.5 % , 10 GOhms, 23 mg, 0612, 1.6mm, 3.2mm, 0.8mm, 4000, 78  Weeks, 80"
-			(at 93.98 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 93.98 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-CA064X104K4RCAUTO"
-			(at 93.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/CA064X104K4RACAUTO?qs=ds50AKTGxA9iMdWmuiiy3g%3D%3D"
-			(at 93.98 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 93.98 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CA064X104K4RACAUTO"
-			(at 93.98 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "495f2c88-ef22-4813-b7dc-d12075d26829")
-		)
-		(pin "2"
-			(uuid "f668152a-76d5-4d68-82d8-73a4ffead1e8")
-		)
-		(pin "4"
-			(uuid "41e03caf-5afb-4ca3-8d17-78c64ae008ea")
-		)
-		(pin "7"
-			(uuid "94eefa87-f4f2-41f1-b5d1-8c0f13bd3a9b")
-		)
-		(pin "8"
-			(uuid "8d0ce101-965f-49af-aa95-d222e730424a")
-		)
-		(pin "6"
-			(uuid "9dfa5692-8187-46fe-aeee-7585bdc35b55")
-		)
-		(pin "5"
-			(uuid "0aef3f7c-5475-4e5b-b135-ef32f7aa885d")
-		)
-		(pin "3"
-			(uuid "65e7402b-217c-41a0-8a4f-387f9d6ded74")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "CN5")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
 		(at 205.74 105.41 90)
 		(unit 1)
@@ -13891,17 +7830,7 @@
 			)
 			(uuid "5a6c24cd-d8bf-481e-be1c-1bc9db41708b")
 		)
-		(pin "CI+" input
-			(at 39.37 147.32 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "17070a66-b3a6-47ca-900b-3172415d64f3")
-		)
-		(pin "CO+" output
+		(pin "C" input
 			(at 62.23 147.32 0)
 			(effects
 				(font
@@ -13909,7 +7838,7 @@
 				)
 				(justify right)
 			)
-			(uuid "0ca0e6c3-bb83-444d-969b-db02a59f27b4")
+			(uuid "b22e19a4-9f25-4311-8b52-9ae5e68b5b4e")
 		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
@@ -13958,17 +7887,7 @@
 			)
 			(uuid "d7c71cce-7f9d-410b-a752-b232294fd1b0")
 		)
-		(pin "CI+" input
-			(at 39.37 121.92 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "b191f062-be7f-440a-b4bf-34a70711aed8")
-		)
-		(pin "CO+" output
+		(pin "C" input
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -13976,7 +7895,7 @@
 				)
 				(justify right)
 			)
-			(uuid "64ac89ed-a768-40db-84e5-e7364ab8e8fc")
+			(uuid "250e3ea1-7ed5-48b8-aea8-d1c2365fb94b")
 		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
@@ -14025,17 +7944,7 @@
 			)
 			(uuid "545eef9e-34a5-400c-a4e1-141448a08fad")
 		)
-		(pin "CI+" input
-			(at 39.37 134.62 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "b84613ef-955a-4b67-b4a7-52ed9a3b8275")
-		)
-		(pin "CO+" output
+		(pin "C" input
 			(at 62.23 134.62 0)
 			(effects
 				(font
@@ -14043,7 +7952,7 @@
 				)
 				(justify right)
 			)
-			(uuid "11534bd2-d291-47e2-a5b1-8f390597ddf4")
+			(uuid "cd5df110-cba2-4386-a6c2-b7a7921475d6")
 		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
@@ -14092,17 +8001,7 @@
 			)
 			(uuid "4b988345-c31a-4aff-a221-266d7dd3be0b")
 		)
-		(pin "CI+" input
-			(at 39.37 96.52 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "35181d36-cc53-49e4-9698-f513367cbb02")
-		)
-		(pin "CO+" output
+		(pin "C" input
 			(at 62.23 96.52 0)
 			(effects
 				(font
@@ -14110,7 +8009,7 @@
 				)
 				(justify right)
 			)
-			(uuid "fc4b22db-5147-43d0-8f0c-972d723f5788")
+			(uuid "c862034b-024d-4f2d-a340-7ef041db2020")
 		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
@@ -14159,17 +8058,7 @@
 			)
 			(uuid "3164b41f-7fd3-4d1b-a612-1456058a2861")
 		)
-		(pin "CI+" input
-			(at 39.37 160.02 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "c8099868-5c2a-45bc-a99f-7816e5cc8b17")
-		)
-		(pin "CO+" output
+		(pin "C" input
 			(at 62.23 160.02 0)
 			(effects
 				(font
@@ -14177,7 +8066,7 @@
 				)
 				(justify right)
 			)
-			(uuid "9fa95498-295c-47c3-96ab-d50dca0de16e")
+			(uuid "9c07e8fd-8f99-4855-8a42-dbcb8a1da893")
 		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
@@ -14226,17 +8115,7 @@
 			)
 			(uuid "3b181acf-b9a7-449f-a810-ec505b8b2890")
 		)
-		(pin "CI+" input
-			(at 39.37 71.12 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "0fe0da50-20ea-4c69-9cb2-b28b13ebf687")
-		)
-		(pin "CO+" output
+		(pin "C" input
 			(at 62.23 71.12 0)
 			(effects
 				(font
@@ -14244,7 +8123,7 @@
 				)
 				(justify right)
 			)
-			(uuid "6a23bca7-762c-4ea2-b1e7-e9cf29a62f85")
+			(uuid "668fbb25-e7a6-4453-80a1-51af9dfb410a")
 		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
@@ -14293,17 +8172,7 @@
 			)
 			(uuid "96fbd1c9-4785-434c-b2ab-33c9acb6225e")
 		)
-		(pin "CI+" input
-			(at 39.37 109.22 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "7a4b5837-447f-4b30-9257-546bb5bbbd82")
-		)
-		(pin "CO+" output
+		(pin "C" input
 			(at 62.23 109.22 0)
 			(effects
 				(font
@@ -14311,7 +8180,7 @@
 				)
 				(justify right)
 			)
-			(uuid "f653d49e-8eaf-43ec-b1f6-2aaa27b1f37b")
+			(uuid "042f7d8c-9272-419f-9c51-b8425994ac09")
 		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
@@ -14360,17 +8229,7 @@
 			)
 			(uuid "38d51f0f-cbc4-4e8c-b9a8-1167ee400c92")
 		)
-		(pin "CI+" input
-			(at 39.37 172.72 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "412f67ab-1625-402a-b917-2e39994b9a0e")
-		)
-		(pin "CO+" output
+		(pin "C" input
 			(at 62.23 172.72 0)
 			(effects
 				(font
@@ -14378,7 +8237,7 @@
 				)
 				(justify right)
 			)
-			(uuid "1f0c508b-0bb0-4128-af41-15ae3133497b")
+			(uuid "362695ff-4334-47d2-97d3-693a38f75fde")
 		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
@@ -14427,17 +8286,7 @@
 			)
 			(uuid "69d5b51e-94fb-408f-9c84-1094ea0c8562")
 		)
-		(pin "CI+" input
-			(at 39.37 58.42 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "689f5dff-50a2-49bb-9944-49f44a5916b1")
-		)
-		(pin "CO+" output
+		(pin "C" input
 			(at 62.23 58.42 0)
 			(effects
 				(font
@@ -14445,7 +8294,7 @@
 				)
 				(justify right)
 			)
-			(uuid "27e98fb2-5eb2-441b-9ea8-fabc933def84")
+			(uuid "25bc2993-96be-402b-8f25-8dc0668055a3")
 		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
@@ -14494,17 +8343,7 @@
 			)
 			(uuid "85c00ae3-cf8d-49a7-a37a-1ca0f0a1ab3e")
 		)
-		(pin "CI+" input
-			(at 39.37 83.82 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "a6dc197a-8896-4936-ab35-0ac995269292")
-		)
-		(pin "CO+" output
+		(pin "C" input
 			(at 62.23 83.82 0)
 			(effects
 				(font
@@ -14512,7 +8351,7 @@
 				)
 				(justify right)
 			)
-			(uuid "0ccbb925-05a9-4ab2-b4cc-7968c18954d0")
+			(uuid "f8d78193-d2e3-46bf-9f5b-c382e6d7bc79")
 		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
@@ -14561,17 +8400,7 @@
 			)
 			(uuid "6832dfad-6589-414b-a699-ce2924f9fe5e")
 		)
-		(pin "CI+" input
-			(at 39.37 33.02 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "9ea755b4-ae3c-44ca-8684-3b4420e838eb")
-		)
-		(pin "CO+" output
+		(pin "C" input
 			(at 62.23 33.02 0)
 			(effects
 				(font
@@ -14579,7 +8408,7 @@
 				)
 				(justify right)
 			)
-			(uuid "5620f0da-bb95-4d68-a79a-cbc788100b9b")
+			(uuid "a982567a-f329-45b6-9376-44edb37f1644")
 		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
@@ -14628,17 +8457,7 @@
 			)
 			(uuid "657b9c4f-397c-4b0f-bd6d-6073d5eed26a")
 		)
-		(pin "CI+" input
-			(at 39.37 45.72 180)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-			(uuid "ffb06ac2-cbe0-4ab8-9ef4-b5755334278b")
-		)
-		(pin "CO+" output
+		(pin "C" input
 			(at 62.23 45.72 0)
 			(effects
 				(font
@@ -14646,7 +8465,7 @@
 				)
 				(justify right)
 			)
-			(uuid "8570367c-b706-4c01-af7d-f0c22009c8dc")
+			(uuid "0e585d4c-2e11-4d25-ab43-a6f72bd053ef")
 		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
