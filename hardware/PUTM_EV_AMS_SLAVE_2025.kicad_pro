@@ -631,6 +631,18 @@
           "label": "Arrow Part Number",
           "name": "Arrow Part Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TME Electronic Components Part Number",
+          "name": "TME Electronic Components Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TME Electronic Components Price/Stock",
+          "name": "TME Electronic Components Price/Stock",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -685,55 +697,71 @@
     ],
     [
       "6a830281-1331-4b0f-b6b7-336a24ad47cd",
-      "L_LTC"
+      "BQ79616"
     ],
     [
       "7776e438-044e-4a2f-bd02-61ad1a3bdd92",
       "DCH1"
     ],
     [
-      "5945678e-a174-4994-aa30-97915d89d3d4",
+      "072e65e8-c054-4b01-82a2-553c47345332",
       "DCH2"
     ],
     [
-      "07bd4105-b2f9-4348-922b-651bd2003743",
+      "e49efca2-6f0b-4406-b297-1023f88a7b43",
       "DCH3"
     ],
     [
-      "3697d2ca-4cfd-4e2f-adb1-6ad8ab18e20d",
+      "5cabc06d-e7e5-4706-ad84-4b8216f64fbc",
       "DCH4"
     ],
     [
-      "2e4fe776-913c-461f-9c16-96763dd17ad4",
+      "b003fab1-85fe-473a-b4fd-0def6a127d3f",
       "DCH5"
     ],
     [
-      "6242def1-f3cc-4471-8483-d03a00c15111",
+      "bb961f20-142e-47ff-9929-d3d3a3f1da2a",
       "DCH6"
     ],
     [
-      "5278c436-a4ff-4082-a8df-b186949d7b25",
+      "dfa23f30-8925-4bdf-b683-92f0d2f0653c",
       "DCH7"
     ],
     [
-      "a87a1bd7-8cb1-4a14-818b-b9a7f089ee67",
+      "f2ce3108-6dc4-4610-b9ab-69f9f5b3c2e6",
       "DCH8"
     ],
     [
-      "5ce90024-d821-4b65-ab91-1b4f87fa4778",
+      "70e9f684-05c1-412d-8b11-0f0dbd27221a",
       "DCH9"
     ],
     [
-      "7ea74cce-f952-42ac-b6c0-5e8a5c651f54",
+      "86424d30-c625-4c83-9080-ddfbf83b883a",
       "DCH10"
     ],
     [
-      "f869fbdf-fee8-4379-9464-3cd095f6fd2c",
+      "7c74b1c6-490b-4ac4-99a6-dcc47141aa2a",
       "DCH11"
     ],
     [
-      "e3898a12-0a74-4dbd-b8a7-59ace09ac943",
+      "d3b74c32-6768-4229-bde5-856361e0f0dd",
       "DCH12"
+    ],
+    [
+      "7d139389-ed2d-47c9-89e0-274d234c349b",
+      "DCH13"
+    ],
+    [
+      "ddbb8672-b1f1-4ea3-a7ff-c38ee3dd7f21",
+      "DCH14"
+    ],
+    [
+      "64c837e6-cfc3-4818-a269-5f8d5183d492",
+      "DCH15"
+    ],
+    [
+      "d0295353-a936-4cee-beb9-f4de0da54344",
+      "DCH16"
     ]
   ],
   "text_variables": {}
