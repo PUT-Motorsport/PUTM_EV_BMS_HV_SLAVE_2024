@@ -1,140 +1,20 @@
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.5 (main, Aug 14 2024, 05:26:19) [MSC v.1939 64 bit (AMD64)]'
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.5
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.2
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000002946E340550>
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with R9 as a reference
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'R9'
-Located on: ['L_LTC', 'DCH1']
-With filenames: ['Ltc.kicad_sch', 'Discharge.kicad_sch']
-With sheet_id:['L_LTC', 'DCH1']
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
-[('R45', ['L_LTC', 'DCH10']), ('R44', ['L_LTC', 'DCH12']), ('R41', ['L_LTC', 'DCH9']), ('R37', ['L_LTC', 'DCH8']), ('R33', ['L_LTC', 'DCH7']), ('R29', ['L_LTC', 'DCH6']), ('R25', ['L_LTC', 'DCH5']), ('R21', ['L_LTC', 'DCH4']), ('R17', ['L_LTC', 'DCH3']), ('R13', ['L_LTC', 'DCH2']), ('R9', ['L_LTC', 'DCH1']), ('R1', ['L_LTC', 'DCH11'])]
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'DCH1', file:'Discharge.kicad_sch'
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['L_LTC', 'DCH10'], ['L_LTC', 'DCH11'], ['L_LTC', 'DCH12'], ['L_LTC', 'DCH2'], ['L_LTC', 'DCH3'], ['L_LTC', 'DCH4'], ['L_LTC', 'DCH5'], ['L_LTC', 'DCH6'], ['L_LTC', 'DCH7'], ['L_LTC', 'DCH8'], ['L_LTC', 'DCH9']]
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['L_LTC', 'DCH1']
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1894, 69)
-10-19 16:34:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1455, 69)
-10-19 16:34:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'DCH1', file:'Discharge.kicad_sch'
-10-19 16:34:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['L_LTC', 'DCH10'], ['L_LTC', 'DCH11'], ['L_LTC', 'DCH12'], ['L_LTC', 'DCH2'], ['L_LTC', 'DCH3'], ['L_LTC', 'DCH4'], ['L_LTC', 'DCH5'], ['L_LTC', 'DCH6'], ['L_LTC', 'DCH7'], ['L_LTC', 'DCH8'], ['L_LTC', 'DCH9']]
-10-19 16:34:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['L_LTC', 'DCH1']
-10-19 16:34:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
-10-19 16:34:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: DS UNIT, src group:DS UNIT
-10-19 16:34:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: DS UNIT, src group:DS UNIT
-10-19 16:34:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: DS UNIT, src group:DS UNIT
-10-19 16:34:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: DS UNIT, src group:DS UNIT
-10-19 16:34:42 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: DS UNIT, src group:DS UNIT
-10-19 16:34:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'DCH1', file:'Discharge.kicad_sch'
-10-19 16:34:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['L_LTC', 'DCH10'], ['L_LTC', 'DCH11'], ['L_LTC', 'DCH12'], ['L_LTC', 'DCH2'], ['L_LTC', 'DCH3'], ['L_LTC', 'DCH4'], ['L_LTC', 'DCH5'], ['L_LTC', 'DCH6'], ['L_LTC', 'DCH7'], ['L_LTC', 'DCH8'], ['L_LTC', 'DCH9']]
-10-19 16:34:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['L_LTC', 'DCH1']
-10-19 16:34:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'DCH1', file:'Discharge.kicad_sch'
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['L_LTC', 'DCH10'], ['L_LTC', 'DCH11'], ['L_LTC', 'DCH12'], ['L_LTC', 'DCH2'], ['L_LTC', 'DCH3'], ['L_LTC', 'DCH4'], ['L_LTC', 'DCH5'], ['L_LTC', 'DCH6'], ['L_LTC', 'DCH7'], ['L_LTC', 'DCH8'], ['L_LTC', 'DCH9']]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 278:Starting replication of sheets: [['L_LTC', 'DCH10'], ['L_LTC', 'DCH11'], ['L_LTC', 'DCH12'], ['L_LTC', 'DCH2'], ['L_LTC', 'DCH3'], ['L_LTC', 'DCH4'], ['L_LTC', 'DCH5'], ['L_LTC', 'DCH6'], ['L_LTC', 'DCH7'], ['L_LTC', 'DCH8'], ['L_LTC', 'DCH9']]
-on level: ['L_LTC', 'DCH1']
-with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
-10-19 16:34:50 root 332:updating GUI message: 'Preparing for replication'
-10-19 16:34:50 root 337:updating GUI with: 0
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 348:Getting the list of source footprints
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of all the remaining footprints
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 365:Getting source tracks
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 369:Getting source zones
-10-19 16:34:50 root 337:updating GUI with: 50
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 373:Getting source text items
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 377:Getting source drawing items
-10-19 16:34:50 root 332:updating GUI message: 'Replicating footprints'
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating footprints
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['L_LTC', 'DCH10']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['L_LTC', 'DCH11']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['L_LTC', 'DCH12']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['L_LTC', 'DCH2']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['L_LTC', 'DCH3']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['L_LTC', 'DCH4']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['L_LTC', 'DCH5']
-10-19 16:34:50 root 337:updating GUI with: 63
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['L_LTC', 'DCH6']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['L_LTC', 'DCH7']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['L_LTC', 'DCH8']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['L_LTC', 'DCH9']
-10-19 16:34:50 root 332:updating GUI message: 'Replicating tracks'
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1005:Replicating tracks
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['L_LTC', 'DCH10']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH10'] :[('/C1+', '/C10+'), ('Net-(D1-A)', 'Net-(D10-A)'), ('/L_LTC/S1', '/L_LTC/S10')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['L_LTC', 'DCH11']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH11'] :[('/C1+', '/C11+'), ('/L_LTC/S1', '/L_LTC/S11'), ('Net-(D1-A)', 'Net-(D21-A)')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['L_LTC', 'DCH12']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH12'] :[('Net-(D1-A)', 'Net-(D23-A)'), ('/C1+', '/C12+'), ('/L_LTC/S1', '/L_LTC/S12')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['L_LTC', 'DCH2']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH2'] :[('Net-(D1-A)', 'Net-(D2-A)'), ('/L_LTC/S1', '/L_LTC/S2'), ('/C1+', '/C2+')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['L_LTC', 'DCH3']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH3'] :[('/L_LTC/S1', '/L_LTC/S3'), ('/C1+', '/C3+'), ('Net-(D1-A)', 'Net-(D3-A)')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['L_LTC', 'DCH4']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH4'] :[('/C1+', '/C4+'), ('/L_LTC/S1', '/L_LTC/S4'), ('Net-(D1-A)', 'Net-(D4-A)')]
-10-19 16:34:50 root 337:updating GUI with: 47
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['L_LTC', 'DCH5']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH5'] :[('/L_LTC/S1', '/L_LTC/S5'), ('Net-(D1-A)', 'Net-(D5-A)'), ('/C1+', '/C5+')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['L_LTC', 'DCH6']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH6'] :[('Net-(D1-A)', 'Net-(D6-A)'), ('/C1+', '/C6+'), ('/L_LTC/S1', '/L_LTC/S6')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['L_LTC', 'DCH7']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH7'] :[('Net-(D1-A)', 'Net-(D7-A)'), ('/L_LTC/S1', '/L_LTC/S7'), ('/C1+', '/C7+')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['L_LTC', 'DCH8']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH8'] :[('/C1+', '/C8+'), ('/L_LTC/S1', '/L_LTC/S8'), ('Net-(D1-A)', 'Net-(D8-A)')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['L_LTC', 'DCH9']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH9'] :[('/C1+', '/C9+'), ('/L_LTC/S1', '/L_LTC/S9'), ('Net-(D1-A)', 'Net-(D9-A)')]
-10-19 16:34:50 root 332:updating GUI message: 'Replicating zones'
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1075:Replicating zones
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['L_LTC', 'DCH10']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH10'] :[('/C1+', '/C10+'), ('Net-(D1-A)', 'Net-(D10-A)'), ('/L_LTC/S1', '/L_LTC/S10')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['L_LTC', 'DCH11']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH11'] :[('/C1+', '/C11+'), ('/L_LTC/S1', '/L_LTC/S11'), ('Net-(D1-A)', 'Net-(D21-A)')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['L_LTC', 'DCH12']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH12'] :[('Net-(D1-A)', 'Net-(D23-A)'), ('/C1+', '/C12+'), ('/L_LTC/S1', '/L_LTC/S12')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['L_LTC', 'DCH2']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH2'] :[('Net-(D1-A)', 'Net-(D2-A)'), ('/L_LTC/S1', '/L_LTC/S2'), ('/C1+', '/C2+')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['L_LTC', 'DCH3']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH3'] :[('/L_LTC/S1', '/L_LTC/S3'), ('/C1+', '/C3+'), ('Net-(D1-A)', 'Net-(D3-A)')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['L_LTC', 'DCH4']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH4'] :[('/C1+', '/C4+'), ('/L_LTC/S1', '/L_LTC/S4'), ('Net-(D1-A)', 'Net-(D4-A)')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['L_LTC', 'DCH5']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH5'] :[('/L_LTC/S1', '/L_LTC/S5'), ('Net-(D1-A)', 'Net-(D5-A)'), ('/C1+', '/C5+')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['L_LTC', 'DCH6']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH6'] :[('Net-(D1-A)', 'Net-(D6-A)'), ('/C1+', '/C6+'), ('/L_LTC/S1', '/L_LTC/S6')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['L_LTC', 'DCH7']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH7'] :[('Net-(D1-A)', 'Net-(D7-A)'), ('/L_LTC/S1', '/L_LTC/S7'), ('/C1+', '/C7+')]
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['L_LTC', 'DCH8']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH8'] :[('/C1+', '/C8+'), ('/L_LTC/S1', '/L_LTC/S8'), ('Net-(D1-A)', 'Net-(D8-A)')]
-10-19 16:34:50 root 337:updating GUI with: 90
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['L_LTC', 'DCH9']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['L_LTC', 'DCH9'] :[('/C1+', '/C9+'), ('/L_LTC/S1', '/L_LTC/S9'), ('Net-(D1-A)', 'Net-(D9-A)')]
-10-19 16:34:50 root 332:updating GUI message: 'Replicating text'
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1164:Replicating text
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['L_LTC', 'DCH10']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['L_LTC', 'DCH11']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['L_LTC', 'DCH12']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['L_LTC', 'DCH2']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['L_LTC', 'DCH3']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['L_LTC', 'DCH4']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['L_LTC', 'DCH5']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['L_LTC', 'DCH6']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['L_LTC', 'DCH7']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['L_LTC', 'DCH8']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['L_LTC', 'DCH9']
-10-19 16:34:50 root 332:updating GUI message: 'Replicating drawings'
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1215:Replicating drawings
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['L_LTC', 'DCH10']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['L_LTC', 'DCH11']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['L_LTC', 'DCH12']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['L_LTC', 'DCH2']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['L_LTC', 'DCH3']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['L_LTC', 'DCH4']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['L_LTC', 'DCH5']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['L_LTC', 'DCH6']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['L_LTC', 'DCH7']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['L_LTC', 'DCH8']
-10-19 16:34:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['L_LTC', 'DCH9']
-10-19 16:34:51 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.5 (main, Aug 14 2024, 05:26:19) [MSC v.1939 64 bit (AMD64)]'
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.5
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.2
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x00000252D45271C0>
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with R9 as a reference
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'R9'
+Located on: ['BQ79616', 'DCH1']
+With filenames: ['BQ79616.kicad_sch', 'Discharge.kicad_sch']
+With sheet_id:['BQ79616', 'DCH1']
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('R33', ['BQ79616', 'DCH11']), ('R18', ['BQ79616', 'DCH6']), ('R30', ['BQ79616', 'DCH10']), ('R45', ['BQ79616', 'DCH15']), ('R12', ['BQ79616', 'DCH4']), ('R9', ['BQ79616', 'DCH1']), ('R21', ['BQ79616', 'DCH7']), ('R4', ['BQ79616', 'DCH2']), ('R15', ['BQ79616', 'DCH5']), ('R27', ['BQ79616', 'DCH9']), ('R36', ['BQ79616', 'DCH12']), ('R7', ['BQ79616', 'DCH3']), ('R39', ['BQ79616', 'DCH13']), ('R48', ['BQ79616', 'DCH16']), ('R24', ['BQ79616', 'DCH8']), ('R42', ['BQ79616', 'DCH14'])]
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'DCH1', file:'Discharge.kicad_sch'
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['BQ79616', 'DCH10'], ['BQ79616', 'DCH11'], ['BQ79616', 'DCH12'], ['BQ79616', 'DCH13'], ['BQ79616', 'DCH14'], ['BQ79616', 'DCH15'], ['BQ79616', 'DCH16'], ['BQ79616', 'DCH2'], ['BQ79616', 'DCH3'], ['BQ79616', 'DCH4'], ['BQ79616', 'DCH5'], ['BQ79616', 'DCH6'], ['BQ79616', 'DCH7'], ['BQ79616', 'DCH8'], ['BQ79616', 'DCH9']]
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['BQ79616', 'DCH1']
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(-30106, -31974)
+11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(-30545, -31974)
