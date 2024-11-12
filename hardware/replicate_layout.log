@@ -1,20 +1,211 @@
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.5 (main, Aug 14 2024, 05:26:19) [MSC v.1939 64 bit (AMD64)]'
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.5
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.2
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x00000252D45271C0>
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with R9 as a reference
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'R9'
+11-12 15:00:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+11-12 15:00:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.5 (main, Aug 14 2024, 05:26:19) [MSC v.1939 64 bit (AMD64)]'
+11-12 15:00:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.5
+11-12 15:00:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.2
+11-12 15:00:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001D47F2791B0>
+11-12 15:00:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with R9 as a reference
+11-12 15:00:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+11-12 15:00:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'R9'
 Located on: ['BQ79616', 'DCH1']
 With filenames: ['BQ79616.kicad_sch', 'Discharge.kicad_sch']
 With sheet_id:['BQ79616', 'DCH1']
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+11-12 15:00:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
 [('R33', ['BQ79616', 'DCH11']), ('R18', ['BQ79616', 'DCH6']), ('R30', ['BQ79616', 'DCH10']), ('R45', ['BQ79616', 'DCH15']), ('R12', ['BQ79616', 'DCH4']), ('R9', ['BQ79616', 'DCH1']), ('R21', ['BQ79616', 'DCH7']), ('R4', ['BQ79616', 'DCH2']), ('R15', ['BQ79616', 'DCH5']), ('R27', ['BQ79616', 'DCH9']), ('R36', ['BQ79616', 'DCH12']), ('R7', ['BQ79616', 'DCH3']), ('R39', ['BQ79616', 'DCH13']), ('R48', ['BQ79616', 'DCH16']), ('R24', ['BQ79616', 'DCH8']), ('R42', ['BQ79616', 'DCH14'])]
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'DCH1', file:'Discharge.kicad_sch'
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['BQ79616', 'DCH10'], ['BQ79616', 'DCH11'], ['BQ79616', 'DCH12'], ['BQ79616', 'DCH13'], ['BQ79616', 'DCH14'], ['BQ79616', 'DCH15'], ['BQ79616', 'DCH16'], ['BQ79616', 'DCH2'], ['BQ79616', 'DCH3'], ['BQ79616', 'DCH4'], ['BQ79616', 'DCH5'], ['BQ79616', 'DCH6'], ['BQ79616', 'DCH7'], ['BQ79616', 'DCH8'], ['BQ79616', 'DCH9']]
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['BQ79616', 'DCH1']
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(-30106, -31974)
-11-06 21:13:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(-30545, -31974)
+11-12 15:00:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+11-12 15:00:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'DCH1', file:'Discharge.kicad_sch'
+11-12 15:00:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['BQ79616', 'DCH10'], ['BQ79616', 'DCH11'], ['BQ79616', 'DCH12'], ['BQ79616', 'DCH13'], ['BQ79616', 'DCH14'], ['BQ79616', 'DCH15'], ['BQ79616', 'DCH16'], ['BQ79616', 'DCH2'], ['BQ79616', 'DCH3'], ['BQ79616', 'DCH4'], ['BQ79616', 'DCH5'], ['BQ79616', 'DCH6'], ['BQ79616', 'DCH7'], ['BQ79616', 'DCH8'], ['BQ79616', 'DCH9']]
+11-12 15:00:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['BQ79616', 'DCH1']
+11-12 15:00:11 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+11-12 15:00:11 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1620, 96)
+11-12 15:00:11 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1181, 96)
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'DCH1', file:'Discharge.kicad_sch'
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['BQ79616', 'DCH10'], ['BQ79616', 'DCH11'], ['BQ79616', 'DCH12'], ['BQ79616', 'DCH13'], ['BQ79616', 'DCH14'], ['BQ79616', 'DCH15'], ['BQ79616', 'DCH16'], ['BQ79616', 'DCH2'], ['BQ79616', 'DCH3'], ['BQ79616', 'DCH4'], ['BQ79616', 'DCH5'], ['BQ79616', 'DCH6'], ['BQ79616', 'DCH7'], ['BQ79616', 'DCH8'], ['BQ79616', 'DCH9']]
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['BQ79616', 'DCH1']
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'DCH1', file:'Discharge.kicad_sch'
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['BQ79616', 'DCH10'], ['BQ79616', 'DCH11'], ['BQ79616', 'DCH12'], ['BQ79616', 'DCH13'], ['BQ79616', 'DCH14'], ['BQ79616', 'DCH15'], ['BQ79616', 'DCH16'], ['BQ79616', 'DCH2'], ['BQ79616', 'DCH3'], ['BQ79616', 'DCH4'], ['BQ79616', 'DCH5'], ['BQ79616', 'DCH6'], ['BQ79616', 'DCH7'], ['BQ79616', 'DCH8'], ['BQ79616', 'DCH9']]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 278:Starting replication of sheets: [['BQ79616', 'DCH10'], ['BQ79616', 'DCH11'], ['BQ79616', 'DCH12'], ['BQ79616', 'DCH13'], ['BQ79616', 'DCH14'], ['BQ79616', 'DCH15'], ['BQ79616', 'DCH16'], ['BQ79616', 'DCH2'], ['BQ79616', 'DCH3'], ['BQ79616', 'DCH4'], ['BQ79616', 'DCH5'], ['BQ79616', 'DCH6'], ['BQ79616', 'DCH7'], ['BQ79616', 'DCH8'], ['BQ79616', 'DCH9']]
+on level: ['BQ79616', 'DCH1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=True
+11-12 15:00:19 root 332:updating GUI message: 'Preparing for replication'
+11-12 15:00:19 root 337:updating GUI with: 0
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 348:Getting the list of source footprints
+11-12 15:00:19 root 337:updating GUI with: 0
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of all the remaining footprints
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 365:Getting source tracks
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1333:Track group: , src group:
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 369:Getting source zones
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 373:Getting source text items
+11-12 15:00:19 root 337:updating GUI with: 66
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 377:Getting source drawing items
+11-12 15:00:19 root 332:updating GUI message: 'Replicating footprints'
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating footprints
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH10']
+11-12 15:00:19 root 337:updating GUI with: 5
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH11']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH12']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH13']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH14']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH15']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH16']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH2']
+11-12 15:00:19 root 337:updating GUI with: 47
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH3']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH4']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH5']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH6']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH7']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH8']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['BQ79616', 'DCH9']
+11-12 15:00:19 root 337:updating GUI with: 97
+11-12 15:00:19 root 332:updating GUI message: 'Replicating tracks'
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1005:Replicating tracks
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH10']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH10'] :[('Net-(D1-A)', 'Net-(D10-A)'), ('/BQ79616/CB0', '/BQ79616/CB9'), ('/BQ79616/VC0', '/BQ79616/VC9'), ('/BQ79616/CB1', '/BQ79616/CB10'), ('/BQ79616/VC1', '/BQ79616/VC10'), ('/C1+', '/C10+')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH11']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH11'] :[('Net-(D1-A)', 'Net-(D11-A)'), ('/BQ79616/VC1', '/BQ79616/VC11'), ('/BQ79616/CB1', '/BQ79616/CB11'), ('/C1+', '/C11+'), ('/BQ79616/CB0', '/BQ79616/CB10'), ('/BQ79616/VC0', '/BQ79616/VC10')]
+11-12 15:00:19 root 337:updating GUI with: 13
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH12']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH12'] :[('Net-(D1-A)', 'Net-(D12-A)'), ('/C1+', '/C12+'), ('/BQ79616/CB1', '/BQ79616/CB12'), ('/BQ79616/VC1', '/BQ79616/VC12'), ('/BQ79616/VC0', '/BQ79616/VC11'), ('/BQ79616/CB0', '/BQ79616/CB11')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH13']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH13'] :[('/BQ79616/CB1', '/BQ79616/CB13'), ('/BQ79616/VC1', '/BQ79616/VC13'), ('/BQ79616/VC0', '/BQ79616/VC12'), ('Net-(D1-A)', 'Net-(D13-A)'), ('/BQ79616/CB0', '/BQ79616/CB12'), ('/C1+', '/C13+')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH14']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH14'] :[('/C1+', '/C14+'), ('/BQ79616/VC1', '/BQ79616/VC14'), ('/BQ79616/VC0', '/BQ79616/VC13'), ('Net-(D1-A)', 'Net-(D14-A)'), ('/BQ79616/CB0', '/BQ79616/CB13'), ('/BQ79616/CB1', '/BQ79616/CB14')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH15']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH15'] :[('/C1+', '/C15+'), ('/BQ79616/CB0', '/BQ79616/CB14'), ('/BQ79616/VC0', '/BQ79616/VC14'), ('/BQ79616/CB1', '/BQ79616/CB15'), ('Net-(D1-A)', 'Net-(D15-A)'), ('/BQ79616/VC1', '/BQ79616/VC15')]
+11-12 15:00:19 root 337:updating GUI with: 33
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH16']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH16'] :[('/BQ79616/VC1', '/BQ79616/VC16'), ('/C1+', '/C16+'), ('Net-(D1-A)', 'Net-(D16-A)'), ('/BQ79616/CB0', '/BQ79616/CB15'), ('/BQ79616/CB1', '/BQ79616/CB16'), ('/BQ79616/VC0', '/BQ79616/VC15')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH2']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH2'] :[('/BQ79616/CB0', '/BQ79616/CB1'), ('/C1+', '/C2+'), ('/BQ79616/CB1', '/BQ79616/CB2'), ('/BQ79616/VC1', '/BQ79616/VC2'), ('Net-(D1-A)', 'Net-(D2-A)'), ('/BQ79616/VC0', '/BQ79616/VC1')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH3']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH3'] :[('Net-(D1-A)', 'Net-(D3-A)'), ('/BQ79616/VC1', '/BQ79616/VC3'), ('/BQ79616/VC0', '/BQ79616/VC2'), ('/BQ79616/CB1', '/BQ79616/CB3'), ('/BQ79616/CB0', '/BQ79616/CB2'), ('/C1+', '/C3+')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH4']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH4'] :[('/BQ79616/VC1', '/BQ79616/VC4'), ('/BQ79616/VC0', '/BQ79616/VC3'), ('/BQ79616/CB1', '/BQ79616/CB4'), ('/C1+', '/C4+'), ('/BQ79616/CB0', '/BQ79616/CB3'), ('Net-(D1-A)', 'Net-(D4-A)')]
+11-12 15:00:19 root 337:updating GUI with: 63
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH5']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH5'] :[('/BQ79616/CB1', '/BQ79616/CB5'), ('Net-(D1-A)', 'Net-(D5-A)'), ('/C1+', '/C5+'), ('/BQ79616/VC1', '/BQ79616/VC5'), ('/BQ79616/CB0', '/BQ79616/CB4'), ('/BQ79616/VC0', '/BQ79616/VC4')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH6']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH6'] :[('/BQ79616/VC1', '/BQ79616/VC6'), ('/BQ79616/CB1', '/BQ79616/CB6'), ('/BQ79616/CB0', '/BQ79616/CB5'), ('/C1+', '/C6+'), ('/BQ79616/VC0', '/BQ79616/VC5'), ('Net-(D1-A)', 'Net-(D6-A)')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH7']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH7'] :[('/BQ79616/VC1', '/BQ79616/VC7'), ('Net-(D1-A)', 'Net-(D7-A)'), ('/BQ79616/CB0', '/BQ79616/CB6'), ('/C1+', '/C7+'), ('/BQ79616/CB1', '/BQ79616/CB7'), ('/BQ79616/VC0', '/BQ79616/VC6')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH8']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH8'] :[('/BQ79616/VC0', '/BQ79616/VC7'), ('/C1+', '/C8+'), ('/BQ79616/CB0', '/BQ79616/CB7'), ('/BQ79616/CB1', '/BQ79616/CB8'), ('/BQ79616/VC1', '/BQ79616/VC8'), ('Net-(D1-A)', 'Net-(D8-A)')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['BQ79616', 'DCH9']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH9'] :[('/BQ79616/CB0', '/BQ79616/CB8'), ('/BQ79616/VC1', '/BQ79616/VC9'), ('Net-(D1-A)', 'Net-(D9-A)'), ('/C1+', '/C9+'), ('/BQ79616/VC0', '/BQ79616/VC8'), ('/BQ79616/CB1', '/BQ79616/CB9')]
+11-12 15:00:19 root 337:updating GUI with: 93
+11-12 15:00:19 root 332:updating GUI message: 'Replicating zones'
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1075:Replicating zones
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH10']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH10'] :[('Net-(D1-A)', 'Net-(D10-A)'), ('/BQ79616/CB0', '/BQ79616/CB9'), ('/BQ79616/VC0', '/BQ79616/VC9'), ('/BQ79616/CB1', '/BQ79616/CB10'), ('/BQ79616/VC1', '/BQ79616/VC10'), ('/C1+', '/C10+')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH11']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH11'] :[('Net-(D1-A)', 'Net-(D11-A)'), ('/BQ79616/VC1', '/BQ79616/VC11'), ('/BQ79616/CB1', '/BQ79616/CB11'), ('/C1+', '/C11+'), ('/BQ79616/CB0', '/BQ79616/CB10'), ('/BQ79616/VC0', '/BQ79616/VC10')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH12']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH12'] :[('Net-(D1-A)', 'Net-(D12-A)'), ('/C1+', '/C12+'), ('/BQ79616/CB1', '/BQ79616/CB12'), ('/BQ79616/VC1', '/BQ79616/VC12'), ('/BQ79616/VC0', '/BQ79616/VC11'), ('/BQ79616/CB0', '/BQ79616/CB11')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH13']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH13'] :[('/BQ79616/CB1', '/BQ79616/CB13'), ('/BQ79616/VC1', '/BQ79616/VC13'), ('/BQ79616/VC0', '/BQ79616/VC12'), ('Net-(D1-A)', 'Net-(D13-A)'), ('/BQ79616/CB0', '/BQ79616/CB12'), ('/C1+', '/C13+')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH14']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH14'] :[('/C1+', '/C14+'), ('/BQ79616/VC1', '/BQ79616/VC14'), ('/BQ79616/VC0', '/BQ79616/VC13'), ('Net-(D1-A)', 'Net-(D14-A)'), ('/BQ79616/CB0', '/BQ79616/CB13'), ('/BQ79616/CB1', '/BQ79616/CB14')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH15']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH15'] :[('/C1+', '/C15+'), ('/BQ79616/CB0', '/BQ79616/CB14'), ('/BQ79616/VC0', '/BQ79616/VC14'), ('/BQ79616/CB1', '/BQ79616/CB15'), ('Net-(D1-A)', 'Net-(D15-A)'), ('/BQ79616/VC1', '/BQ79616/VC15')]
+11-12 15:00:19 root 337:updating GUI with: 40
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH16']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH16'] :[('/BQ79616/VC1', '/BQ79616/VC16'), ('/C1+', '/C16+'), ('Net-(D1-A)', 'Net-(D16-A)'), ('/BQ79616/CB0', '/BQ79616/CB15'), ('/BQ79616/CB1', '/BQ79616/CB16'), ('/BQ79616/VC0', '/BQ79616/VC15')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH2']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH2'] :[('/BQ79616/CB0', '/BQ79616/CB1'), ('/C1+', '/C2+'), ('/BQ79616/CB1', '/BQ79616/CB2'), ('/BQ79616/VC1', '/BQ79616/VC2'), ('Net-(D1-A)', 'Net-(D2-A)'), ('/BQ79616/VC0', '/BQ79616/VC1')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH3']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH3'] :[('Net-(D1-A)', 'Net-(D3-A)'), ('/BQ79616/VC1', '/BQ79616/VC3'), ('/BQ79616/VC0', '/BQ79616/VC2'), ('/BQ79616/CB1', '/BQ79616/CB3'), ('/BQ79616/CB0', '/BQ79616/CB2'), ('/C1+', '/C3+')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH4']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH4'] :[('/BQ79616/VC1', '/BQ79616/VC4'), ('/BQ79616/VC0', '/BQ79616/VC3'), ('/BQ79616/CB1', '/BQ79616/CB4'), ('/C1+', '/C4+'), ('/BQ79616/CB0', '/BQ79616/CB3'), ('Net-(D1-A)', 'Net-(D4-A)')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH5']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH5'] :[('/BQ79616/CB1', '/BQ79616/CB5'), ('Net-(D1-A)', 'Net-(D5-A)'), ('/C1+', '/C5+'), ('/BQ79616/VC1', '/BQ79616/VC5'), ('/BQ79616/CB0', '/BQ79616/CB4'), ('/BQ79616/VC0', '/BQ79616/VC4')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH6']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH6'] :[('/BQ79616/VC1', '/BQ79616/VC6'), ('/BQ79616/CB1', '/BQ79616/CB6'), ('/BQ79616/CB0', '/BQ79616/CB5'), ('/C1+', '/C6+'), ('/BQ79616/VC0', '/BQ79616/VC5'), ('Net-(D1-A)', 'Net-(D6-A)')]
+11-12 15:00:19 root 337:updating GUI with: 80
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH7']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH7'] :[('/BQ79616/VC1', '/BQ79616/VC7'), ('Net-(D1-A)', 'Net-(D7-A)'), ('/BQ79616/CB0', '/BQ79616/CB6'), ('/C1+', '/C7+'), ('/BQ79616/CB1', '/BQ79616/CB7'), ('/BQ79616/VC0', '/BQ79616/VC6')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH8']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH8'] :[('/BQ79616/VC0', '/BQ79616/VC7'), ('/C1+', '/C8+'), ('/BQ79616/CB0', '/BQ79616/CB7'), ('/BQ79616/CB1', '/BQ79616/CB8'), ('/BQ79616/VC1', '/BQ79616/VC8'), ('Net-(D1-A)', 'Net-(D8-A)')]
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['BQ79616', 'DCH9']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['BQ79616', 'DCH9'] :[('/BQ79616/CB0', '/BQ79616/CB8'), ('/BQ79616/VC1', '/BQ79616/VC9'), ('Net-(D1-A)', 'Net-(D9-A)'), ('/C1+', '/C9+'), ('/BQ79616/VC0', '/BQ79616/VC8'), ('/BQ79616/CB1', '/BQ79616/CB9')]
+11-12 15:00:19 root 332:updating GUI message: 'Replicating text'
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1164:Replicating text
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH10']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH11']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH12']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH13']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH14']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH15']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH16']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH2']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH3']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH4']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH5']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH6']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH7']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH8']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['BQ79616', 'DCH9']
+11-12 15:00:19 root 332:updating GUI message: 'Replicating drawings'
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1215:Replicating drawings
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH10']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH11']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH12']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH13']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH14']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH15']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH16']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH2']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH3']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH4']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH5']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH6']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH7']
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH8']
+11-12 15:00:19 root 337:updating GUI with: 90
+11-12 15:00:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['BQ79616', 'DCH9']
+11-12 15:00:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
