@@ -1696,43 +1696,67 @@
 		)
 	)
 	(junction
-		(at 208.28 91.44)
+		(at 71.12 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16448494-0eb0-4777-bfaa-0fbc27571ed0")
+	)
+	(junction
+		(at 207.01 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23421fba-494d-4fa0-a732-07530e231dbd")
 	)
 	(junction
-		(at 223.52 99.06)
+		(at 86.36 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e41bd5e-a0df-462e-8f54-bc28725e8e8d")
+	)
+	(junction
+		(at 86.36 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eb5a7b0-8c85-465a-950b-65858859dd56")
+	)
+	(junction
+		(at 71.12 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0e1b98f-bc83-4a5e-a7ff-2d7b1bf27402")
+	)
+	(junction
+		(at 222.25 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e296ad26-79e5-4ed5-9d31-c585ed33f651")
 	)
 	(junction
-		(at 208.28 99.06)
+		(at 207.01 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5a527dc-ac1f-4d15-b3d0-2ac60d5cafc1")
 	)
 	(junction
-		(at 223.52 91.44)
+		(at 222.25 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb30ec22-6c04-4bfb-b5f9-8c5ea4816ff5")
 	)
 	(no_connect
-		(at 57.15 96.52)
+		(at 55.88 99.06)
 		(uuid "0f63b7a3-7a5c-47eb-ad37-3b4062f86023")
 	)
 	(no_connect
-		(at 57.15 93.98)
+		(at 55.88 96.52)
 		(uuid "24ccf36b-b8d2-42ff-906f-fb2323c905d0")
 	)
 	(no_connect
-		(at 238.76 96.52)
+		(at 237.49 99.06)
 		(uuid "8c9222fb-a962-4e59-8de7-946f659f7970")
 	)
 	(no_connect
-		(at 238.76 93.98)
+		(at 237.49 96.52)
 		(uuid "98ca862d-14be-4f83-bfa5-fdd340bd57c3")
 	)
 	(wire
@@ -1747,7 +1771,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 91.44) (xy 82.55 91.44)
+			(xy 86.36 93.98) (xy 81.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +1781,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 99.06) (xy 223.52 101.6)
+			(xy 222.25 101.6) (xy 222.25 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +1791,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 99.06) (xy 218.44 99.06)
+			(xy 222.25 101.6) (xy 217.17 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1777,7 +1801,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 99.06) (xy 77.47 99.06)
+			(xy 71.12 101.6) (xy 76.2 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1787,7 +1811,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 96.52) (xy 90.17 96.52)
+			(xy 86.36 99.06) (xy 91.44 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1797,7 +1821,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 91.44) (xy 223.52 93.98)
+			(xy 222.25 93.98) (xy 222.25 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1827,7 +1851,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 99.06) (xy 208.28 101.6)
+			(xy 207.01 101.6) (xy 207.01 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 99.06) (xy 85.09 99.06)
+			(xy 81.28 101.6) (xy 86.36 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1867,7 +1891,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 96.52) (xy 226.06 96.52)
+			(xy 222.25 99.06) (xy 224.79 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1877,7 +1901,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 99.06) (xy 72.39 96.52)
+			(xy 71.12 101.6) (xy 71.12 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 96.52) (xy 132.08 96.52)
+			(xy 96.52 99.06) (xy 132.08 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1937,7 +1961,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 91.44) (xy 223.52 88.9)
+			(xy 222.25 93.98) (xy 222.25 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 96.52) (xy 208.28 96.52)
+			(xy 201.93 99.06) (xy 207.01 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1977,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 91.44) (xy 218.44 91.44)
+			(xy 222.25 93.98) (xy 217.17 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2017,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 77.47 91.44)
+			(xy 71.12 93.98) (xy 76.2 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 91.44) (xy 213.36 91.44)
+			(xy 207.01 93.98) (xy 212.09 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 99.06) (xy 208.28 96.52)
+			(xy 207.01 101.6) (xy 207.01 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +2101,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 106.68) (xy 44.45 109.22)
+			(xy 86.36 101.6) (xy 86.36 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 99.06) (xy 85.09 96.52)
+			(xy 86.36 101.6) (xy 86.36 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2157,7 +2181,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 96.52) (xy 198.12 96.52)
+			(xy 160.02 99.06) (xy 196.85 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 93.98) (xy 208.28 91.44)
+			(xy 207.01 96.52) (xy 207.01 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2211,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 93.98) (xy 208.28 93.98)
+			(xy 201.93 96.52) (xy 207.01 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2237,7 +2261,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 93.98) (xy 132.08 93.98)
+			(xy 96.52 96.52) (xy 132.08 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2247,7 +2271,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 93.98) (xy 72.39 93.98)
+			(xy 68.58 96.52) (xy 71.12 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2317,7 +2341,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 99.06) (xy 223.52 96.52)
+			(xy 222.25 101.6) (xy 222.25 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 72.39 93.98)
+			(xy 71.12 93.98) (xy 71.12 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 99.06) (xy 44.45 96.52)
+			(xy 86.36 93.98) (xy 86.36 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2431,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 93.98) (xy 85.09 91.44)
+			(xy 86.36 96.52) (xy 86.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2441,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 93.98) (xy 90.17 93.98)
+			(xy 86.36 96.52) (xy 91.44 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2461,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 93.98) (xy 226.06 93.98)
+			(xy 222.25 96.52) (xy 224.79 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2457,7 +2481,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 96.52) (xy 72.39 96.52)
+			(xy 68.58 99.06) (xy 71.12 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2487,7 +2511,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 91.44) (xy 208.28 88.9)
+			(xy 207.01 93.98) (xy 207.01 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2497,7 +2521,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 99.06) (xy 208.28 99.06)
+			(xy 212.09 101.6) (xy 207.01 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2507,7 +2531,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 93.98) (xy 198.12 93.98)
+			(xy 160.02 96.52) (xy 196.85 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2517,7 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 106.68) (xy 29.21 109.22)
+			(xy 71.12 101.6) (xy 71.12 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2547,7 +2571,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 99.06) (xy 29.21 96.52)
+			(xy 71.12 93.98) (xy 71.12 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2708,7 +2732,7 @@
 		(uuid "0b9c07fa-ca66-4793-80e1-825ef65406f8")
 	)
 	(label "OUT+"
-		(at 219.71 91.44 0)
+		(at 218.44 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2750,17 +2774,6 @@
 			(justify right bottom)
 		)
 		(uuid "1f5136ef-8eba-41cb-b905-0eb20f272f43")
-	)
-	(label "C10+"
-		(at 116.84 204.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24d4cf2f-dbda-4cc0-a6b6-9c1adc08849b")
 	)
 	(label "C13+"
 		(at 157.48 43.18 0)
@@ -2829,7 +2842,7 @@
 		(uuid "3ddba923-42dc-44cf-bb40-8e69d4cacdfb")
 	)
 	(label "OUT-"
-		(at 219.71 99.06 0)
+		(at 218.44 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2851,7 +2864,7 @@
 		(uuid "45a04b73-514e-4370-9b8c-f038d1489d6d")
 	)
 	(label "IN+"
-		(at 76.2 99.06 180)
+		(at 74.93 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2906,7 +2919,7 @@
 		(uuid "5350446f-39d1-4ea8-9bae-44ca8661c742")
 	)
 	(label "OL-"
-		(at 204.47 96.52 0)
+		(at 203.2 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2983,7 +2996,7 @@
 		(uuid "72a34f1c-74bf-41ce-b144-cd1bff273e7e")
 	)
 	(label "IL-"
-		(at 88.9 93.98 180)
+		(at 90.17 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3005,7 +3018,7 @@
 		(uuid "7750d50f-6a61-4bdf-9e76-d9ed19d3749f")
 	)
 	(label "I+"
-		(at 129.54 96.52 180)
+		(at 132.08 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3027,7 +3040,7 @@
 		(uuid "860980f7-b44d-424f-9947-ed745112aeb1")
 	)
 	(label "IN-"
-		(at 76.2 91.44 180)
+		(at 74.93 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3060,7 +3073,7 @@
 		(uuid "8e924359-5a20-4d83-9828-6568700ee05b")
 	)
 	(label "OL+"
-		(at 204.47 93.98 0)
+		(at 203.2 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3181,7 +3194,7 @@
 		(uuid "d1040f02-6159-4169-856f-624cd4f3ec63")
 	)
 	(label "O+"
-		(at 162.56 93.98 0)
+		(at 162.56 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3192,7 +3205,7 @@
 		(uuid "d4d461ac-abf3-42fe-9a35-acb2d3e16a6a")
 	)
 	(label "I-"
-		(at 129.54 93.98 180)
+		(at 132.08 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3214,7 +3227,7 @@
 		(uuid "ddfd1a3f-0969-48db-8aea-26403a717cd0")
 	)
 	(label "IL+"
-		(at 88.9 96.52 180)
+		(at 90.17 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3258,7 +3271,7 @@
 		(uuid "e869b9a0-650b-40ab-86e2-cbb604868686")
 	)
 	(label "O-"
-		(at 162.56 96.52 0)
+		(at 162.56 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3315,7 +3328,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 223.52 101.6 180)
+		(at 222.25 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3324,7 +3337,7 @@
 		)
 		(uuid "05261c33-74af-432a-a471-29b15acdbb76")
 		(property "Netclass" "DP_50Ohm"
-			(at 223.52 115.57 90)
+			(at 222.25 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3350,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 44.45 96.52 0)
+		(at 86.36 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3346,7 +3359,7 @@
 		)
 		(uuid "7499be6c-c235-47ea-862a-65c7fc5fc4be")
 		(property "Netclass" "DP_50Ohm"
-			(at 44.45 82.55 90)
+			(at 86.36 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +3372,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 44.45 109.22 180)
+		(at 86.36 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3368,7 +3381,7 @@
 		)
 		(uuid "8e868435-dcc0-4eb4-b3f1-135f4e662522")
 		(property "Netclass" "DP_50Ohm"
-			(at 44.45 123.19 90)
+			(at 86.36 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3394,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 29.21 96.52 0)
+		(at 71.12 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3390,7 +3403,7 @@
 		)
 		(uuid "93dce477-f3df-42c1-a35f-354a6da6139e")
 		(property "Netclass" "DP_50Ohm"
-			(at 29.21 82.55 90)
+			(at 71.12 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +3416,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 29.21 109.22 180)
+		(at 71.12 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3412,7 +3425,7 @@
 		)
 		(uuid "9a330675-e6aa-4935-bb81-a0d7d13a60f7")
 		(property "Netclass" "DP_50Ohm"
-			(at 29.21 123.19 90)
+			(at 71.12 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3438,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 208.28 88.9 0)
+		(at 207.01 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3434,7 +3447,7 @@
 		)
 		(uuid "c6b3e6b8-54a8-4632-b21b-1697cf88a82c")
 		(property "Netclass" "DP_50Ohm"
-			(at 208.28 74.93 90)
+			(at 207.01 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3460,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 223.52 88.9 0)
+		(at 222.25 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3456,7 +3469,7 @@
 		)
 		(uuid "dde1bdf4-a161-4caa-a3e2-a5aafdca20b0")
 		(property "Netclass" "DP_50Ohm"
-			(at 223.52 74.93 90)
+			(at 222.25 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3482,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 208.28 101.6 180)
+		(at 207.01 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3478,7 +3491,7 @@
 		)
 		(uuid "fb3f4e0d-67c7-4894-8159-077bd4265e15")
 		(property "Netclass" "DP_50Ohm"
-			(at 208.28 115.57 90)
+			(at 207.01 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +3637,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:S252B222K502CT")
-		(at 215.9 99.06 0)
+		(at 214.63 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3632,7 +3645,7 @@
 		(dnp no)
 		(uuid "09e08ab0-f01c-4e3f-bfff-b7f040ec5865")
 		(property "Reference" "C6"
-			(at 215.9 102.87 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3653,7 @@
 			)
 		)
 		(property "Value" "4.7nF/Y2"
-			(at 215.9 105.41 0)
+			(at 214.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3661,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:CAPC5728X280N"
-			(at 224.79 195.25 0)
+			(at 223.52 197.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 295.25 0)
+			(at 223.52 297.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +3681,7 @@
 			)
 		)
 		(property "Description" "Safety Capacitors 2211 MLCC X7R 2200 pF , \\'+/- 10% 5K V T&R SAF"
-			(at 215.9 99.06 0)
+			(at 214.63 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3690,7 @@
 			)
 		)
 		(property "Height" "2.8"
-			(at 224.79 495.25 0)
+			(at 223.52 497.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3700,7 @@
 			)
 		)
 		(property "Mouser Part Number" "791-S252B222K502CT"
-			(at 224.79 595.25 0)
+			(at 223.52 597.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3710,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Walsin/S252B222K502CT?qs=wUXugUrL1qx2Bha0j7hz5g%3D%3D"
-			(at 224.79 695.25 0)
+			(at 223.52 697.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,7 +3720,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Walsin Technology Corporation"
-			(at 224.79 795.25 0)
+			(at 223.52 797.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +3730,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S252B222K502CT"
-			(at 224.79 895.25 0)
+			(at 223.52 897.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,7 +3740,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 215.9 99.06 0)
+			(at 214.63 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +3749,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 215.9 99.06 0)
+			(at 214.63 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3758,7 @@
 			)
 		)
 		(property "Mouser Url" ""
-			(at 215.9 99.06 0)
+			(at 214.63 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +3783,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:M80-5100405")
-		(at 63.5 88.9 180)
+		(at 62.23 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3778,7 +3791,7 @@
 		(dnp no)
 		(uuid "10fb5453-7462-4b70-a057-e2fef5243060")
 		(property "Reference" "J2"
-			(at 63.5 87.63 0)
+			(at 62.23 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3799,7 @@
 			)
 		)
 		(property "Value" "M80-5100405"
-			(at 63.5 90.17 0)
+			(at 62.23 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3807,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:M80-51004YY"
-			(at 46.99 -6.02 0)
+			(at 45.72 -3.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3817,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.harwin.com/pdfs/M80-510.pdf"
-			(at 46.99 -106.02 0)
+			(at 45.72 -103.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +3827,7 @@
 			)
 		)
 		(property "Description" "Datamate J-Tek DIL Male Vertical 3mm Throughboard Connector, gold, with jackscrews + board mount, 2+2 contacts"
-			(at 63.5 88.9 0)
+			(at 62.23 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,7 +3836,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 46.99 -306.02 0)
+			(at 45.72 -303.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +3846,7 @@
 			)
 		)
 		(property "Mouser Part Number" "855-M80-5100405"
-			(at 46.99 -406.02 0)
+			(at 45.72 -403.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +3856,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M80-5100405?qs=yQtJ9TWM%2F1IJ20BYLtiSaA%3D%3D"
-			(at 46.99 -506.02 0)
+			(at 45.72 -503.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +3866,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Harwin"
-			(at 46.99 -606.02 0)
+			(at 45.72 -603.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +3876,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "M80-5100405"
-			(at 46.99 -706.02 0)
+			(at 45.72 -703.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +3908,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Coupled_Small_1243")
-		(at 200.66 95.25 0)
+		(at 199.39 97.79 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3904,7 +3917,7 @@
 		(dnp no)
 		(uuid "1b930268-e090-498b-a84c-c5e81171e5e2")
 		(property "Reference" "L2"
-			(at 200.66 87.63 0)
+			(at 199.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3925,7 @@
 			)
 		)
 		(property "Value" "100-500uH"
-			(at 200.66 90.17 0)
+			(at 199.39 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3933,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_1812CAN"
-			(at 200.66 95.25 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +3942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 95.25 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3951,7 @@
 			)
 		)
 		(property "Description" "Coupled inductor, small symbol"
-			(at 200.66 95.25 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3982,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:S252B222K502CT")
-		(at 80.01 99.06 0)
+		(at 78.74 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3977,7 +3990,7 @@
 		(dnp no)
 		(uuid "30cf5a09-a35b-49da-bf31-50bbb7db8645")
 		(property "Reference" "C8"
-			(at 80.01 102.87 0)
+			(at 78.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +3998,7 @@
 			)
 		)
 		(property "Value" "4.7nF/Y2"
-			(at 80.01 105.41 0)
+			(at 78.74 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +4006,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:CAPC5728X280N"
-			(at 88.9 195.25 0)
+			(at 87.63 197.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +4016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 295.25 0)
+			(at 87.63 297.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4026,7 @@
 			)
 		)
 		(property "Description" "Safety Capacitors 2211 MLCC X7R 2200 pF , \\'+/- 10% 5K V T&R SAF"
-			(at 80.01 99.06 0)
+			(at 78.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4035,7 @@
 			)
 		)
 		(property "Height" "2.8"
-			(at 88.9 495.25 0)
+			(at 87.63 497.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4045,7 @@
 			)
 		)
 		(property "Mouser Part Number" "791-S252B222K502CT"
-			(at 88.9 595.25 0)
+			(at 87.63 597.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4055,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Walsin/S252B222K502CT?qs=wUXugUrL1qx2Bha0j7hz5g%3D%3D"
-			(at 88.9 695.25 0)
+			(at 87.63 697.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +4065,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Walsin Technology Corporation"
-			(at 88.9 795.25 0)
+			(at 87.63 797.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +4075,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S252B222K502CT"
-			(at 88.9 895.25 0)
+			(at 87.63 897.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4072,7 +4085,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 80.01 99.06 0)
+			(at 78.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4094,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 80.01 99.06 0)
+			(at 78.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4103,7 @@
 			)
 		)
 		(property "Mouser Url" ""
-			(at 80.01 99.06 0)
+			(at 78.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4128,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Coupled_Small_1243")
-		(at 92.71 95.25 0)
+		(at 93.98 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4123,7 +4136,7 @@
 		(dnp no)
 		(uuid "4f956067-c58a-4668-8067-3a5faeb9b7a7")
 		(property "Reference" "L1"
-			(at 92.71 87.63 0)
+			(at 93.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4144,7 @@
 			)
 		)
 		(property "Value" "100-500uH"
-			(at 92.71 90.17 0)
+			(at 93.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +4152,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_1812CAN"
-			(at 92.71 95.25 0)
+			(at 93.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 95.25 0)
+			(at 93.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4170,7 @@
 			)
 		)
 		(property "Description" "Coupled inductor, small symbol"
-			(at 92.71 95.25 0)
+			(at 93.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4201,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:S252B222K502CT")
-		(at 80.01 91.44 0)
+		(at 78.74 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4196,7 +4209,7 @@
 		(dnp no)
 		(uuid "616bc974-0a19-49fa-b74e-0d822ada9428")
 		(property "Reference" "C7"
-			(at 80.01 85.09 0)
+			(at 78.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4217,7 @@
 			)
 		)
 		(property "Value" "4.7nF/Y2"
-			(at 80.01 87.63 0)
+			(at 78.74 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4225,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:CAPC5728X280N"
-			(at 88.9 187.63 0)
+			(at 87.63 190.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 287.63 0)
+			(at 87.63 290.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4245,7 @@
 			)
 		)
 		(property "Description" "Safety Capacitors 2211 MLCC X7R 2200 pF , \\'+/- 10% 5K V T&R SAF"
-			(at 80.01 91.44 0)
+			(at 78.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4254,7 @@
 			)
 		)
 		(property "Height" "2.8"
-			(at 88.9 487.63 0)
+			(at 87.63 490.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4264,7 @@
 			)
 		)
 		(property "Mouser Part Number" "791-S252B222K502CT"
-			(at 88.9 587.63 0)
+			(at 87.63 590.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4274,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Walsin/S252B222K502CT?qs=wUXugUrL1qx2Bha0j7hz5g%3D%3D"
-			(at 88.9 687.63 0)
+			(at 87.63 690.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4284,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Walsin Technology Corporation"
-			(at 88.9 787.63 0)
+			(at 87.63 790.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4294,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S252B222K502CT"
-			(at 88.9 887.63 0)
+			(at 87.63 890.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4304,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 80.01 91.44 0)
+			(at 78.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4313,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 80.01 91.44 0)
+			(at 78.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4322,7 @@
 			)
 		)
 		(property "Mouser Url" ""
-			(at 80.01 91.44 0)
+			(at 78.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4348,7 @@
 	(symbol
 		(lib_name "M80-5100405_1")
 		(lib_id "Samacsys_kicad_sym:M80-5100405")
-		(at 232.41 88.9 0)
+		(at 231.14 91.44 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4344,7 +4357,7 @@
 		(dnp no)
 		(uuid "67a42d55-9766-4fae-959d-76e9e20c9a0b")
 		(property "Reference" "J1"
-			(at 232.41 87.63 0)
+			(at 231.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4365,7 @@
 			)
 		)
 		(property "Value" "M80-5100405"
-			(at 232.41 90.17 0)
+			(at 231.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4373,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:M80-51004YY"
-			(at 248.92 -6.02 0)
+			(at 247.65 -3.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4383,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.harwin.com/pdfs/M80-510.pdf"
-			(at 248.92 -106.02 0)
+			(at 247.65 -103.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4393,7 @@
 			)
 		)
 		(property "Description" "Datamate J-Tek DIL Male Vertical 3mm Throughboard Connector, gold, with jackscrews + board mount, 2+2 contacts"
-			(at 232.41 88.9 0)
+			(at 231.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4402,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 248.92 -306.02 0)
+			(at 247.65 -303.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4412,7 @@
 			)
 		)
 		(property "Mouser Part Number" "855-M80-5100405"
-			(at 248.92 -406.02 0)
+			(at 247.65 -403.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4422,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M80-5100405?qs=yQtJ9TWM%2F1IJ20BYLtiSaA%3D%3D"
-			(at 248.92 -506.02 0)
+			(at 247.65 -503.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4432,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Harwin"
-			(at 248.92 -606.02 0)
+			(at 247.65 -603.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4442,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "M80-5100405"
-			(at 248.92 -706.02 0)
+			(at 247.65 -703.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,7 +4474,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:S252B222K502CT")
-		(at 215.9 91.44 0)
+		(at 214.63 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4469,7 +4482,7 @@
 		(dnp no)
 		(uuid "782d44e9-a388-4427-943d-4aba37b9611f")
 		(property "Reference" "C5"
-			(at 215.9 85.09 0)
+			(at 214.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,7 +4490,7 @@
 			)
 		)
 		(property "Value" "4.7nF/Y2"
-			(at 215.9 87.63 0)
+			(at 214.63 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4498,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:CAPC5728X280N"
-			(at 224.79 187.63 0)
+			(at 223.52 190.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 287.63 0)
+			(at 223.52 290.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4518,7 @@
 			)
 		)
 		(property "Description" "Safety Capacitors 2211 MLCC X7R 2200 pF , \\'+/- 10% 5K V T&R SAF"
-			(at 215.9 91.44 0)
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,7 +4527,7 @@
 			)
 		)
 		(property "Height" "2.8"
-			(at 224.79 487.63 0)
+			(at 223.52 490.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +4537,7 @@
 			)
 		)
 		(property "Mouser Part Number" "791-S252B222K502CT"
-			(at 224.79 587.63 0)
+			(at 223.52 590.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4547,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Walsin/S252B222K502CT?qs=wUXugUrL1qx2Bha0j7hz5g%3D%3D"
-			(at 224.79 687.63 0)
+			(at 223.52 690.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4557,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Walsin Technology Corporation"
-			(at 224.79 787.63 0)
+			(at 223.52 790.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4567,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S252B222K502CT"
-			(at 224.79 887.63 0)
+			(at 223.52 890.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,7 +4577,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 215.9 91.44 0)
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,7 +4586,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 215.9 91.44 0)
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +4595,7 @@
 			)
 		)
 		(property "Mouser Url" ""
-			(at 215.9 91.44 0)
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,8 +4619,8 @@
 		)
 	)
 	(sheet
-		(at 132.08 91.44)
-		(size 27.94 58.42)
+		(at 132.08 93.98)
+		(size 27.94 55.88)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4617,7 +4630,7 @@
 		)
 		(uuid "6a830281-1331-4b0f-b6b7-336a24ad47cd")
 		(property "Sheetname" "BQ79616"
-			(at 146.05 120.65 0)
+			(at 146.05 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4638,7 @@
 			)
 		)
 		(property "Sheetfile" "BQ79616.kicad_sch"
-			(at 143.51 151.13 0)
+			(at 146.05 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4826,7 @@
 			(uuid "ff3f6f5b-8b07-4bed-9f25-aa24acd8d891")
 		)
 		(pin "COMLN" bidirectional
-			(at 132.08 93.98 180)
+			(at 132.08 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4836,7 @@
 			(uuid "b73b2ed9-0c00-494e-b2cf-e40d31984dcd")
 		)
 		(pin "COMHN" bidirectional
-			(at 160.02 96.52 0)
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,7 +4846,7 @@
 			(uuid "c9a9d4dd-e083-4fb2-a2fd-ba16ef321c7c")
 		)
 		(pin "COMHP" bidirectional
-			(at 160.02 93.98 0)
+			(at 160.02 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4856,7 @@
 			(uuid "f3559f86-90f3-4d2f-8818-2a00c2042fe2")
 		)
 		(pin "COMLP" bidirectional
-			(at 132.08 96.52 180)
+			(at 132.08 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
