@@ -4024,29 +4024,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 257.81 -50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0284288c-c27c-47dc-b337-97f0324c2abd")
-		(property "Netclass" "DP_50Ohm"
-			(at 258.5085 -48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 129.54 99.06 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4064,29 +4041,6 @@
 					(italic yes)
 				)
 				(justify right)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 278.13 -53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d66e09c-a272-46ab-bfb4-175973f5f60d")
-		(property "Netclass" "DP_50Ohm"
-			(at 278.8285 -55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -4153,29 +4107,6 @@
 					(italic yes)
 				)
 				(justify right)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 278.13 -50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "29fd07b7-e5f5-4c5a-8770-7db27daa5196")
-		(property "Netclass" "DP_50Ohm"
-			(at 278.8285 -48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -4375,29 +4306,6 @@
 					(italic yes)
 				)
 				(justify right)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 257.81 -53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4a1b565-f91b-43bb-bb3b-41fe6632fedd")
-		(property "Netclass" "DP_50Ohm"
-			(at 258.5085 -55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -4934,7 +4842,7 @@
 		(dnp no)
 		(uuid "10373af1-4e58-41c1-8a8c-785d669809d4")
 		(property "Reference" "R55"
-			(at 189.23 91.2114 90)
+			(at 189.23 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +4850,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 189.23 88.9 90)
+			(at 189.23 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
