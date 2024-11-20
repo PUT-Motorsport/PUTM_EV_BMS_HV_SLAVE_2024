@@ -2283,12 +2283,6 @@
 		(uuid "26e32ed0-14db-4886-b4a3-bc3620773b4c")
 	)
 	(junction
-		(at 184.15 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2eeceb03-9913-421b-969f-e5d56e7ba3df")
-	)
-	(junction
 		(at 251.46 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2373,18 +2367,6 @@
 		(uuid "7ee554e2-d2c3-4cd0-b291-ef0a6fef2c34")
 	)
 	(junction
-		(at 194.31 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85072b0d-c7df-4851-9176-829d4f4b42ad")
-	)
-	(junction
-		(at 184.15 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ca87f72-1811-4abb-97ef-ada9d90f3a5e")
-	)
-	(junction
 		(at 64.77 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2431,12 +2413,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b90e39ea-13cd-485b-9cb4-074110f153f9")
-	)
-	(junction
-		(at 194.31 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc7e2d71-8c3f-42b7-aa07-4f388a878eb2")
 	)
 	(junction
 		(at 247.65 44.45)
@@ -2514,7 +2490,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 46.99) (xy 194.31 46.99)
+			(xy 179.07 46.99) (xy 198.12 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2864,16 +2840,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 54.61) (xy 194.31 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "401b533b-b865-4ddd-812a-71ae1f017d68")
-	)
-	(wire
-		(pts
 			(xy 62.23 160.02) (xy 64.77 160.02)
 		)
 		(stroke
@@ -3024,16 +2990,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 44.45) (xy 194.31 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50e74183-3ef1-43f5-bab0-9a07353c3107")
-	)
-	(wire
-		(pts
 			(xy 179.07 92.71) (xy 181.61 92.71)
 		)
 		(stroke
@@ -3101,16 +3057,6 @@
 			(type default)
 		)
 		(uuid "5b078343-d4e5-44f3-8b93-93ec5600b559")
-	)
-	(wire
-		(pts
-			(xy 184.15 54.61) (xy 184.15 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c09e4b0-5796-4e8e-abc0-74e86f0a9b3d")
 	)
 	(wire
 		(pts
@@ -3284,16 +3230,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 54.61) (xy 194.31 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e7dd786-c950-4fb9-9ee2-ab521673853b")
-	)
-	(wire
-		(pts
 			(xy 256.54 29.21) (xy 254 29.21)
 		)
 		(stroke
@@ -3331,16 +3267,6 @@
 			(type default)
 		)
 		(uuid "75806f16-73e6-4869-a475-9b95c7291a71")
-	)
-	(wire
-		(pts
-			(xy 184.15 49.53) (xy 198.12 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "772b3351-325e-4b5e-a33f-7b2a39f961d0")
 	)
 	(wire
 		(pts
@@ -3504,16 +3430,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 44.45) (xy 194.31 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89d604a1-0b68-4646-b49f-e7cba7456161")
-	)
-	(wire
-		(pts
 			(xy 181.61 80.01) (xy 179.07 80.01)
 		)
 		(stroke
@@ -3601,16 +3517,6 @@
 			(type default)
 		)
 		(uuid "974350b9-beee-410c-b8db-788ff9befd35")
-	)
-	(wire
-		(pts
-			(xy 194.31 57.15) (xy 198.12 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98edfad4-e9cb-464a-9b39-cbf1cd4c9587")
 	)
 	(wire
 		(pts
@@ -3754,16 +3660,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 59.69) (xy 198.12 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b09a4f34-b587-4beb-b3e9-2190f2274855")
-	)
-	(wire
-		(pts
 			(xy 62.23 86.36) (xy 100.33 86.36)
 		)
 		(stroke
@@ -3854,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 59.69) (xy 184.15 59.69)
+			(xy 179.07 59.69) (xy 198.12 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3931,16 +3827,6 @@
 			(type default)
 		)
 		(uuid "c8a9d279-6a6f-4cd3-9de3-a76c52706bf2")
-	)
-	(wire
-		(pts
-			(xy 184.15 44.45) (xy 186.69 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c900b8a9-5938-4088-bf82-c49680a929d4")
 	)
 	(wire
 		(pts
@@ -4024,16 +3910,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 44.45) (xy 184.15 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daa814af-2baf-4115-b554-76c26af4d031")
-	)
-	(wire
-		(pts
 			(xy 195.58 85.09) (xy 195.58 87.63)
 		)
 		(stroke
@@ -4081,16 +3957,6 @@
 			(type default)
 		)
 		(uuid "e058d01f-f2ad-4966-b716-cc6e50f735c6")
-	)
-	(wire
-		(pts
-			(xy 194.31 46.99) (xy 198.12 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1857d89-5d31-4069-9cf0-a4bde13b3278")
 	)
 	(wire
 		(pts
@@ -4284,7 +4150,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 57.15) (xy 194.31 57.15)
+			(xy 179.07 57.15) (xy 198.12 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4304,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 49.53) (xy 184.15 49.53)
+			(xy 179.07 49.53) (xy 198.12 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4321,16 +4187,6 @@
 			(type default)
 		)
 		(uuid "fe9968a7-c3b3-4338-83cf-4a2b3dfc2acf")
-	)
-	(wire
-		(pts
-			(xy 186.69 54.61) (xy 184.15 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fedf1e65-6687-4495-97d7-7e1fe1e55983")
 	)
 	(rectangle
 		(start 15.24 15.24)
@@ -6361,116 +6217,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
-		(at 189.23 54.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88236396-eb6e-42f9-9787-4ae950ddee12")
-		(property "Reference" "R12"
-			(at 186.69 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120"
-			(at 191.77 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 189.23 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "--"
-			(at 189.23 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fd48370-51e6-446b-a794-57cbafe0388b")
-		)
-		(pin "2"
-			(uuid "6b38049e-da4f-4597-a0aa-3b4747eba2ce")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "PUTM_EV_BMS_HV_Slave_2021"
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061bdd2fc"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061c325b9"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e79300"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e7c70a"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e80e37"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061f863f9"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-0000622ac489"
-					(reference "R148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:C_Small-Device")
 		(at 190.5 118.11 0)
 		(unit 1)
@@ -7433,116 +7179,6 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
-		(at 189.23 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e30f9a01-1648-4d98-8358-f988e795e565")
-		(property "Reference" "R20"
-			(at 186.69 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120"
-			(at 191.77 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 189.23 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "--"
-			(at 189.23 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f14cb004-cdce-4885-8831-11db9bcde1eb")
-		)
-		(pin "2"
-			(uuid "fb4e0f06-fd53-49b4-a01b-90f77e46d6ad")
-		)
-		(instances
-			(project "PUTM_EV_BMS_HV_SLAVE_2024"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-			(project "PUTM_EV_BMS_HV_Slave_2021"
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061bdd2fc"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061c325b9"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e79300"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e7c70a"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061e80e37"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-000061f863f9"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/c6fdda00-299f-46f7-824a-f758b5e561bf/00000000-0000-0000-0000-0000622ac489"
-					(reference "R148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
 		(at 205.74 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7792,405 +7428,6 @@
 		)
 	)
 	(sheet
-		(at 39.37 144.78)
-		(size 22.86 7.62)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "07bd4105-b2f9-4348-922b-651bd2003743")
-		(property "Sheetname" "DCH3"
-			(at 50.8 148.59 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Sheetfile" "Discharge.kicad_sch"
-			(at 39.37 151.7146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "S" input
-			(at 62.23 149.86 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "5a6c24cd-d8bf-481e-be1c-1bc9db41708b")
-		)
-		(pin "C" input
-			(at 62.23 147.32 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "b22e19a4-9f25-4311-8b52-9ae5e68b5b4e")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 39.37 119.38)
-		(size 22.86 7.62)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2e4fe776-913c-461f-9c16-96763dd17ad4")
-		(property "Sheetname" "DCH5"
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Sheetfile" "Discharge.kicad_sch"
-			(at 39.37 126.3146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "S" input
-			(at 62.23 124.46 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "d7c71cce-7f9d-410b-a752-b232294fd1b0")
-		)
-		(pin "C" input
-			(at 62.23 121.92 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "250e3ea1-7ed5-48b8-aea8-d1c2365fb94b")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 39.37 132.08)
-		(size 22.86 7.62)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3697d2ca-4cfd-4e2f-adb1-6ad8ab18e20d")
-		(property "Sheetname" "DCH4"
-			(at 50.8 135.89 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Sheetfile" "Discharge.kicad_sch"
-			(at 39.37 139.0146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "S" input
-			(at 62.23 137.16 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "545eef9e-34a5-400c-a4e1-141448a08fad")
-		)
-		(pin "C" input
-			(at 62.23 134.62 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "cd5df110-cba2-4386-a6c2-b7a7921475d6")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 39.37 93.98)
-		(size 22.86 7.62)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5278c436-a4ff-4082-a8df-b186949d7b25")
-		(property "Sheetname" "DCH7"
-			(at 50.8 97.79 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Sheetfile" "Discharge.kicad_sch"
-			(at 39.37 100.9146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "S" input
-			(at 62.23 99.06 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "4b988345-c31a-4aff-a221-266d7dd3be0b")
-		)
-		(pin "C" input
-			(at 62.23 96.52 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "c862034b-024d-4f2d-a340-7ef041db2020")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 39.37 157.48)
-		(size 22.86 7.62)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5945678e-a174-4994-aa30-97915d89d3d4")
-		(property "Sheetname" "DCH2"
-			(at 50.8 161.29 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Sheetfile" "Discharge.kicad_sch"
-			(at 39.37 164.4146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "S" input
-			(at 62.23 162.56 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "3164b41f-7fd3-4d1b-a612-1456058a2861")
-		)
-		(pin "C" input
-			(at 62.23 160.02 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "9c07e8fd-8f99-4855-8a42-dbcb8a1da893")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 39.37 68.58)
-		(size 22.86 7.62)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5ce90024-d821-4b65-ab91-1b4f87fa4778")
-		(property "Sheetname" "DCH9"
-			(at 50.8 72.39 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Sheetfile" "Discharge.kicad_sch"
-			(at 39.37 75.5146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "S" input
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "3b181acf-b9a7-449f-a810-ec505b8b2890")
-		)
-		(pin "C" input
-			(at 62.23 71.12 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "668fbb25-e7a6-4453-80a1-51af9dfb410a")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 39.37 106.68)
-		(size 22.86 7.62)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6242def1-f3cc-4471-8483-d03a00c15111")
-		(property "Sheetname" "DCH6"
-			(at 50.8 110.49 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Sheetfile" "Discharge.kicad_sch"
-			(at 39.37 113.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "S" input
-			(at 62.23 111.76 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "96fbd1c9-4785-434c-b2ab-33c9acb6225e")
-		)
-		(pin "C" input
-			(at 62.23 109.22 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "042f7d8c-9272-419f-9c51-b8425994ac09")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 39.37 170.18)
 		(size 22.86 7.62)
 		(stroke
@@ -8219,258 +7456,10 @@
 				(hide yes)
 			)
 		)
-		(pin "S" input
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "38d51f0f-cbc4-4e8c-b9a8-1167ee400c92")
-		)
-		(pin "C" input
-			(at 62.23 172.72 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "362695ff-4334-47d2-97d3-693a38f75fde")
-		)
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 39.37 55.88)
-		(size 22.86 7.62)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7ea74cce-f952-42ac-b6c0-5e8a5c651f54")
-		(property "Sheetname" "DCH10"
-			(at 50.8 59.69 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Sheetfile" "Discharge.kicad_sch"
-			(at 39.37 62.8146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "S" input
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "69d5b51e-94fb-408f-9c84-1094ea0c8562")
-		)
-		(pin "C" input
-			(at 62.23 58.42 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "25bc2993-96be-402b-8f25-8dc0668055a3")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 39.37 81.28)
-		(size 22.86 7.62)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a87a1bd7-8cb1-4a14-818b-b9a7f089ee67")
-		(property "Sheetname" "DCH8"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Sheetfile" "Discharge.kicad_sch"
-			(at 39.37 88.2146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "S" input
-			(at 62.23 86.36 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "85c00ae3-cf8d-49a7-a37a-1ca0f0a1ab3e")
-		)
-		(pin "C" input
-			(at 62.23 83.82 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "f8d78193-d2e3-46bf-9f5b-c382e6d7bc79")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 39.37 30.48)
-		(size 22.86 7.62)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e3898a12-0a74-4dbd-b8a7-59ace09ac943")
-		(property "Sheetname" "DCH12"
-			(at 50.8 34.29 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Sheetfile" "Discharge.kicad_sch"
-			(at 39.37 37.4146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "S" input
-			(at 62.23 35.56 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "6832dfad-6589-414b-a699-ce2924f9fe5e")
-		)
-		(pin "C" input
-			(at 62.23 33.02 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "a982567a-f329-45b6-9376-44edb37f1644")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(page "26")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 39.37 43.18)
-		(size 22.86 7.62)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f869fbdf-fee8-4379-9464-3cd095f6fd2c")
-		(property "Sheetname" "DCH11"
-			(at 50.8 46.99 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Sheetfile" "Discharge.kicad_sch"
-			(at 39.37 50.1146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "S" input
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "657b9c4f-397c-4b0f-bd6d-6073d5eed26a")
-		)
-		(pin "C" input
-			(at 62.23 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-			(uuid "0e585d4c-2e11-4d25-ab43-a6f72bd053ef")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(page "24")
 				)
 			)
 		)
