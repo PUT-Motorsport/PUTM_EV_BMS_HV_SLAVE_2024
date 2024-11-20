@@ -666,256 +666,112 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers hide)
+		(symbol "M80-5100442_1"
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.762) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
+			(property "Reference" "J3"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "M80-5100442"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Samacsys:M80-51004YY"
+				(at 16.51 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+			(property "Datasheet" "https://cdn.harwin.com/pdfs/M80-510.pdf"
+				(at 16.51 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Description" "4 Male DIL Vertical Throughboard Conn. Jackscrews, 2.00mm Pitch High-Reliability Connector - Datamate J-Tek"
+				(at 16.51 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Height" ""
+				(at 16.51 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
+			(property "Mouser Part Number" "855-M80-5100442"
+				(at 16.51 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M80-5100442?qs=wuXwK9wHm9vlrUDxU70C1Q%3D%3D"
+				(at 16.51 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Harwin"
+				(at 16.51 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(symbol "R_Small_0_1"
+			(property "Manufacturer_Part_Number" "M80-5100442"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "M80-5100442_1_1_1"
 				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Samacsys_kicad_sym:B02B-PASK-1"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "B02B-PASK-1"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Samacsys:B02BPASK1LFSN"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Conn Shrouded Header (4 Sides) HDR 2 POS 2mm Solder ST Top Entry Thru-Hole Box"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "7.7"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Part Number" ""
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Price/Stock" ""
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "B02B-PASK-1 (LF)(SN)"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "B02B-PASK-1_1_1"
-				(rectangle
-					(start 0 -1.143)
-					(end 1.27 -1.397)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 1.397)
-					(end 1.27 1.143)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 2.54)
-					(end 2.54 -2.54)
+					(start -2.54 -2.54)
+					(end 2.54 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -924,8 +780,52 @@
 						(type background)
 					)
 				)
+				(rectangle
+					(start -1.27 -1.397)
+					(end -2.54 -1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.143)
+					(end -2.54 1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.397)
+					(end 2.54 -1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.143)
+					(end 2.54 1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -3.81 1.27 0)
+					(at -6.35 -1.27 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -943,7 +843,7 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -1.27 0)
+					(at -6.35 1.27 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -953,6 +853,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 1.27 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1148,34 +1084,122 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
-	(junction
-		(at 86.36 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04880e53-f71d-40f8-9c4b-b23e2cd88fd0")
+	(no_connect
+		(at 240.03 93.98)
+		(uuid "2f731ef0-e38e-41f4-8482-45d8f6377f48")
 	)
-	(junction
-		(at 209.55 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46c73b1c-1c8e-4b65-823a-d91500576b64")
+	(no_connect
+		(at 58.42 96.52)
+		(uuid "9367cd12-7101-45df-9397-4d53e77f8490")
 	)
-	(junction
-		(at 86.36 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92bd66ae-06c6-4d02-9565-7a0d16620c8f")
+	(no_connect
+		(at 240.03 96.52)
+		(uuid "94641131-b0d2-4832-b59f-43c8e74774ee")
 	)
-	(junction
-		(at 209.55 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b87e61ab-27fc-4da1-a826-6ac4e6fcc60f")
+	(no_connect
+		(at 58.42 93.98)
+		(uuid "b0971cb9-1742-43ca-b4ce-1f956578a49a")
 	)
 	(wire
 		(pts
-			(xy 96.52 90.17) (xy 86.36 90.17)
+			(xy 83.82 91.44) (xy 96.52 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1185,7 +1209,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 100.33) (xy 217.17 100.33)
+			(xy 222.25 99.06) (xy 217.17 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1195,7 +1219,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 100.33) (xy 78.74 100.33)
+			(xy 73.66 99.06) (xy 78.74 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1215,7 +1239,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 90.17) (xy 222.25 93.98)
+			(xy 222.25 91.44) (xy 222.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1232,16 +1256,6 @@
 			(type default)
 		)
 		(uuid "16ca1e46-9f77-4771-b993-da04821f2c51")
-	)
-	(wire
-		(pts
-			(xy 140.97 33.02) (xy 143.51 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16fbdaa6-c7c9-4742-8da1-482cd2442dca")
 	)
 	(wire
 		(pts
@@ -1305,17 +1319,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 100.33) (xy 86.36 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa4c75d-3c79-4a43-951c-e31b57c7dfb4")
-	)
-	(wire
-		(pts
-			(xy 73.66 100.33) (xy 73.66 96.52)
+			(xy 73.66 99.06) (xy 73.66 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1365,7 +1369,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 90.17) (xy 217.17 90.17)
+			(xy 222.25 91.44) (xy 217.17 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1405,27 +1409,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 97.79) (xy 86.36 100.33)
+			(xy 134.62 33.02) (xy 143.51 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59b7185d-27ae-4a7e-b409-638880de16ea")
+		(uuid "577b221a-1b87-474a-a277-a3139e98fd21")
 	)
 	(wire
 		(pts
-			(xy 209.55 90.17) (xy 209.55 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d18f002-a1c5-4987-a831-0c9ba218904d")
-	)
-	(wire
-		(pts
-			(xy 73.66 90.17) (xy 78.74 90.17)
+			(xy 73.66 91.44) (xy 78.74 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1455,27 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 90.17) (xy 86.36 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "696e4c49-db36-4ef1-a126-7e7c511b7e4c")
-	)
-	(wire
-		(pts
-			(xy 86.36 90.17) (xy 83.82 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71b4fe7f-90c1-41fc-967c-7ea569c7f3fa")
-	)
-	(wire
-		(pts
-			(xy 201.93 90.17) (xy 209.55 90.17)
+			(xy 201.93 91.44) (xy 212.09 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1485,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 100.33) (xy 201.93 96.52)
+			(xy 201.93 99.06) (xy 201.93 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1525,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 100.33) (xy 96.52 96.52)
+			(xy 96.52 99.06) (xy 96.52 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1595,7 +1569,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 93.98) (xy 201.93 90.17)
+			(xy 201.93 93.98) (xy 201.93 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1675,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 100.33) (xy 222.25 96.52)
+			(xy 222.25 99.06) (xy 222.25 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1715,23 +1689,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 90.17) (xy 73.66 93.98)
+			(xy 73.66 91.44) (xy 73.66 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cab80e53-3be7-42c6-8f15-42e139055053")
-	)
-	(wire
-		(pts
-			(xy 209.55 90.17) (xy 212.09 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cce93a06-1e61-4015-b301-7485430b23b4")
 	)
 	(wire
 		(pts
@@ -1745,7 +1709,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 96.52 90.17)
+			(xy 96.52 93.98) (xy 96.52 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +1729,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 100.33) (xy 96.52 100.33)
+			(xy 83.82 99.06) (xy 96.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1775,7 +1739,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 100.33) (xy 201.93 100.33)
+			(xy 201.93 99.06) (xy 212.09 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1802,16 +1766,6 @@
 			(type default)
 		)
 		(uuid "e1b05c5f-625d-4e9e-b851-a85330990217")
-	)
-	(wire
-		(pts
-			(xy 212.09 100.33) (xy 209.55 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb5e76aa-8bfa-4e99-9a98-9b9cf0be4e21")
 	)
 	(wire
 		(pts
@@ -1862,16 +1816,6 @@
 			(type default)
 		)
 		(uuid "fdc2362d-9cdd-4045-a6d2-2fb79f9b2248")
-	)
-	(wire
-		(pts
-			(xy 209.55 97.79) (xy 209.55 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe4cdfcf-3a34-455f-8db9-8f2d80a401af")
 	)
 	(rectangle
 		(start 189.23 73.66)
@@ -2026,7 +1970,7 @@
 		(uuid "0b9c07fa-ca66-4793-80e1-825ef65406f8")
 	)
 	(label "OUT+"
-		(at 218.44 90.17 0)
+		(at 218.44 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2125,7 +2069,7 @@
 		(uuid "3ddba923-42dc-44cf-bb40-8e69d4cacdfb")
 	)
 	(label "OUT-"
-		(at 218.44 100.33 0)
+		(at 218.44 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2158,7 +2102,7 @@
 		(uuid "45a04b73-514e-4370-9b8c-f038d1489d6d")
 	)
 	(label "IN+"
-		(at 77.47 90.17 180)
+		(at 77.47 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2279,7 +2223,7 @@
 		(uuid "860980f7-b44d-424f-9947-ed745112aeb1")
 	)
 	(label "IN-"
-		(at 77.47 100.33 180)
+		(at 77.47 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2487,28 +2431,84 @@
 		)
 		(uuid "fdf864aa-cc33-4fa2-96b8-a1ce05f47a51")
 	)
-	(label "C1-"
-		(at 134.62 147.32 180)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "096ca8ec-66b8-405a-8c39-3c9a4d2a6cdc")
+		(property "Reference" "#PWR02"
+			(at 128.27 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify right bottom)
 		)
-		(uuid "ffbb2f8b-f2d8-40e8-84a0-15dfc7eea4b4")
+		(property "Value" "GND"
+			(at 130.81 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3e21f62-7963-4a46-8ff8-80a4bb84500d")
+		)
+		(instances
+			(project "PUTM_EV_AMS_SLAVE_2025"
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:S252B222K502CT")
-		(at 214.63 100.33 0)
+		(at 214.63 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "09e08ab0-f01c-4e3f-bfff-b7f040ec5865")
-		(property "Reference" "C6"
-			(at 214.63 104.14 0)
+		(property "Reference" "C4"
+			(at 214.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2516,7 @@
 			)
 		)
 		(property "Value" "4.7nF/Y2"
-			(at 214.63 106.68 0)
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2524,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:CAPC5728X280N"
-			(at 223.52 196.52 0)
+			(at 223.52 195.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 296.52 0)
+			(at 223.52 295.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2544,7 @@
 			)
 		)
 		(property "Description" "Safety Capacitors 2211 MLCC X7R 2200 pF , \\'+/- 10% 5K V T&R SAF"
-			(at 214.63 100.33 0)
+			(at 214.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2553,7 @@
 			)
 		)
 		(property "Height" "2.8"
-			(at 223.52 496.52 0)
+			(at 223.52 495.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2563,7 @@
 			)
 		)
 		(property "Mouser Part Number" "791-S252B222K502CT"
-			(at 223.52 596.52 0)
+			(at 223.52 595.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2573,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Walsin/S252B222K502CT?qs=wUXugUrL1qx2Bha0j7hz5g%3D%3D"
-			(at 223.52 696.52 0)
+			(at 223.52 695.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +2583,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Walsin Technology Corporation"
-			(at 223.52 796.52 0)
+			(at 223.52 795.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2593,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S252B222K502CT"
-			(at 223.52 896.52 0)
+			(at 223.52 895.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,314 +2611,133 @@
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 209.55 95.25 0)
-		(mirror y)
+		(lib_name "M80-5100442_1")
+		(lib_id "m80-5100442:M80-5100442")
+		(at 233.68 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0fec3279-59fa-456d-84a6-4495d76f9068")
-		(property "Reference" "R3"
-			(at 207.01 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 207.01 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 209.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "006e643d-8d94-45a3-b030-47f1ff701117")
-		)
-		(pin "2"
-			(uuid "003aa425-3507-4c41-973b-476d865a578e")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys_kicad_sym:B02B-PASK-1")
-		(at 231.14 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "221eabe0-c80c-4235-9aaf-a0d796b10807")
-		(property "Reference" "J2"
-			(at 232.41 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B02B-PASK-1"
-			(at 232.41 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:B02BPASK1LFSN"
-			(at 247.65 190.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"
-			(at 247.65 290.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Conn Shrouded Header (4 Sides) HDR 2 POS 2mm Solder ST Top Entry Thru-Hole Box"
-			(at 231.14 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.7"
-			(at 247.65 490.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at 247.65 590.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 247.65 690.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 247.65 790.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B02B-PASK-1 (LF)(SN)"
-			(at 247.65 890.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58801962-71f9-4d93-b278-8e6d3013019c")
-		)
-		(pin "2"
-			(uuid "814c0141-a486-4a08-a5af-e450563b2013")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys_kicad_sym:B02B-PASK-1")
-		(at 67.31 95.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25ad7d41-8a56-4fb7-b1dd-c39a057b2747")
+		(fields_autoplaced yes)
+		(uuid "11122bad-94cb-48ed-b099-773be0fd6401")
 		(property "Reference" "J3"
-			(at 66.04 87.63 0)
+			(at 233.68 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "B02B-PASK-1"
-			(at 66.04 90.17 0)
+		(property "Value" "M80-5100442"
+			(at 233.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:B02BPASK1LFSN"
-			(at 50.8 190.17 0)
+		(property "Footprint" "Samacsys:M80-51004YY"
+			(at 250.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"
-			(at 50.8 290.17 0)
+		(property "Datasheet" "https://cdn.harwin.com/pdfs/M80-510.pdf"
+			(at 250.19 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Conn Shrouded Header (4 Sides) HDR 2 POS 2mm Solder ST Top Entry Thru-Hole Box"
-			(at 67.31 95.25 0)
+		(property "Description" "4 Male DIL Vertical Throughboard Conn. Jackscrews, 2.00mm Pitch High-Reliability Connector - Datamate J-Tek"
+			(at 250.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Height" "7.7"
-			(at 50.8 490.17 0)
+		(property "Height" ""
+			(at 250.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "TME Electronic Components Part Number" ""
-			(at 50.8 590.17 0)
+		(property "Mouser Part Number" "855-M80-5100442"
+			(at 250.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 50.8 690.17 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M80-5100442?qs=wuXwK9wHm9vlrUDxU70C1Q%3D%3D"
+			(at 250.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 50.8 790.17 0)
+		(property "Manufacturer_Name" "Harwin"
+			(at 250.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "B02B-PASK-1 (LF)(SN)"
-			(at 50.8 890.17 0)
+		(property "Manufacturer_Part_Number" "M80-5100442"
+			(at 250.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "7bff8e3f-b3b5-47ee-bd98-d900684860f9")
 		)
 		(pin "2"
-			(uuid "6ff99853-b8d1-4053-9c7c-508c9047bb7d")
+			(uuid "afe0700c-04ff-49ab-871c-3382eb7e2c2c")
+		)
+		(pin "1"
+			(uuid "701562d6-41c5-4c83-a03d-ad9e45851cad")
+		)
+		(pin "4"
+			(uuid "c497b23d-0ddc-4586-a50d-ef5e50d132c1")
+		)
+		(pin "3"
+			(uuid "50c10613-d084-4f43-8cfa-b7bc7faa96d5")
 		)
 		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
+			(project ""
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533"
 					(reference "J3")
 					(unit 1)
@@ -2928,15 +2747,15 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:S252B222K502CT")
-		(at 81.28 100.33 0)
+		(at 81.28 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "30cf5a09-a35b-49da-bf31-50bbb7db8645")
-		(property "Reference" "C8"
-			(at 81.28 104.14 0)
+		(property "Reference" "C2"
+			(at 81.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +2763,7 @@
 			)
 		)
 		(property "Value" "4.7nF/Y2"
-			(at 81.28 106.68 0)
+			(at 81.28 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +2771,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:CAPC5728X280N"
-			(at 90.17 196.52 0)
+			(at 90.17 195.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +2781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 296.52 0)
+			(at 90.17 295.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +2791,7 @@
 			)
 		)
 		(property "Description" "Safety Capacitors 2211 MLCC X7R 2200 pF , \\'+/- 10% 5K V T&R SAF"
-			(at 81.28 100.33 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,7 +2800,7 @@
 			)
 		)
 		(property "Height" "2.8"
-			(at 90.17 496.52 0)
+			(at 90.17 495.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +2810,7 @@
 			)
 		)
 		(property "Mouser Part Number" "791-S252B222K502CT"
-			(at 90.17 596.52 0)
+			(at 90.17 595.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +2820,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Walsin/S252B222K502CT?qs=wUXugUrL1qx2Bha0j7hz5g%3D%3D"
-			(at 90.17 696.52 0)
+			(at 90.17 695.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +2830,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Walsin Technology Corporation"
-			(at 90.17 796.52 0)
+			(at 90.17 795.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,7 +2840,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S252B222K502CT"
-			(at 90.17 896.52 0)
+			(at 90.17 895.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,77 +2858,134 @@
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 86.36 95.25 0)
+		(lib_name "M80-5100442_1")
+		(lib_id "m80-5100442:M80-5100442")
+		(at 64.77 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39d6c040-4f62-41d3-b614-6ec42cbc92c7")
-		(property "Reference" "R12"
-			(at 88.9 93.9799 0)
+		(uuid "54d21900-8d82-4cfd-a189-97b007920dc8")
+		(property "Reference" "J1"
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M80-5100442"
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:M80-51004YY"
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "120"
-			(at 88.9 96.5199 0)
+		(property "Datasheet" "https://cdn.harwin.com/pdfs/M80-510.pdf"
+			(at 48.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 95.25 0)
+		(property "Description" "4 Male DIL Vertical Throughboard Conn. Jackscrews, 2.00mm Pitch High-Reliability Connector - Datamate J-Tek"
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 86.36 95.25 0)
+		(property "Height" ""
+			(at 48.26 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 95.25 0)
+		(property "Mouser Part Number" "855-M80-5100442"
+			(at 48.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "1ddf4faf-c719-4823-bfc8-f4fadfd20dc0")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M80-5100442?qs=wuXwK9wHm9vlrUDxU70C1Q%3D%3D"
+			(at 48.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 48.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M80-5100442"
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "30f96598-152b-4738-8d44-1fd5fad0eb85")
+			(uuid "25cc2207-630c-4a57-a828-c56a8d56fff2")
+		)
+		(pin "1"
+			(uuid "2aef20a3-8df9-44e9-99e6-2c05775da1f5")
+		)
+		(pin "4"
+			(uuid "e131e6e0-dd5b-4289-a340-593bc145cc4f")
+		)
+		(pin "3"
+			(uuid "be9c5509-3e73-41ef-a10a-4a271f59363d")
 		)
 		(instances
-			(project ""
+			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533"
-					(reference "R12")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3117,15 +2993,15 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:S252B222K502CT")
-		(at 81.28 90.17 0)
+		(at 81.28 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "616bc974-0a19-49fa-b74e-0d822ada9428")
-		(property "Reference" "C7"
-			(at 81.28 83.82 0)
+		(property "Reference" "C1"
+			(at 81.28 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3009,7 @@
 			)
 		)
 		(property "Value" "4.7nF/Y2"
-			(at 81.28 86.36 0)
+			(at 81.28 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3017,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:CAPC5728X280N"
-			(at 90.17 186.36 0)
+			(at 90.17 187.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 286.36 0)
+			(at 90.17 287.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3037,7 @@
 			)
 		)
 		(property "Description" "Safety Capacitors 2211 MLCC X7R 2200 pF , \\'+/- 10% 5K V T&R SAF"
-			(at 81.28 90.17 0)
+			(at 81.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3046,7 @@
 			)
 		)
 		(property "Height" "2.8"
-			(at 90.17 486.36 0)
+			(at 90.17 487.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3056,7 @@
 			)
 		)
 		(property "Mouser Part Number" "791-S252B222K502CT"
-			(at 90.17 586.36 0)
+			(at 90.17 587.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +3066,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Walsin/S252B222K502CT?qs=wUXugUrL1qx2Bha0j7hz5g%3D%3D"
-			(at 90.17 686.36 0)
+			(at 90.17 687.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +3076,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Walsin Technology Corporation"
-			(at 90.17 786.36 0)
+			(at 90.17 787.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3086,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S252B222K502CT"
-			(at 90.17 886.36 0)
+			(at 90.17 887.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3104,7 @@
 		(instances
 			(project "PUTM_EV_AMS_SLAVE_2025"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3236,15 +3112,15 @@
 	)
 	(symbol
 		(lib_id "Samacsys_kicad_sym:S252B222K502CT")
-		(at 214.63 90.17 0)
+		(at 214.63 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "782d44e9-a388-4427-943d-4aba37b9611f")
-		(property "Reference" "C5"
-			(at 214.63 83.82 0)
+		(property "Reference" "C3"
+			(at 214.63 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3252,7 +3128,7 @@
 			)
 		)
 		(property "Value" "4.7nF/Y2"
-			(at 214.63 86.36 0)
+			(at 214.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +3136,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:CAPC5728X280N"
-			(at 223.52 186.36 0)
+			(at 223.52 187.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 286.36 0)
+			(at 223.52 287.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +3156,7 @@
 			)
 		)
 		(property "Description" "Safety Capacitors 2211 MLCC X7R 2200 pF , \\'+/- 10% 5K V T&R SAF"
-			(at 214.63 90.17 0)
+			(at 214.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3165,7 @@
 			)
 		)
 		(property "Height" "2.8"
-			(at 223.52 486.36 0)
+			(at 223.52 487.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3175,7 @@
 			)
 		)
 		(property "Mouser Part Number" "791-S252B222K502CT"
-			(at 223.52 586.36 0)
+			(at 223.52 587.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,7 +3185,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Walsin/S252B222K502CT?qs=wUXugUrL1qx2Bha0j7hz5g%3D%3D"
-			(at 223.52 686.36 0)
+			(at 223.52 687.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3195,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Walsin Technology Corporation"
-			(at 223.52 786.36 0)
+			(at 223.52 787.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3205,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S252B222K502CT"
-			(at 223.52 886.36 0)
+			(at 223.52 887.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,7 +3223,74 @@
 		(instances
 			(project ""
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533"
-					(reference "C5")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9cc5b74-391a-4207-9284-6a690a8120d3")
+		(property "Reference" "#PWR01"
+			(at 128.27 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7941220d-8f67-4426-a1ad-83ace4929c7a")
+		)
+		(instances
+			(project ""
+				(path "/532b753f-9344-4418-8e40-ab07f8ade533"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3363,7 +3306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e27cc268-e4a4-42c2-9a0c-f00d9b46eba8")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 149.86 26.67 0)
 			(effects
 				(font
@@ -3496,7 +3439,7 @@
 		(instances
 			(project "PUTM_EV_BMS_HV_SLAVE_2024"
 				(path "/532b753f-9344-4418-8e40-ab07f8ade533"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3715,7 +3658,7 @@
 			)
 			(uuid "6c130ee5-afe9-4d8c-b422-ef78bf1e14d4")
 		)
-		(pin "V-" output
+		(pin "C1-" output
 			(at 137.16 147.32 180)
 			(effects
 				(font

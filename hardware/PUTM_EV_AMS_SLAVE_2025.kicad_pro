@@ -490,6 +490,23 @@
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.45,
+        "microvia_drill": 0.2,
+        "name": "50Ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -690,6 +707,50 @@
     [
       "7776e438-044e-4a2f-bd02-61ad1a3bdd92",
       "DCH1"
+    ],
+    [
+      "aeb95217-ca74-46f8-af72-c5bfa7f07f94",
+      "DCH2"
+    ],
+    [
+      "5aac5d05-8994-478a-8640-609643a8cd2a",
+      "DCH3"
+    ],
+    [
+      "0e164975-552b-41db-ab4c-15ee9ada9cae",
+      "DCH4"
+    ],
+    [
+      "e7334c2e-953a-46dd-9201-952cec0aa831",
+      "DCH5"
+    ],
+    [
+      "0f62669b-9cdd-4694-9bfb-59ec24066851",
+      "DCH6"
+    ],
+    [
+      "d8c5f666-1aa4-4889-8890-59f0f76439c6",
+      "DCH7"
+    ],
+    [
+      "3aad698c-dd9c-4b44-8e14-130741fcaac0",
+      "DCH8"
+    ],
+    [
+      "e4c47c00-c63c-4af0-8f1e-1f8ce04f8338",
+      "DCH9"
+    ],
+    [
+      "bcbf3399-1a13-4b96-a068-729a5f43f0a3",
+      "DCH10"
+    ],
+    [
+      "7e63fd25-aa57-4409-a006-9fbd325dd5b9",
+      "DCH11"
+    ],
+    [
+      "487a2533-b412-4f25-8904-c71ab49d0b98",
+      "DCH12"
     ]
   ],
   "text_variables": {}
