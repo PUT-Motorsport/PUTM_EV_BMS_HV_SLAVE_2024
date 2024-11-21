@@ -1503,13 +1503,13 @@
 		(uuid "01e19b9c-cc14-44a0-b579-07d61af50f98")
 	)
 	(junction
-		(at 260.35 39.37)
+		(at 260.35 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15cf2861-b19a-4fd5-8fb0-24c307c9e70f")
 	)
 	(junction
-		(at 252.73 39.37)
+		(at 252.73 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1692d4fa-d435-4b83-beb9-c38cb2584073")
@@ -1521,7 +1521,7 @@
 		(uuid "247e16bc-69a9-4dd1-9298-8da1a57687bc")
 	)
 	(junction
-		(at 245.11 39.37)
+		(at 245.11 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32dad7a3-f8f5-42f7-a626-a1098165292c")
@@ -1605,7 +1605,7 @@
 		(uuid "a44d27fd-3451-4add-86e2-5509dd7604cd")
 	)
 	(junction
-		(at 267.97 39.37)
+		(at 267.97 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa37c81f-37b1-404b-a546-11d747a3f8dd")
@@ -1732,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 39.37) (xy 275.59 41.91)
+			(xy 275.59 31.75) (xy 275.59 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1752,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 46.99) (xy 260.35 54.61)
+			(xy 260.35 39.37) (xy 260.35 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1792,7 +1792,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 52.07) (xy 242.57 52.07)
+			(xy 252.73 44.45) (xy 242.57 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1992,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 46.99) (xy 245.11 49.53)
+			(xy 245.11 39.37) (xy 245.11 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 41.91) (xy 245.11 39.37)
+			(xy 245.11 34.29) (xy 245.11 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2112,7 +2112,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 39.37) (xy 260.35 41.91)
+			(xy 260.35 31.75) (xy 260.35 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 46.99) (xy 267.97 57.15)
+			(xy 267.97 39.37) (xy 267.97 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2172,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 39.37) (xy 267.97 39.37)
+			(xy 260.35 31.75) (xy 267.97 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +2192,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 59.69) (xy 242.57 59.69)
+			(xy 275.59 52.07) (xy 242.57 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2402,7 +2402,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 46.99) (xy 275.59 59.69)
+			(xy 275.59 39.37) (xy 275.59 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2412,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 39.37) (xy 245.11 39.37)
+			(xy 242.57 31.75) (xy 245.11 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2432,7 +2432,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 39.37) (xy 252.73 39.37)
+			(xy 245.11 31.75) (xy 252.73 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 39.37) (xy 252.73 41.91)
+			(xy 252.73 31.75) (xy 252.73 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2632,7 +2632,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 39.37) (xy 260.35 39.37)
+			(xy 252.73 31.75) (xy 260.35 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2652,7 +2652,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 57.15) (xy 242.57 57.15)
+			(xy 267.97 49.53) (xy 242.57 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2772,7 +2772,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 54.61) (xy 242.57 54.61)
+			(xy 260.35 46.99) (xy 242.57 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2782,7 +2782,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 46.99) (xy 252.73 52.07)
+			(xy 252.73 39.37) (xy 252.73 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2902,7 +2902,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 39.37) (xy 275.59 39.37)
+			(xy 267.97 31.75) (xy 275.59 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2952,7 +2952,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 39.37) (xy 267.97 41.91)
+			(xy 267.97 31.75) (xy 267.97 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3002,7 +3002,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 49.53) (xy 245.11 49.53)
+			(xy 242.57 41.91) (xy 245.11 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3213,7 +3213,7 @@
 		(uuid "0e2d9db9-3ce1-4940-99a0-36c1c8ed596e")
 	)
 	(label "VREF2"
-		(at 242.57 39.37 180)
+		(at 242.57 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3415,7 +3415,7 @@
 	)
 	(hierarchical_label "TH3+"
 		(shape input)
-		(at 242.57 54.61 180)
+		(at 242.57 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3424,6 +3424,18 @@
 			(justify right)
 		)
 		(uuid "1f037a56-616c-4f3e-a77c-51cc900adf39")
+	)
+	(hierarchical_label "V-"
+		(shape output)
+		(at 153.67 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20cd432a-ce87-4be2-98b4-8dac56358476")
 	)
 	(hierarchical_label "TH2+"
 		(shape input)
@@ -3475,7 +3487,7 @@
 	)
 	(hierarchical_label "TH2+"
 		(shape input)
-		(at 242.57 52.07 180)
+		(at 242.57 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3535,7 +3547,7 @@
 	)
 	(hierarchical_label "TH5+"
 		(shape input)
-		(at 242.57 59.69 180)
+		(at 242.57 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3559,7 +3571,7 @@
 	)
 	(hierarchical_label "TH1+"
 		(shape input)
-		(at 242.57 49.53 180)
+		(at 242.57 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3607,7 +3619,7 @@
 	)
 	(hierarchical_label "TH4+"
 		(shape input)
-		(at 242.57 57.15 180)
+		(at 242.57 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4161,75 +4173,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 153.67 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07b7e30f-c7b6-4ba9-9323-2b5186cb0b96")
-		(property "Reference" "#PWR09"
-			(at 160.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1f072f7-67c5-4fd4-9ff2-720dd41a2f39")
-		)
-		(instances
-			(project "PUTM_EV_AMS_SLAVE_2025"
-				(path "/532b753f-9344-4418-8e40-ab07f8ade533/6a830281-1331-4b0f-b6b7-336a24ad47cd"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
-		(at 252.73 44.45 180)
+		(at 252.73 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4237,7 +4182,7 @@
 		(dnp no)
 		(uuid "0e190d87-b26d-4db3-9770-fe7df95e6a2b")
 		(property "Reference" "R33"
-			(at 251.46 43.18 0)
+			(at 251.46 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4191,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 251.46 45.4914 0)
+			(at 251.46 37.8714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4200,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 252.73 44.45 0)
+			(at 252.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4209,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 44.45 0)
+			(at 252.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4218,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 44.45 0)
+			(at 252.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4227,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "--"
-			(at 252.73 44.45 0)
+			(at 252.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4384,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
-		(at 245.11 44.45 180)
+		(at 245.11 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4447,7 +4392,7 @@
 		(dnp no)
 		(uuid "27b56068-d88a-4945-b6ee-d6fb3e5ba81c")
 		(property "Reference" "R8"
-			(at 243.84 43.18 0)
+			(at 243.84 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4401,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 243.84 45.4914 0)
+			(at 243.84 37.8714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4410,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 245.11 44.45 0)
+			(at 245.11 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +4419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 44.45 0)
+			(at 245.11 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4428,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 44.45 0)
+			(at 245.11 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +4437,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "--"
-			(at 245.11 44.45 0)
+			(at 245.11 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +4496,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
-		(at 267.97 44.45 180)
+		(at 267.97 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4559,7 +4504,7 @@
 		(dnp no)
 		(uuid "31a319bd-8828-44bc-951d-99e40f83766c")
 		(property "Reference" "R35"
-			(at 266.7 43.18 0)
+			(at 266.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +4513,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 266.7 45.4914 0)
+			(at 266.7 37.8714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +4522,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 267.97 44.45 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,7 +4531,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 44.45 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4540,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 44.45 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4549,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "--"
-			(at 267.97 44.45 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4640,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
-		(at 260.35 44.45 180)
+		(at 260.35 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4703,7 +4648,7 @@
 		(dnp no)
 		(uuid "5f38df2c-6c3c-4a26-b300-8126a95934d9")
 		(property "Reference" "R34"
-			(at 259.08 43.18 0)
+			(at 259.08 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4712,7 +4657,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 259.08 45.4914 0)
+			(at 259.08 37.8714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,7 +4666,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 260.35 44.45 0)
+			(at 260.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,7 +4675,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 44.45 0)
+			(at 260.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,7 +4684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 44.45 0)
+			(at 260.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4693,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "--"
-			(at 260.35 44.45 0)
+			(at 260.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +5083,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_BMS_HV_Slave_2021-rescue:R_Small-Device")
-		(at 275.59 44.45 180)
+		(at 275.59 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5146,7 +5091,7 @@
 		(dnp no)
 		(uuid "8cbdcf1e-de2e-4e65-90f4-617a7f3fa76d")
 		(property "Reference" "R36"
-			(at 274.32 43.18 0)
+			(at 274.32 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5100,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 274.32 45.4914 0)
+			(at 274.32 37.8714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5164,7 +5109,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 275.59 44.45 0)
+			(at 275.59 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +5118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 44.45 0)
+			(at 275.59 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,7 +5127,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.59 44.45 0)
+			(at 275.59 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +5136,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "--"
-			(at 275.59 44.45 0)
+			(at 275.59 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
