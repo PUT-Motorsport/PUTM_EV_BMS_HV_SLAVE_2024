@@ -5560,26 +5560,6 @@
 		)
 		(uuid e0125359-e325-4478-9f07-db1473a1b9e4)
 	)
-	(text_box "I_{total} ≈ 15mA"
-		(exclude_from_sim no)
-		(at 365.76 93.98 0)
-		(size 19.05 5.08)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 132 132 132 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 72 72 72 1)
-			)
-		)
-		(uuid "94a76cd3-7384-4daa-b53b-8117ddd6c5b9")
-	)
 	(text "ON PCB TEMP"
 		(exclude_from_sim no)
 		(at 384.81 165.1 0)
@@ -6846,7 +6826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 330.2 52.07 0)
 			(effects
 				(font
@@ -6969,15 +6949,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 345.44 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CBOM" "LL-S190SC-2S"
 			(at 345.44 107.95 0)
 			(effects
 				(font
@@ -7201,15 +7172,6 @@
 				(hide yes)
 			)
 		)
-		(property "CBOM" ""
-			(at 66.04 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "CR2512-JW-680ELF"
 			(at 66.04 262.89 0)
 			(effects
@@ -7368,6 +7330,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL10B105KA8NNNL"
+			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d21dcf8-a60a-4890-971b-15ce253408c4")
 		)
@@ -7454,6 +7443,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 341.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 341.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-NTCGS163JF103FT7"
+			(at 341.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92f2a16b-a966-40e6-8678-bce6767483e7")
 		)
@@ -7486,7 +7502,7 @@
 				)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "10k"
 			(at 337.82 114.0714 90)
 			(effects
 				(font
@@ -7530,7 +7546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 337.82 116.84 0)
 			(effects
 				(font
@@ -7671,7 +7687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 322.58 52.07 0)
 			(effects
 				(font
@@ -7820,6 +7836,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL10B105KA8NNNL"
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33572eb4-f343-47f6-b9dc-81cfd3929d13")
 		)
@@ -7898,6 +7941,33 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
+			(at 212.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 212.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 212.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL10B105KA8NNNL"
 			(at 212.09 143.51 0)
 			(effects
 				(font
@@ -8059,6 +8129,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 341.63 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 341.63 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-NTCGS163JF103FT7"
+			(at 341.63 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "223b30ec-7936-4c77-8197-dc2b67ed7c56")
 		)
@@ -8137,7 +8234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 345.44 52.07 0)
 			(effects
 				(font
@@ -8278,6 +8375,33 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
+			(at 226.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 226.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 226.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "--"
 			(at 226.06 72.39 0)
 			(effects
 				(font
@@ -8514,6 +8638,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 214.63 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 214.63 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "522-FZT653TA"
+			(at 214.63 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "433e18e6-3cdc-44cd-9834-17bcde6e5d85")
 		)
@@ -8595,7 +8746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 360.68 52.07 0)
 			(effects
 				(font
@@ -9091,6 +9242,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "--"
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f820c797-a982-4021-81c4-4d3a41ab2136")
 		)
@@ -9236,7 +9414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 353.06 52.07 0)
 			(effects
 				(font
@@ -9387,6 +9565,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 234.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 234.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-H168SC7224KTCA1J"
+			(at 234.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1eb40b9c-a9c3-4b7e-bf50-aad828897e07")
 		)
@@ -9447,15 +9652,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 345.44 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CBOM" "LL-S190SC-2S"
 			(at 345.44 116.84 0)
 			(effects
 				(font
@@ -9631,6 +9827,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL10B105KA8NNNL"
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4dfed210-0ee6-47fc-b8b7-2776a727f3bd")
 		)
@@ -9707,7 +9930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 66.04 265.43 0)
 			(effects
 				(font
@@ -9913,7 +10136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 240.03 57.15 0)
 			(effects
 				(font
@@ -10121,7 +10344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 368.3 52.07 0)
 			(effects
 				(font
@@ -10270,6 +10493,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 212.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 212.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL10B105KA8NNNL"
+			(at 212.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f7f024b-c06d-4e35-b17d-5ee5c1384435")
 		)
@@ -10348,7 +10598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 337.82 52.07 0)
 			(effects
 				(font
@@ -10554,7 +10804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 250.19 57.15 0)
 			(effects
 				(font
@@ -10695,7 +10945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 314.96 52.07 0)
 			(effects
 				(font
@@ -10978,6 +11228,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 212.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 212.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRT188R72A103KE1J"
+			(at 212.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7fb605e5-cd3c-406b-a8bb-621672358dcb")
 		)
@@ -11010,7 +11287,7 @@
 				)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "10k"
 			(at 337.82 105.1814 90)
 			(effects
 				(font
@@ -11054,7 +11331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE07330RL"
+		(property "Mouser Part Number" "--"
 			(at 337.82 107.95 0)
 			(effects
 				(font
