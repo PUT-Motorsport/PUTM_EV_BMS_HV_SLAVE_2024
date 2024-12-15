@@ -4351,7 +4351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TST-110-01-T-D"
+		(property "Manufacturer_Part_Number" "HTST11001TDV"
 			(at 147.32 43.18 0)
 			(effects
 				(font
@@ -4360,7 +4360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "200-TST11001TD"
+		(property "Mouser Part Number" "200-HTST11001TDV"
 			(at 147.32 43.18 0)
 			(effects
 				(font
