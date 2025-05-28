@@ -538,12 +538,24 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/BQ79616/IC_COMHN": "DP_50Ohm",
-      "/BQ79616/IC_COMHP": "DP_50Ohm",
-      "/BQ79616/IC_COMLN": "DP_50Ohm",
-      "/BQ79616/IC_COMLP": "DP_50Ohm",
-      "/I+": "DP_50Ohm",
-      "/I-": "DP_50Ohm",
+      "/BQ79616/IC_COMHN": [
+        "DP_50Ohm"
+      ],
+      "/BQ79616/IC_COMHP": [
+        "DP_50Ohm"
+      ],
+      "/BQ79616/IC_COMLN": [
+        "DP_50Ohm"
+      ],
+      "/BQ79616/IC_COMLP": [
+        "DP_50Ohm"
+      ],
+      "/I+": [
+        "DP_50Ohm"
+      ],
+      "/I-": [
+        "DP_50Ohm"
+      ],
       "/ICC+": [
         "DP_50Ohm"
       ],
@@ -556,8 +568,12 @@
       "/IIC-": [
         "DP_50Ohm"
       ],
-      "/IL+": "DP_50Ohm",
-      "/IL-": "DP_50Ohm",
+      "/IL+": [
+        "DP_50Ohm"
+      ],
+      "/IL-": [
+        "DP_50Ohm"
+      ],
       "/ILC+": [
         "DP_50Ohm"
       ],
@@ -570,10 +586,18 @@
       "/ILR-": [
         "DP_50Ohm"
       ],
-      "/IN+": "DP_50Ohm",
-      "/IN-": "DP_50Ohm",
-      "/O+": "DP_50Ohm",
-      "/O-": "DP_50Ohm",
+      "/IN+": [
+        "DP_50Ohm"
+      ],
+      "/IN-": [
+        "DP_50Ohm"
+      ],
+      "/O+": [
+        "DP_50Ohm"
+      ],
+      "/O-": [
+        "DP_50Ohm"
+      ],
       "/OCC+": [
         "DP_50Ohm"
       ],
@@ -586,8 +610,12 @@
       "/OIC-": [
         "DP_50Ohm"
       ],
-      "/OL+": "DP_50Ohm",
-      "/OL-": "DP_50Ohm",
+      "/OL+": [
+        "DP_50Ohm"
+      ],
+      "/OL-": [
+        "DP_50Ohm"
+      ],
       "/OLC+": [
         "DP_50Ohm"
       ],
@@ -600,8 +628,12 @@
       "/ORL-": [
         "DP_50Ohm"
       ],
-      "/OUT+": "DP_50Ohm",
-      "/OUT-": "DP_50Ohm"
+      "/OUT+": [
+        "DP_50Ohm"
+      ],
+      "/OUT-": [
+        "DP_50Ohm"
+      ]
     },
     "netclass_patterns": [
       {

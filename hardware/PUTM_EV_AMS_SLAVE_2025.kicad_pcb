@@ -47254,7 +47254,7 @@
 			(type solid)
 		)
 	)
-	(gr_text_box "2.0.0b"
+	(gr_text_box "2.0.1b"
 		(start 186.7 127)
 		(end 192.9 129.5)
 		(margins 0.825 0.825 0.825 0.825)
