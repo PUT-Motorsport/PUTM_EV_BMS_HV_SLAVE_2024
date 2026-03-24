@@ -1810,6 +1810,19 @@
 		)
 	)
 	(rectangle
+		(start 86.36 15.24)
+		(end 208.28 69.85)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "31ce3186-50d0-4da8-ae36-62d97eab3f93")
+	)
+	(rectangle
 		(start 181.61 73.66)
 		(end 281.94 162.56)
 		(stroke
@@ -1889,6 +1902,20 @@
 			(justify right bottom)
 		)
 		(uuid "9ba275e8-ce4f-4cc1-a470-fc6fc50159aa")
+	)
+	(text "CONN MEAS"
+		(exclude_from_sim no)
+		(at 207.01 68.58 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 1)
+				(bold yes)
+				(color 132 132 132 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6de0786-3f3c-40ba-a868-c34bba8ce07a")
 	)
 	(junction
 		(at 194.31 99.06)
